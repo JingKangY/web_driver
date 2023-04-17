@@ -1,0 +1,513 @@
+1681456971703	geckodriver	INFO	Listening on 127.0.0.1:49195
+1681456972002	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/03/15_9phx93kj5d20_0n60p9_80000gp/T/rust_mozprofilemmIYym"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1681456985585	Marionette	INFO	Marionette enabled
+1681456985801	Marionette	INFO	Listening on port 49276
+Read port: 49276
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+WebDriver BiDi listening on ws://127.0.0.1:49196
+2023-04-14 15:23:05.890 plugin-container[95175:17935394] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-14 15:23:05.890 plugin-container[95175:17935394] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1681456985959	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+2023-04-14 15:23:05.988 plugin-container[95175:17935394] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-14 15:23:05.988 plugin-container[95175:17935394] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-04-14 15:23:05.989 plugin-container[95175:17935399] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-14 15:23:05.989 plugin-container[95175:17935399] nil host used in call to allowsAnyHTTPSCertificateForHost:
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/03/15_9phx93kj5d20_0n60p9_80000gp/T/rust_mozprofilemmIYym/search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:49196/devtools/browser/1c70a293-2d23-4a9a-b984-1509c9d16af6
+2023-04-14 07:23:11.631 plugin-container[95194:17935928] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-14 07:23:11.631 plugin-container[95194:17935928] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-04-14 07:23:11.637 plugin-container[95194:17935928] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-14 07:23:11.637 plugin-container[95194:17935928] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-04-14 07:23:11.638 plugin-container[95194:17935930] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-14 07:23:11.638 plugin-container[95194:17935930] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-04-14 07:23:11.830 plugin-container[95197:17935985] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-14 07:23:11.830 plugin-container[95197:17935985] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-04-14 07:23:11.834 plugin-container[95197:17935985] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-14 07:23:11.834 plugin-container[95197:17935985] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-04-14 07:23:11.834 plugin-container[95197:17935987] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-14 07:23:11.834 plugin-container[95197:17935987] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1681457460163	geckodriver	INFO	Listening on 127.0.0.1:51671
+1681457460604	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/03/15_9phx93kj5d20_0n60p9_80000gp/T/rust_mozprofilefC6wSX"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1681457461177	Marionette	INFO	Marionette enabled
+2023-04-14 15:31:01.395 plugin-container[95433:17944137] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-14 15:31:01.395 plugin-container[95433:17944137] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-04-14 15:31:01.400 plugin-container[95433:17944137] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-14 15:31:01.400 plugin-container[95433:17944137] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-04-14 15:31:01.400 plugin-container[95433:17944139] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-14 15:31:01.400 plugin-container[95433:17944139] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1681457461418	Marionette	INFO	Listening on port 51683
+Read port: 51683
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+WebDriver BiDi listening on ws://127.0.0.1:51672
+1681457461549	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/03/15_9phx93kj5d20_0n60p9_80000gp/T/rust_mozprofilefC6wSX/search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:51672/devtools/browser/e1d20d79-382c-4959-81b9-e2e56535ee68
+2023-04-14 07:31:07.190 plugin-container[95442:17944620] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-14 07:31:07.196 plugin-container[95442:17944620] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-04-14 07:31:07.204 plugin-container[95442:17944620] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-14 07:31:07.204 plugin-container[95442:17944620] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-04-14 07:31:07.205 plugin-container[95442:17944621] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-14 07:31:07.205 plugin-container[95442:17944621] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-04-14 07:31:07.454 plugin-container[95445:17944681] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-14 07:31:07.454 plugin-container[95445:17944681] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-04-14 07:31:07.459 plugin-container[95445:17944681] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-14 07:31:07.459 plugin-container[95445:17944681] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-04-14 07:31:07.459 plugin-container[95445:17944685] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-14 07:31:07.459 plugin-container[95445:17944685] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1681457699906	Marionette	INFO	Stopped listening on port 49276
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1681457706158	Marionette	INFO	Stopped listening on port 51683
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1681459888677	geckodriver	INFO	Listening on 127.0.0.1:63680
+1681459889115	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/03/15_9phx93kj5d20_0n60p9_80000gp/T/rust_mozprofiledrPKDG"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1681459889883	Marionette	INFO	Marionette enabled
+1681459890108	Marionette	INFO	Listening on port 63699
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+Read port: 63699
+2023-04-14 16:11:30.185 plugin-container[96519:17977895] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-14 16:11:30.185 plugin-container[96519:17977895] nil host used in call to allowsAnyHTTPSCertificateForHost:
+WebDriver BiDi listening on ws://127.0.0.1:63681
+2023-04-14 16:11:30.220 plugin-container[96519:17977895] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-14 16:11:30.220 plugin-container[96519:17977895] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-04-14 16:11:30.221 plugin-container[96519:17977898] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-14 16:11:30.221 plugin-container[96519:17977898] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1681459890276	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/03/15_9phx93kj5d20_0n60p9_80000gp/T/rust_mozprofiledrPKDG/search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:63681/devtools/browser/38f3390f-127f-450d-8a82-a6ed76e8a87e
+console.error: Region.sys.mjs: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 762))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 414))
+1681460205662	geckodriver	INFO	Listening on 127.0.0.1:49806
+1681460206149	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/03/15_9phx93kj5d20_0n60p9_80000gp/T/rust_mozprofileojWSt3"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1681460206671	Marionette	INFO	Marionette enabled
+1681460206843	Marionette	INFO	Listening on port 49818
+Read port: 49818
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+2023-04-14 16:16:46.911 plugin-container[96716:17984059] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-14 16:16:46.911 plugin-container[96716:17984059] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-04-14 16:16:46.923 plugin-container[96716:17984059] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-14 16:16:46.923 plugin-container[96716:17984059] nil host used in call to allowsAnyHTTPSCertificateForHost:
+WebDriver BiDi listening on ws://127.0.0.1:49807
+2023-04-14 16:16:46.924 plugin-container[96716:17984057] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-14 16:16:46.924 plugin-container[96716:17984057] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1681460206961	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/03/15_9phx93kj5d20_0n60p9_80000gp/T/rust_mozprofileojWSt3/search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:49807/devtools/browser/1cf8556f-2c7b-4445-a7d6-d47f9cc2c279
+2023-04-14 08:16:53.598 plugin-container[96726:17984527] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-14 08:16:53.598 plugin-container[96726:17984527] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-04-14 08:16:53.604 plugin-container[96726:17984527] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-14 08:16:53.604 plugin-container[96726:17984527] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-04-14 08:16:53.604 plugin-container[96726:17984545] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-14 08:16:53.604 plugin-container[96726:17984545] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-04-14 08:16:53.824 plugin-container[96729:17984575] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-14 08:16:53.824 plugin-container[96729:17984575] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-04-14 08:16:53.827 plugin-container[96729:17984575] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-14 08:16:53.827 plugin-container[96729:17984575] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-04-14 08:16:53.827 plugin-container[96729:17984578] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-14 08:16:53.827 plugin-container[96729:17984578] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1681460265115	Marionette	INFO	Stopped listening on port 63699
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1681460268326	Marionette	INFO	Stopped listening on port 49818
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1681460739654	geckodriver	INFO	Listening on 127.0.0.1:52534
+1681460740152	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/03/15_9phx93kj5d20_0n60p9_80000gp/T/rust_mozprofilewRRivM"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1681460740975	Marionette	INFO	Marionette enabled
+2023-04-14 16:25:41.249 plugin-container[96953:17991274] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-14 16:25:41.249 plugin-container[96953:17991274] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-04-14 16:25:41.252 plugin-container[96953:17991274] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-14 16:25:41.252 plugin-container[96953:17991274] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-04-14 16:25:41.253 plugin-container[96953:17991272] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-14 16:25:41.253 plugin-container[96953:17991272] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1681460741264	Marionette	INFO	Listening on port 52551
+Read port: 52551
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+WebDriver BiDi listening on ws://127.0.0.1:52535
+1681460741385	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/03/15_9phx93kj5d20_0n60p9_80000gp/T/rust_mozprofilewRRivM/search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:52535/devtools/browser/e0e77fa2-748a-4a94-a101-c14a94e87c49
+2023-04-14 08:25:47.524 plugin-container[96963:17991705] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-14 08:25:47.525 plugin-container[96963:17991705] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-04-14 08:25:47.529 plugin-container[96963:17991705] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-14 08:25:47.529 plugin-container[96963:17991705] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-04-14 08:25:47.530 plugin-container[96963:17991706] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-14 08:25:47.530 plugin-container[96963:17991706] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-04-14 08:25:47.784 plugin-container[96966:17991764] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-14 08:25:47.784 plugin-container[96966:17991764] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-04-14 08:25:47.786 plugin-container[96966:17991764] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-14 08:25:47.786 plugin-container[96966:17991764] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-04-14 08:25:47.787 plugin-container[96966:17991765] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-14 08:25:47.787 plugin-container[96966:17991765] nil host used in call to allowsAnyHTTPSCertificateForHost:
+[Child 96956, MediaDecoderStateMachine #1] WARNING: 1184b4a40 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:321
+1681461181868	geckodriver	INFO	Listening on 127.0.0.1:54654
+1681461182356	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/03/15_9phx93kj5d20_0n60p9_80000gp/T/rust_mozprofiletH71eJ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1681461182926	Marionette	INFO	Marionette enabled
+1681461183088	Marionette	INFO	Listening on port 54666
+Read port: 54666
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+2023-04-14 16:33:03.132 plugin-container[97189:17997875] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-14 16:33:03.132 plugin-container[97189:17997875] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-04-14 16:33:03.144 plugin-container[97189:17997875] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-14 16:33:03.144 plugin-container[97189:17997875] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-04-14 16:33:03.144 plugin-container[97189:17997883] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-14 16:33:03.144 plugin-container[97189:17997883] nil host used in call to allowsAnyHTTPSCertificateForHost:
+WebDriver BiDi listening on ws://127.0.0.1:54655
+1681461183193	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/03/15_9phx93kj5d20_0n60p9_80000gp/T/rust_mozprofiletH71eJ/search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:54655/devtools/browser/5ddfeedd-9f33-4463-9871-8f19cb037ffe
+2023-04-14 08:33:08.931 plugin-container[97199:17998335] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-14 08:33:08.931 plugin-container[97199:17998335] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-04-14 08:33:08.937 plugin-container[97199:17998335] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-14 08:33:08.937 plugin-container[97199:17998335] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-04-14 08:33:08.937 plugin-container[97199:17998336] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-14 08:33:08.937 plugin-container[97199:17998336] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-04-14 08:33:09.158 plugin-container[97202:17998389] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-14 08:33:09.158 plugin-container[97202:17998389] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-04-14 08:33:09.162 plugin-container[97202:17998389] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-14 08:33:09.162 plugin-container[97202:17998389] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-04-14 08:33:09.162 plugin-container[97202:17998391] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-14 08:33:09.162 plugin-container[97202:17998391] nil host used in call to allowsAnyHTTPSCertificateForHost:
+[Child 97192, MediaDecoderStateMachine #1] WARNING: 116a86bb0 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:321
+1681461405064	geckodriver	INFO	Listening on 127.0.0.1:55768
+1681461405556	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/03/15_9phx93kj5d20_0n60p9_80000gp/T/rust_mozprofileP7hb3x"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1681461406163	Marionette	INFO	Marionette enabled
+2023-04-14 16:36:46.365 plugin-container[97351:18002438] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-14 16:36:46.365 plugin-container[97351:18002438] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-04-14 16:36:46.368 plugin-container[97351:18002438] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-14 16:36:46.368 plugin-container[97351:18002438] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-04-14 16:36:46.368 plugin-container[97351:18002446] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-14 16:36:46.368 plugin-container[97351:18002446] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1681461406389	Marionette	INFO	Listening on port 55784
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+WebDriver BiDi listening on ws://127.0.0.1:55769
+Read port: 55784
+1681461406783	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/03/15_9phx93kj5d20_0n60p9_80000gp/T/rust_mozprofileP7hb3x/search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:55769/devtools/browser/30862b57-424d-488f-a293-9c9cca0f5a0e
+2023-04-14 08:36:52.049 plugin-container[97362:18002885] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-14 08:36:52.050 plugin-container[97362:18002885] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-04-14 08:36:52.055 plugin-container[97362:18002885] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-14 08:36:52.055 plugin-container[97362:18002885] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-04-14 08:36:52.055 plugin-container[97362:18002883] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-14 08:36:52.055 plugin-container[97362:18002883] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-04-14 08:36:52.302 plugin-container[97367:18002962] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-14 08:36:52.302 plugin-container[97367:18002962] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-04-14 08:36:52.309 plugin-container[97367:18002962] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-14 08:36:52.309 plugin-container[97367:18002962] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-04-14 08:36:52.310 plugin-container[97367:18002965] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-14 08:36:52.310 plugin-container[97367:18002965] nil host used in call to allowsAnyHTTPSCertificateForHost:
+[Child 97356, MediaDecoderStateMachine #1] WARNING: 114c8b030 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:321
+1681462258995	Marionette	INFO	Stopped listening on port 52551
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1681462262047	Marionette	INFO	Stopped listening on port 54666
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1681462264878	Marionette	INFO	Stopped listening on port 55784
+1681564777856	geckodriver	INFO	Listening on 127.0.0.1:63983
+1681564778321	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/03/15_9phx93kj5d20_0n60p9_80000gp/T/rust_mozprofileLjztBi"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1681564779240	Marionette	INFO	Marionette enabled
+1681564779462	Marionette	INFO	Listening on port 63999
+Read port: 63999
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+WebDriver BiDi listening on ws://127.0.0.1:63984
+2023-04-15 21:19:39.576 plugin-container[7621:18309199] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-15 21:19:39.576 plugin-container[7621:18309199] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-04-15 21:19:39.593 plugin-container[7621:18309199] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-15 21:19:39.593 plugin-container[7621:18309199] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-04-15 21:19:39.594 plugin-container[7621:18309202] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-15 21:19:39.594 plugin-container[7621:18309202] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1681564779613	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/03/15_9phx93kj5d20_0n60p9_80000gp/T/rust_mozprofileLjztBi/search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:63984/devtools/browser/b0bf7ab2-91db-4b22-8623-069c279eb795
+2023-04-15 13:19:44.138 plugin-container[7629:18309599] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-15 13:19:44.138 plugin-container[7629:18309599] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-04-15 13:19:44.144 plugin-container[7629:18309599] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-15 13:19:44.144 plugin-container[7629:18309599] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-04-15 13:19:44.145 plugin-container[7629:18309607] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-15 13:19:44.145 plugin-container[7629:18309607] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-04-15 13:19:44.398 plugin-container[7633:18309665] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-15 13:19:44.398 plugin-container[7633:18309665] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-04-15 13:19:44.405 plugin-container[7633:18309665] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-15 13:19:44.405 plugin-container[7633:18309665] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-04-15 13:19:44.406 plugin-container[7633:18309667] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-15 13:19:44.406 plugin-container[7633:18309667] nil host used in call to allowsAnyHTTPSCertificateForHost:
+[Child 7624, MediaDecoderStateMachine #1] WARNING: 11788ea40 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:321
+1681564865895	geckodriver	INFO	Listening on 127.0.0.1:64478
+1681564866390	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/03/15_9phx93kj5d20_0n60p9_80000gp/T/rust_mozprofilegDYuqZ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1681564866931	Marionette	INFO	Marionette enabled
+1681564867084	Marionette	INFO	Listening on port 64491
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+Read port: 64491
+2023-04-15 21:21:07.127 plugin-container[7708:18311287] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-15 21:21:07.128 plugin-container[7708:18311287] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-04-15 21:21:07.130 plugin-container[7708:18311287] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-15 21:21:07.131 plugin-container[7708:18311287] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-04-15 21:21:07.131 plugin-container[7708:18311290] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-15 21:21:07.131 plugin-container[7708:18311290] nil host used in call to allowsAnyHTTPSCertificateForHost:
+WebDriver BiDi listening on ws://127.0.0.1:64479
+1681564867187	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/03/15_9phx93kj5d20_0n60p9_80000gp/T/rust_mozprofilegDYuqZ/search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:64479/devtools/browser/a2753b17-42f2-41df-a62c-4ac38ce0ccad
+2023-04-15 13:21:11.198 plugin-container[7718:18311706] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-15 13:21:11.199 plugin-container[7718:18311706] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-04-15 13:21:11.207 plugin-container[7718:18311706] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-15 13:21:11.207 plugin-container[7718:18311706] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-04-15 13:21:11.208 plugin-container[7718:18311707] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-15 13:21:11.208 plugin-container[7718:18311707] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-04-15 13:21:11.456 plugin-container[7721:18311773] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-15 13:21:11.456 plugin-container[7721:18311773] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-04-15 13:21:11.463 plugin-container[7721:18311773] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-15 13:21:11.463 plugin-container[7721:18311773] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-04-15 13:21:11.463 plugin-container[7721:18311777] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-15 13:21:11.463 plugin-container[7721:18311777] nil host used in call to allowsAnyHTTPSCertificateForHost:
+[Child 7712, MediaDecoderStateMachine #1] WARNING: 1175ce310 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:321
+1681565283127	geckodriver	INFO	Listening on 127.0.0.1:50221
+1681565283611	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/03/15_9phx93kj5d20_0n60p9_80000gp/T/rust_mozprofilemWhaXG"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1681565284177	Marionette	INFO	Marionette enabled
+1681565284337	Marionette	INFO	Listening on port 50234
+Read port: 50234
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+2023-04-15 21:28:04.383 plugin-container[7920:18317505] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-15 21:28:04.383 plugin-container[7920:18317505] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-04-15 21:28:04.390 plugin-container[7920:18317505] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-15 21:28:04.390 plugin-container[7920:18317505] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-04-15 21:28:04.390 plugin-container[7920:18317510] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-15 21:28:04.390 plugin-container[7920:18317510] nil host used in call to allowsAnyHTTPSCertificateForHost:
+WebDriver BiDi listening on ws://127.0.0.1:50222
+1681565284442	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/03/15_9phx93kj5d20_0n60p9_80000gp/T/rust_mozprofilemWhaXG/search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:50222/devtools/browser/6bd8bdab-e97e-4dc4-84ca-9da4e34595e6
+2023-04-15 13:28:09.374 plugin-container[7929:18317919] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-15 13:28:09.374 plugin-container[7929:18317919] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-04-15 13:28:09.381 plugin-container[7929:18317919] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-15 13:28:09.381 plugin-container[7929:18317919] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-04-15 13:28:09.381 plugin-container[7929:18317927] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-15 13:28:09.381 plugin-container[7929:18317927] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-04-15 13:28:09.630 plugin-container[7931:18317985] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-15 13:28:09.631 plugin-container[7931:18317985] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-04-15 13:28:09.637 plugin-container[7931:18317985] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-15 13:28:09.637 plugin-container[7931:18317985] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-04-15 13:28:09.637 plugin-container[7931:18317988] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-15 13:28:09.638 plugin-container[7931:18317988] nil host used in call to allowsAnyHTTPSCertificateForHost:
+[Child 7923, MediaDecoderStateMachine #1] WARNING: 115e75030 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:321
+1681568563782	geckodriver	INFO	Listening on 127.0.0.1:62048
+1681568564234	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/03/15_9phx93kj5d20_0n60p9_80000gp/T/rust_mozprofileM3RmOg"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1681568564791	Marionette	INFO	Marionette enabled
+2023-04-15 22:22:45.010 plugin-container[8761:18343588] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-15 22:22:45.025 plugin-container[8761:18343588] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-04-15 22:22:45.030 plugin-container[8761:18343588] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-15 22:22:45.030 plugin-container[8761:18343588] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-04-15 22:22:45.031 plugin-container[8761:18343586] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-15 22:22:45.031 plugin-container[8761:18343586] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1681568565036	Marionette	INFO	Listening on port 62060
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+Read port: 62060
+WebDriver BiDi listening on ws://127.0.0.1:62049
+1681568565140	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/03/15_9phx93kj5d20_0n60p9_80000gp/T/rust_mozprofileM3RmOg/search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:62049/devtools/browser/06d427ec-f1fe-472b-9846-f3007dfb42a0
+2023-04-15 14:22:50.649 plugin-container[8772:18344054] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-15 14:22:50.649 plugin-container[8772:18344054] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-04-15 14:22:50.655 plugin-container[8772:18344054] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-15 14:22:50.655 plugin-container[8772:18344054] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-04-15 14:22:50.656 plugin-container[8772:18344053] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-15 14:22:50.656 plugin-container[8772:18344053] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-04-15 14:22:50.911 plugin-container[8775:18344120] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-15 14:22:50.911 plugin-container[8775:18344120] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-04-15 14:22:50.915 plugin-container[8775:18344120] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-15 14:22:50.915 plugin-container[8775:18344120] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-04-15 14:22:50.915 plugin-container[8775:18344128] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-15 14:22:50.915 plugin-container[8775:18344128] nil host used in call to allowsAnyHTTPSCertificateForHost:
+[Child 8766, MediaDecoderStateMachine #1] WARNING: 1173d2a40 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:321
+1681568805889	geckodriver	INFO	Listening on 127.0.0.1:63360
+1681568806378	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/03/15_9phx93kj5d20_0n60p9_80000gp/T/rust_mozprofileKPn4w0"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1681568806928	Marionette	INFO	Marionette enabled
+1681568807090	Marionette	INFO	Listening on port 63373
+Read port: 63373
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+2023-04-15 22:26:47.153 plugin-container[8922:18347869] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-15 22:26:47.153 plugin-container[8922:18347869] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-04-15 22:26:47.156 plugin-container[8922:18347869] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-15 22:26:47.156 plugin-container[8922:18347869] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-04-15 22:26:47.156 plugin-container[8922:18347881] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-15 22:26:47.157 plugin-container[8922:18347881] nil host used in call to allowsAnyHTTPSCertificateForHost:
+WebDriver BiDi listening on ws://127.0.0.1:63361
+1681568807198	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/03/15_9phx93kj5d20_0n60p9_80000gp/T/rust_mozprofileKPn4w0/search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:63361/devtools/browser/38e4c588-52ef-4610-bb3f-a75e2de8ec82
+2023-04-15 14:26:52.159 plugin-container[8933:18348314] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-15 14:26:52.159 plugin-container[8933:18348314] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-04-15 14:26:52.164 plugin-container[8933:18348314] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-15 14:26:52.164 plugin-container[8933:18348314] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-04-15 14:26:52.164 plugin-container[8933:18348319] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-15 14:26:52.165 plugin-container[8933:18348319] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-04-15 14:26:52.404 plugin-container[8936:18348376] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-15 14:26:52.404 plugin-container[8936:18348376] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-04-15 14:26:52.409 plugin-container[8936:18348376] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-15 14:26:52.409 plugin-container[8936:18348376] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-04-15 14:26:52.409 plugin-container[8936:18348377] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-15 14:26:52.409 plugin-container[8936:18348377] nil host used in call to allowsAnyHTTPSCertificateForHost:
+[Child 8927, MediaDecoderStateMachine #1] WARNING: 115197310 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:321
+1681568883944	Marionette	INFO	Stopped listening on port 63999
+1681568886763	Marionette	INFO	Stopped listening on port 64491
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1681568889508	Marionette	INFO	Stopped listening on port 50234
+1681568892661	Marionette	INFO	Stopped listening on port 62060
+1681568895703	Marionette	INFO	Stopped listening on port 63373
+1681570918072	geckodriver	INFO	Listening on 127.0.0.1:57193
+1681570918569	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/03/15_9phx93kj5d20_0n60p9_80000gp/T/rust_mozprofilezIoOPa"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1681570919365	Marionette	INFO	Marionette enabled
+2023-04-15 23:01:59.624 plugin-container[9753:18371750] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-15 23:01:59.625 plugin-container[9753:18371750] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-04-15 23:01:59.628 plugin-container[9753:18371750] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-15 23:01:59.629 plugin-container[9753:18371750] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-04-15 23:01:59.629 plugin-container[9753:18371755] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-15 23:01:59.629 plugin-container[9753:18371755] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1681570919642	Marionette	INFO	Listening on port 57206
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+Read port: 57206
+WebDriver BiDi listening on ws://127.0.0.1:57194
+1681570919813	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/03/15_9phx93kj5d20_0n60p9_80000gp/T/rust_mozprofilezIoOPa/search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:57194/devtools/browser/21a046a3-fa63-47de-ab5e-251fc5c03495
+2023-04-15 15:02:03.917 plugin-container[9765:18372172] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-15 15:02:03.917 plugin-container[9765:18372172] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-04-15 15:02:03.922 plugin-container[9765:18372172] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-15 15:02:03.922 plugin-container[9765:18372172] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-04-15 15:02:03.923 plugin-container[9765:18372176] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-15 15:02:03.923 plugin-container[9765:18372176] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-04-15 15:02:04.142 plugin-container[9766:18372222] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-15 15:02:04.143 plugin-container[9766:18372222] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-04-15 15:02:04.146 plugin-container[9766:18372222] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-15 15:02:04.146 plugin-container[9766:18372222] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-04-15 15:02:04.146 plugin-container[9766:18372233] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-15 15:02:04.146 plugin-container[9766:18372233] nil host used in call to allowsAnyHTTPSCertificateForHost:
+[Child 9759, MediaDecoderStateMachine #1] WARNING: 113d5b8d0 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:321
+1681570943640	Marionette	INFO	Stopped listening on port 57206
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+console.error: "TelemetryScheduler.shutdown - Already shut down"
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  TelemetryController: shutting down
+          Phase: profile-before-change-telemetry
+          State: Error getting state: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange" at addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"

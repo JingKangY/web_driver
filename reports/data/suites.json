@@ -1,0 +1,29 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "testcase",
+    "children" : [ {
+      "name" : "test_login_lingxigames",
+      "children" : [ {
+        "name" : "TestLogin",
+        "children" : [ {
+          "name" : "test_login",
+          "uid" : "8791afdddf579ff5",
+          "parentUid" : "75efcd1921d8a07c7c6c1cf65c67f0b8",
+          "status" : "passed",
+          "time" : {
+            "start" : 1681048873312,
+            "stop" : 1681048890870,
+            "duration" : 17558
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "75efcd1921d8a07c7c6c1cf65c67f0b8"
+      } ],
+      "uid" : "c6f94e8579f6f57b8da78b63a3a5b084"
+    } ],
+    "uid" : "7d3977dcbf31acd3e26ecbe96342e45e"
+  } ],
+  "name" : "suites"
+}

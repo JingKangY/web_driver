@@ -1,0 +1,168 @@
+{
+  "uid" : "8791afdddf579ff5",
+  "name" : "test_login",
+  "fullName" : "testcase.test_login_lingxigames.TestLogin#test_login",
+  "historyId" : "e01a842d947512bc120a6e8051bdd40a",
+  "time" : {
+    "start" : 1681048873312,
+    "stop" : 1681048890870,
+    "duration" : 17558
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "get_quit_driver",
+    "time" : {
+      "start" : 1681048862183,
+      "stop" : 1681048873311,
+      "duration" : 11128
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1681048862151,
+      "stop" : 1681048862151,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1681048862151,
+      "stop" : 1681048862151,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1681048862151,
+      "stop" : 1681048862183,
+      "duration" : 32
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "f6ffee8cb7b34c5",
+      "name" : "log",
+      "source" : "f6ffee8cb7b34c5.txt",
+      "type" : "text/plain",
+      "size" : 13355
+    }, {
+      "uid" : "b3849c4ae2c7cb46",
+      "name" : "stderr",
+      "source" : "b3849c4ae2c7cb46.txt",
+      "type" : "text/plain",
+      "size" : 23228
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "get_quit_driver::0",
+    "time" : {
+      "start" : 1681048890870,
+      "stop" : 1681048890956,
+      "duration" : 86
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "测试"
+  }, {
+    "name" : "story",
+    "value" : "测试"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "epic",
+    "value" : "测试"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_login_lingxigames"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "B-22GNQ05P-1821.local"
+  }, {
+    "name" : "thread",
+    "value" : "79869-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_login_lingxigames"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "https://aone.alibaba-inc.com/v2/project/1073158/bug#viewIdentifier=5dfb195e2e2b84f6b2f24718",
+    "url" : "https://aone.alibaba-inc.com/v2/project/1073158/bug#viewIdentifier=5dfb195e2e2b84f6b2f24718",
+    "type" : "issue"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8791afdddf579ff5.json",
+  "parameterValues" : [ ]
+}

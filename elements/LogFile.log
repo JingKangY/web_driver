@@ -1,0 +1,417 @@
+D 2023-04-16 17:32:02,208| DEBUG    | [service.py:service:_start_process:204] - Started executable: `chromedriver` in a child process with pid: 19489
+D 2023-04-16 17:32:02,754| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:55495/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "pageLoadStrategy": "normal", "goog:chromeOptions": {"extensions": [], "args": []}}}}
+D 2023-04-16 17:32:02,757| DEBUG    | [connectionpool.py:connectionpool:_new_conn:227] - Starting new HTTP connection (1): localhost:55495
+D 2023-04-16 17:32:10,221| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:55495 "POST /session HTTP/1.1" 200 868
+D 2023-04-16 17:32:10,225| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-16 17:32:10,243| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:55495/session/b41f7e3d3965868eb88242d8e2a531aa/url {"url": "https://sgzzlb.lingxigames.com/website/"}
+D 2023-04-16 17:32:12,762| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:55495 "POST /session/b41f7e3d3965868eb88242d8e2a531aa/url HTTP/1.1" 200 14
+D 2023-04-16 17:32:12,762| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-16 17:32:12,763| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:55495/session/b41f7e3d3965868eb88242d8e2a531aa/element {"using": "xpath", "value": "//a[contains(text(),'\u65b0\u95fb\u8d44\u8baf')]"}
+D 2023-04-16 17:32:13,988| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:55495 "POST /session/b41f7e3d3965868eb88242d8e2a531aa/element HTTP/1.1" 200 88
+D 2023-04-16 17:32:13,988| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-16 17:32:13,989| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:55495/session/b41f7e3d3965868eb88242d8e2a531aa/element/b630d25f-4c17-43ba-ad57-cc4ede7869b6/click {"id": "b630d25f-4c17-43ba-ad57-cc4ede7869b6"}
+D 2023-04-16 17:32:16,733| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:55495 "POST /session/b41f7e3d3965868eb88242d8e2a531aa/element/b630d25f-4c17-43ba-ad57-cc4ede7869b6/click HTTP/1.1" 200 14
+D 2023-04-16 17:32:16,734| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-16 17:32:16,734| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:55495/session/b41f7e3d3965868eb88242d8e2a531aa/back {}
+D 2023-04-16 17:32:17,067| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:55495 "POST /session/b41f7e3d3965868eb88242d8e2a531aa/back HTTP/1.1" 200 14
+D 2023-04-16 17:32:17,068| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-16 17:32:20,071| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:55495/session/b41f7e3d3965868eb88242d8e2a531aa/forward {}
+D 2023-04-16 17:32:20,192| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:55495 "POST /session/b41f7e3d3965868eb88242d8e2a531aa/forward HTTP/1.1" 200 14
+D 2023-04-16 17:32:20,192| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-16 17:32:22,198| DEBUG    | [remote_connection.py:remote_connection:_request:303] - DELETE http://localhost:55495/session/b41f7e3d3965868eb88242d8e2a531aa {}
+D 2023-04-16 17:32:22,256| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:55495 "DELETE /session/b41f7e3d3965868eb88242d8e2a531aa HTTP/1.1" 200 14
+D 2023-04-16 17:32:22,256| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-16 17:32:43,868| DEBUG    | [service.py:service:_start_process:204] - Started executable: `chromedriver` in a child process with pid: 19531
+D 2023-04-16 17:32:44,385| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:55554/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "pageLoadStrategy": "normal", "goog:chromeOptions": {"extensions": [], "args": []}}}}
+D 2023-04-16 17:32:44,406| DEBUG    | [connectionpool.py:connectionpool:_new_conn:227] - Starting new HTTP connection (1): localhost:55554
+D 2023-04-16 17:32:49,082| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:55554 "POST /session HTTP/1.1" 200 868
+D 2023-04-16 17:32:49,089| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-16 17:32:49,106| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:55554/session/8e5a203986926cb01d884fec4ae7cf6e/url {"url": "https://sgzzlb.lingxigames.com/website/"}
+D 2023-04-16 17:32:51,323| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:55554 "POST /session/8e5a203986926cb01d884fec4ae7cf6e/url HTTP/1.1" 200 14
+D 2023-04-16 17:32:51,323| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-16 17:32:51,325| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:55554/session/8e5a203986926cb01d884fec4ae7cf6e/element {"using": "xpath", "value": "//a[contains(text(),'\u65b0\u95fb\u8d44\u8baf')]"}
+D 2023-04-16 17:32:52,559| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:55554 "POST /session/8e5a203986926cb01d884fec4ae7cf6e/element HTTP/1.1" 200 88
+D 2023-04-16 17:32:52,559| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-16 17:32:52,559| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:55554/session/8e5a203986926cb01d884fec4ae7cf6e/element/21bfeef0-b11d-4e49-a409-2faaf34907fb/click {"id": "21bfeef0-b11d-4e49-a409-2faaf34907fb"}
+D 2023-04-16 17:32:55,267| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:55554 "POST /session/8e5a203986926cb01d884fec4ae7cf6e/element/21bfeef0-b11d-4e49-a409-2faaf34907fb/click HTTP/1.1" 200 14
+D 2023-04-16 17:32:55,267| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-16 17:32:58,274| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:55554/session/8e5a203986926cb01d884fec4ae7cf6e/back {}
+D 2023-04-16 17:32:58,619| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:55554 "POST /session/8e5a203986926cb01d884fec4ae7cf6e/back HTTP/1.1" 200 14
+D 2023-04-16 17:32:58,620| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-16 17:33:01,620| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:55554/session/8e5a203986926cb01d884fec4ae7cf6e/forward {}
+D 2023-04-16 17:33:01,734| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:55554 "POST /session/8e5a203986926cb01d884fec4ae7cf6e/forward HTTP/1.1" 200 14
+D 2023-04-16 17:33:01,734| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-16 17:33:03,740| DEBUG    | [remote_connection.py:remote_connection:_request:303] - DELETE http://localhost:55554/session/8e5a203986926cb01d884fec4ae7cf6e {}
+D 2023-04-16 17:33:03,796| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:55554 "DELETE /session/8e5a203986926cb01d884fec4ae7cf6e HTTP/1.1" 200 14
+D 2023-04-16 17:33:03,800| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-16 17:54:33,725| DEBUG    | [service.py:service:_start_process:204] - Started executable: `chromedriver` in a child process with pid: 20251
+D 2023-04-16 17:54:34,241| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:58276/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "pageLoadStrategy": "normal", "goog:chromeOptions": {"extensions": [], "args": []}}}}
+D 2023-04-16 17:54:34,244| DEBUG    | [connectionpool.py:connectionpool:_new_conn:227] - Starting new HTTP connection (1): localhost:58276
+D 2023-04-16 17:54:42,123| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:58276 "POST /session HTTP/1.1" 200 868
+D 2023-04-16 17:54:42,124| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-16 17:54:42,124| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:58276/session/bd8e5adf43a93b188c7ae8f0e6a42b55/url {"url": "https://sgzzlb.lingxigames.com/website/"}
+D 2023-04-16 17:54:45,301| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:58276 "POST /session/bd8e5adf43a93b188c7ae8f0e6a42b55/url HTTP/1.1" 200 14
+D 2023-04-16 17:54:45,302| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-16 17:54:45,303| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:58276/session/bd8e5adf43a93b188c7ae8f0e6a42b55/element {"using": "xpath", "value": "//a[contains(text(),'\u65b0\u95fb\u8d44\u8baf')]"}
+D 2023-04-16 17:54:46,383| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:58276 "POST /session/bd8e5adf43a93b188c7ae8f0e6a42b55/element HTTP/1.1" 200 88
+D 2023-04-16 17:54:46,384| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-16 17:54:46,384| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:58276/session/bd8e5adf43a93b188c7ae8f0e6a42b55/element/14f646f0-9f27-4ae2-8ac3-b0145b5ca830/click {"id": "14f646f0-9f27-4ae2-8ac3-b0145b5ca830"}
+D 2023-04-16 17:54:49,354| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:58276 "POST /session/bd8e5adf43a93b188c7ae8f0e6a42b55/element/14f646f0-9f27-4ae2-8ac3-b0145b5ca830/click HTTP/1.1" 200 14
+D 2023-04-16 17:54:49,355| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-16 17:54:52,362| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:58276/session/bd8e5adf43a93b188c7ae8f0e6a42b55/back {}
+D 2023-04-16 17:54:52,711| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:58276 "POST /session/bd8e5adf43a93b188c7ae8f0e6a42b55/back HTTP/1.1" 200 14
+D 2023-04-16 17:54:52,724| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-16 17:54:55,730| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:58276/session/bd8e5adf43a93b188c7ae8f0e6a42b55/forward {}
+D 2023-04-16 17:54:55,843| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:58276 "POST /session/bd8e5adf43a93b188c7ae8f0e6a42b55/forward HTTP/1.1" 200 14
+D 2023-04-16 17:54:55,844| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-16 17:54:57,851| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:58276/session/bd8e5adf43a93b188c7ae8f0e6a42b55/element {"using": "css selector", "value": ".keywords"}
+D 2023-04-16 17:54:57,871| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:58276 "POST /session/bd8e5adf43a93b188c7ae8f0e6a42b55/element HTTP/1.1" 404 1603
+D 2023-04-16 17:54:57,872| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-16 17:54:58,378| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:58276/session/bd8e5adf43a93b188c7ae8f0e6a42b55/element {"using": "css selector", "value": ".keywords"}
+D 2023-04-16 17:54:58,389| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:58276 "POST /session/bd8e5adf43a93b188c7ae8f0e6a42b55/element HTTP/1.1" 404 1603
+D 2023-04-16 17:54:58,389| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-16 17:54:58,895| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:58276/session/bd8e5adf43a93b188c7ae8f0e6a42b55/element {"using": "css selector", "value": ".keywords"}
+D 2023-04-16 17:54:58,907| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:58276 "POST /session/bd8e5adf43a93b188c7ae8f0e6a42b55/element HTTP/1.1" 404 1603
+D 2023-04-16 17:54:58,907| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-16 17:54:59,413| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:58276/session/bd8e5adf43a93b188c7ae8f0e6a42b55/element {"using": "css selector", "value": ".keywords"}
+D 2023-04-16 17:54:59,426| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:58276 "POST /session/bd8e5adf43a93b188c7ae8f0e6a42b55/element HTTP/1.1" 404 1603
+D 2023-04-16 17:54:59,427| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-16 17:54:59,933| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:58276/session/bd8e5adf43a93b188c7ae8f0e6a42b55/element {"using": "css selector", "value": ".keywords"}
+D 2023-04-16 17:54:59,945| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:58276 "POST /session/bd8e5adf43a93b188c7ae8f0e6a42b55/element HTTP/1.1" 404 1603
+D 2023-04-16 17:54:59,946| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-16 17:55:00,451| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:58276/session/bd8e5adf43a93b188c7ae8f0e6a42b55/element {"using": "css selector", "value": ".keywords"}
+D 2023-04-16 17:55:00,462| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:58276 "POST /session/bd8e5adf43a93b188c7ae8f0e6a42b55/element HTTP/1.1" 404 1603
+D 2023-04-16 17:55:00,462| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-16 17:55:00,968| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:58276/session/bd8e5adf43a93b188c7ae8f0e6a42b55/element {"using": "css selector", "value": ".keywords"}
+D 2023-04-16 17:55:00,985| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:58276 "POST /session/bd8e5adf43a93b188c7ae8f0e6a42b55/element HTTP/1.1" 404 1603
+D 2023-04-16 17:55:00,986| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-16 17:55:01,492| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:58276/session/bd8e5adf43a93b188c7ae8f0e6a42b55/element {"using": "css selector", "value": ".keywords"}
+D 2023-04-16 17:55:01,505| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:58276 "POST /session/bd8e5adf43a93b188c7ae8f0e6a42b55/element HTTP/1.1" 404 1603
+D 2023-04-16 17:55:01,506| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-16 17:55:02,011| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:58276/session/bd8e5adf43a93b188c7ae8f0e6a42b55/element {"using": "css selector", "value": ".keywords"}
+D 2023-04-16 17:55:02,018| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:58276 "POST /session/bd8e5adf43a93b188c7ae8f0e6a42b55/element HTTP/1.1" 404 1603
+D 2023-04-16 17:55:02,019| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-16 17:55:02,522| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:58276/session/bd8e5adf43a93b188c7ae8f0e6a42b55/element {"using": "css selector", "value": ".keywords"}
+D 2023-04-16 17:55:02,528| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:58276 "POST /session/bd8e5adf43a93b188c7ae8f0e6a42b55/element HTTP/1.1" 404 1603
+D 2023-04-16 17:55:02,529| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-16 17:55:03,033| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:58276/session/bd8e5adf43a93b188c7ae8f0e6a42b55/element {"using": "css selector", "value": ".keywords"}
+D 2023-04-16 17:55:03,041| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:58276 "POST /session/bd8e5adf43a93b188c7ae8f0e6a42b55/element HTTP/1.1" 404 1603
+D 2023-04-16 17:55:03,041| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-16 17:55:03,547| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:58276/session/bd8e5adf43a93b188c7ae8f0e6a42b55/element {"using": "css selector", "value": ".keywords"}
+D 2023-04-16 17:55:03,562| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:58276 "POST /session/bd8e5adf43a93b188c7ae8f0e6a42b55/element HTTP/1.1" 404 1603
+D 2023-04-16 17:55:03,563| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-16 17:55:04,068| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:58276/session/bd8e5adf43a93b188c7ae8f0e6a42b55/element {"using": "css selector", "value": ".keywords"}
+D 2023-04-16 17:55:04,073| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:58276 "POST /session/bd8e5adf43a93b188c7ae8f0e6a42b55/element HTTP/1.1" 404 1603
+D 2023-04-16 17:55:04,074| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-16 17:55:04,579| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:58276/session/bd8e5adf43a93b188c7ae8f0e6a42b55/element {"using": "css selector", "value": ".keywords"}
+D 2023-04-16 17:55:04,584| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:58276 "POST /session/bd8e5adf43a93b188c7ae8f0e6a42b55/element HTTP/1.1" 404 1603
+D 2023-04-16 17:55:04,584| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-16 17:55:05,090| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:58276/session/bd8e5adf43a93b188c7ae8f0e6a42b55/element {"using": "css selector", "value": ".keywords"}
+D 2023-04-16 17:55:05,098| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:58276 "POST /session/bd8e5adf43a93b188c7ae8f0e6a42b55/element HTTP/1.1" 404 1603
+D 2023-04-16 17:55:05,099| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-16 17:55:05,604| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:58276/session/bd8e5adf43a93b188c7ae8f0e6a42b55/element {"using": "css selector", "value": ".keywords"}
+D 2023-04-16 17:55:05,609| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:58276 "POST /session/bd8e5adf43a93b188c7ae8f0e6a42b55/element HTTP/1.1" 404 1603
+D 2023-04-16 17:55:05,609| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-16 17:55:06,113| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:58276/session/bd8e5adf43a93b188c7ae8f0e6a42b55/element {"using": "css selector", "value": ".keywords"}
+D 2023-04-16 17:55:06,127| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:58276 "POST /session/bd8e5adf43a93b188c7ae8f0e6a42b55/element HTTP/1.1" 404 1603
+D 2023-04-16 17:55:06,128| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-16 17:55:06,630| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:58276/session/bd8e5adf43a93b188c7ae8f0e6a42b55/element {"using": "css selector", "value": ".keywords"}
+D 2023-04-16 17:55:06,642| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:58276 "POST /session/bd8e5adf43a93b188c7ae8f0e6a42b55/element HTTP/1.1" 404 1603
+D 2023-04-16 17:55:06,643| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-16 17:55:07,147| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:58276/session/bd8e5adf43a93b188c7ae8f0e6a42b55/element {"using": "css selector", "value": ".keywords"}
+D 2023-04-16 17:55:07,160| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:58276 "POST /session/bd8e5adf43a93b188c7ae8f0e6a42b55/element HTTP/1.1" 404 1603
+D 2023-04-16 17:55:07,161| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-16 17:55:07,667| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:58276/session/bd8e5adf43a93b188c7ae8f0e6a42b55/element {"using": "css selector", "value": ".keywords"}
+D 2023-04-16 17:55:07,679| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:58276 "POST /session/bd8e5adf43a93b188c7ae8f0e6a42b55/element HTTP/1.1" 404 1603
+D 2023-04-16 17:55:07,680| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-16 17:55:51,105| DEBUG    | [service.py:service:_start_process:204] - Started executable: `chromedriver` in a child process with pid: 20311
+D 2023-04-16 17:55:51,617| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:58352/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "pageLoadStrategy": "normal", "goog:chromeOptions": {"extensions": [], "args": []}}}}
+D 2023-04-16 17:55:51,621| DEBUG    | [connectionpool.py:connectionpool:_new_conn:227] - Starting new HTTP connection (1): localhost:58352
+D 2023-04-16 17:55:58,386| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:58352 "POST /session HTTP/1.1" 200 868
+D 2023-04-16 17:55:58,390| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-16 17:55:58,409| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:58352/session/5cfa7bebc2fc1057b427109f181636e9/url {"url": "https://sgzzlb.lingxigames.com/website/"}
+D 2023-04-16 17:56:00,944| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:58352 "POST /session/5cfa7bebc2fc1057b427109f181636e9/url HTTP/1.1" 200 14
+D 2023-04-16 17:56:00,944| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-16 17:56:00,946| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:58352/session/5cfa7bebc2fc1057b427109f181636e9/element {"using": "css selector", "value": ".keywords"}
+D 2023-04-16 17:56:02,042| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:58352 "POST /session/5cfa7bebc2fc1057b427109f181636e9/element HTTP/1.1" 200 88
+D 2023-04-16 17:56:02,043| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-16 17:56:02,043| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:58352/session/5cfa7bebc2fc1057b427109f181636e9/element/5f47d691-358f-4574-ab82-7d5ef020359a/clear {"id": "5f47d691-358f-4574-ab82-7d5ef020359a"}
+D 2023-04-16 17:56:02,736| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:58352 "POST /session/5cfa7bebc2fc1057b427109f181636e9/element/5f47d691-358f-4574-ab82-7d5ef020359a/clear HTTP/1.1" 200 14
+D 2023-04-16 17:56:02,737| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-16 17:56:02,737| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:58352/session/5cfa7bebc2fc1057b427109f181636e9/element/5f47d691-358f-4574-ab82-7d5ef020359a/value {"text": "\u4e09\u56fd\u5fd7\u6218\u7565\u7248", "value": ["\u4e09", "\u56fd", "\u5fd7", "\u6218", "\u7565", "\u7248"], "id": "5f47d691-358f-4574-ab82-7d5ef020359a"}
+D 2023-04-16 17:56:03,939| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:58352 "POST /session/5cfa7bebc2fc1057b427109f181636e9/element/5f47d691-358f-4574-ab82-7d5ef020359a/value HTTP/1.1" 200 14
+D 2023-04-16 17:56:03,939| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-16 17:56:03,940| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:58352/session/5cfa7bebc2fc1057b427109f181636e9/element {"using": "css selector", "value": ".keywords"}
+D 2023-04-16 17:56:04,545| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:58352 "POST /session/5cfa7bebc2fc1057b427109f181636e9/element HTTP/1.1" 200 88
+D 2023-04-16 17:56:04,546| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-16 17:56:04,546| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:58352/session/5cfa7bebc2fc1057b427109f181636e9/actions {"actions": [{"type": "pointer", "parameters": {"pointerType": "mouse"}, "id": "mouse", "actions": [{"type": "pointerMove", "duration": 250, "x": 0, "y": 0, "origin": {"element-6066-11e4-a52e-4f735466cecf": "5f47d691-358f-4574-ab82-7d5ef020359a"}}, {"type": "pointerDown", "duration": 0, "button": 2}, {"type": "pointerUp", "duration": 0, "button": 2}]}, {"type": "key", "id": "key", "actions": [{"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}]}]}
+D 2023-04-16 17:56:05,275| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:58352 "POST /session/5cfa7bebc2fc1057b427109f181636e9/actions HTTP/1.1" 200 14
+D 2023-04-16 17:56:05,276| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-16 17:56:07,782| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:58352/session/5cfa7bebc2fc1057b427109f181636e9/element {"using": "css selector", "value": ".keywords"}
+D 2023-04-16 17:56:07,787| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:58352 "POST /session/5cfa7bebc2fc1057b427109f181636e9/element HTTP/1.1" 200 88
+D 2023-04-16 17:56:07,787| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-16 17:56:07,787| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:58352/session/5cfa7bebc2fc1057b427109f181636e9/element/5f47d691-358f-4574-ab82-7d5ef020359a/click {"id": "5f47d691-358f-4574-ab82-7d5ef020359a"}
+D 2023-04-16 17:56:07,952| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:58352 "POST /session/5cfa7bebc2fc1057b427109f181636e9/element/5f47d691-358f-4574-ab82-7d5ef020359a/click HTTP/1.1" 200 14
+D 2023-04-16 17:56:07,985| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-16 17:56:09,991| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:58352/session/5cfa7bebc2fc1057b427109f181636e9/element {"using": "css selector", "value": ".keywords"}
+D 2023-04-16 17:56:10,002| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:58352 "POST /session/5cfa7bebc2fc1057b427109f181636e9/element HTTP/1.1" 200 88
+D 2023-04-16 17:56:10,003| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-16 17:56:10,003| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:58352/session/5cfa7bebc2fc1057b427109f181636e9/actions {"actions": [{"type": "pointer", "parameters": {"pointerType": "mouse"}, "id": "mouse", "actions": [{"type": "pointerMove", "duration": 250, "x": 0, "y": 0, "origin": {"element-6066-11e4-a52e-4f735466cecf": "5f47d691-358f-4574-ab82-7d5ef020359a"}}, {"type": "pointerDown", "duration": 0, "button": 0}, {"type": "pointerUp", "duration": 0, "button": 0}, {"type": "pointerDown", "duration": 0, "button": 0}, {"type": "pointerUp", "duration": 0, "button": 0}]}, {"type": "key", "id": "key", "actions": [{"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}]}]}
+D 2023-04-16 17:56:10,316| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:58352 "POST /session/5cfa7bebc2fc1057b427109f181636e9/actions HTTP/1.1" 200 14
+D 2023-04-16 17:56:10,316| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-16 17:56:12,823| DEBUG    | [remote_connection.py:remote_connection:_request:303] - DELETE http://localhost:58352/session/5cfa7bebc2fc1057b427109f181636e9 {}
+D 2023-04-16 17:56:12,879| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:58352 "DELETE /session/5cfa7bebc2fc1057b427109f181636e9 HTTP/1.1" 200 14
+D 2023-04-16 17:56:12,880| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-16 17:58:59,912| DEBUG    | [service.py:service:_start_process:204] - Started executable: `chromedriver` in a child process with pid: 20446
+D 2023-04-16 17:59:00,433| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:58481/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "pageLoadStrategy": "normal", "goog:chromeOptions": {"extensions": [], "args": []}}}}
+D 2023-04-16 17:59:00,436| DEBUG    | [connectionpool.py:connectionpool:_new_conn:227] - Starting new HTTP connection (1): localhost:58481
+D 2023-04-16 17:59:07,085| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:58481 "POST /session HTTP/1.1" 200 868
+D 2023-04-16 17:59:07,091| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-16 17:59:07,108| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:58481/session/65cb2fdcbea9e02f25c5707d50bfe014/url {"url": "https://sgzzlb.lingxigames.com/website/"}
+D 2023-04-16 17:59:09,674| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:58481 "POST /session/65cb2fdcbea9e02f25c5707d50bfe014/url HTTP/1.1" 200 14
+D 2023-04-16 17:59:09,674| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-16 17:59:09,676| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:58481/session/65cb2fdcbea9e02f25c5707d50bfe014/element {"using": "css selector", "value": ".keywords"}
+D 2023-04-16 17:59:10,726| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:58481 "POST /session/65cb2fdcbea9e02f25c5707d50bfe014/element HTTP/1.1" 200 88
+D 2023-04-16 17:59:10,726| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-16 17:59:10,726| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:58481/session/65cb2fdcbea9e02f25c5707d50bfe014/element/8b6ca185-d682-4645-a897-4856e69bf6b5/clear {"id": "8b6ca185-d682-4645-a897-4856e69bf6b5"}
+D 2023-04-16 17:59:11,417| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:58481 "POST /session/65cb2fdcbea9e02f25c5707d50bfe014/element/8b6ca185-d682-4645-a897-4856e69bf6b5/clear HTTP/1.1" 200 14
+D 2023-04-16 17:59:11,417| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-16 17:59:11,417| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:58481/session/65cb2fdcbea9e02f25c5707d50bfe014/element/8b6ca185-d682-4645-a897-4856e69bf6b5/value {"text": "\u4e09\u56fd\u5fd7\u6218\u7565\u7248", "value": ["\u4e09", "\u56fd", "\u5fd7", "\u6218", "\u7565", "\u7248"], "id": "8b6ca185-d682-4645-a897-4856e69bf6b5"}
+D 2023-04-16 17:59:12,749| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:58481 "POST /session/65cb2fdcbea9e02f25c5707d50bfe014/element/8b6ca185-d682-4645-a897-4856e69bf6b5/value HTTP/1.1" 200 14
+D 2023-04-16 17:59:12,758| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-16 17:59:12,759| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:58481/session/65cb2fdcbea9e02f25c5707d50bfe014/element {"using": "css selector", "value": ".keywords"}
+D 2023-04-16 17:59:13,186| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:58481 "POST /session/65cb2fdcbea9e02f25c5707d50bfe014/element HTTP/1.1" 200 88
+D 2023-04-16 17:59:13,187| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-16 17:59:13,187| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:58481/session/65cb2fdcbea9e02f25c5707d50bfe014/actions {"actions": [{"type": "pointer", "parameters": {"pointerType": "mouse"}, "id": "mouse", "actions": [{"type": "pointerMove", "duration": 250, "x": 0, "y": 0, "origin": {"element-6066-11e4-a52e-4f735466cecf": "8b6ca185-d682-4645-a897-4856e69bf6b5"}}, {"type": "pointerDown", "duration": 0, "button": 0}, {"type": "pointerUp", "duration": 0, "button": 0}, {"type": "pointerDown", "duration": 0, "button": 0}, {"type": "pointerUp", "duration": 0, "button": 0}]}, {"type": "key", "id": "key", "actions": [{"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}]}]}
+D 2023-04-16 17:59:14,448| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:58481 "POST /session/65cb2fdcbea9e02f25c5707d50bfe014/actions HTTP/1.1" 200 14
+D 2023-04-16 17:59:14,453| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-16 17:59:16,963| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:58481/session/65cb2fdcbea9e02f25c5707d50bfe014/element {"using": "css selector", "value": ".keywords"}
+D 2023-04-16 17:59:16,975| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:58481 "POST /session/65cb2fdcbea9e02f25c5707d50bfe014/element HTTP/1.1" 200 88
+D 2023-04-16 17:59:16,976| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-16 17:59:16,976| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:58481/session/65cb2fdcbea9e02f25c5707d50bfe014/actions {"actions": [{"type": "pointer", "parameters": {"pointerType": "mouse"}, "id": "mouse", "actions": [{"type": "pointerMove", "duration": 250, "x": 0, "y": 0, "origin": {"element-6066-11e4-a52e-4f735466cecf": "8b6ca185-d682-4645-a897-4856e69bf6b5"}}, {"type": "pointerDown", "duration": 0, "button": 2}, {"type": "pointerUp", "duration": 0, "button": 2}]}, {"type": "key", "id": "key", "actions": [{"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}]}]}
+D 2023-04-16 17:59:17,423| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:58481 "POST /session/65cb2fdcbea9e02f25c5707d50bfe014/actions HTTP/1.1" 200 14
+D 2023-04-16 17:59:17,423| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-16 17:59:19,930| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:58481/session/65cb2fdcbea9e02f25c5707d50bfe014/element {"using": "css selector", "value": ".keywords"}
+D 2023-04-16 17:59:19,942| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:58481 "POST /session/65cb2fdcbea9e02f25c5707d50bfe014/element HTTP/1.1" 200 88
+D 2023-04-16 17:59:19,943| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-16 17:59:19,943| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:58481/session/65cb2fdcbea9e02f25c5707d50bfe014/element/8b6ca185-d682-4645-a897-4856e69bf6b5/click {"id": "8b6ca185-d682-4645-a897-4856e69bf6b5"}
+D 2023-04-16 17:59:20,044| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:58481 "POST /session/65cb2fdcbea9e02f25c5707d50bfe014/element/8b6ca185-d682-4645-a897-4856e69bf6b5/click HTTP/1.1" 200 14
+D 2023-04-16 17:59:20,044| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-16 17:59:22,050| DEBUG    | [remote_connection.py:remote_connection:_request:303] - DELETE http://localhost:58481/session/65cb2fdcbea9e02f25c5707d50bfe014 {}
+D 2023-04-16 17:59:22,108| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:58481 "DELETE /session/65cb2fdcbea9e02f25c5707d50bfe014 HTTP/1.1" 200 14
+D 2023-04-16 17:59:22,109| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-16 18:08:49,462| DEBUG    | [service.py:service:_start_process:204] - Started executable: `chromedriver` in a child process with pid: 20673
+D 2023-04-16 18:08:49,978| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:58788/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "pageLoadStrategy": "normal", "goog:chromeOptions": {"extensions": [], "args": []}}}}
+D 2023-04-16 18:08:49,981| DEBUG    | [connectionpool.py:connectionpool:_new_conn:227] - Starting new HTTP connection (1): localhost:58788
+D 2023-04-16 18:08:56,265| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:58788 "POST /session HTTP/1.1" 200 868
+D 2023-04-16 18:08:56,273| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-16 18:08:56,292| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:58788/session/c8e76f2e10b0b1ddd9d21e5a9d7b50b4/url {"url": "https://sgzzlb.lingxigames.com/website/"}
+D 2023-04-16 18:08:59,306| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:58788 "POST /session/c8e76f2e10b0b1ddd9d21e5a9d7b50b4/url HTTP/1.1" 200 14
+D 2023-04-16 18:08:59,306| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-16 18:08:59,307| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:58788/session/c8e76f2e10b0b1ddd9d21e5a9d7b50b4/element {"using": "css selector", "value": ".keywords"}
+D 2023-04-16 18:09:00,486| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:58788 "POST /session/c8e76f2e10b0b1ddd9d21e5a9d7b50b4/element HTTP/1.1" 200 88
+D 2023-04-16 18:09:00,487| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-16 18:09:00,487| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:58788/session/c8e76f2e10b0b1ddd9d21e5a9d7b50b4/element/f8a061f6-4c61-4315-a391-c810aadb6b82/clear {"id": "f8a061f6-4c61-4315-a391-c810aadb6b82"}
+D 2023-04-16 18:09:01,141| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:58788 "POST /session/c8e76f2e10b0b1ddd9d21e5a9d7b50b4/element/f8a061f6-4c61-4315-a391-c810aadb6b82/clear HTTP/1.1" 200 14
+D 2023-04-16 18:09:01,141| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-16 18:09:01,141| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:58788/session/c8e76f2e10b0b1ddd9d21e5a9d7b50b4/element/f8a061f6-4c61-4315-a391-c810aadb6b82/value {"text": "\u4e09\u56fd\u5fd7\u6218\u7565\u7248", "value": ["\u4e09", "\u56fd", "\u5fd7", "\u6218", "\u7565", "\u7248"], "id": "f8a061f6-4c61-4315-a391-c810aadb6b82"}
+D 2023-04-16 18:09:02,738| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:58788 "POST /session/c8e76f2e10b0b1ddd9d21e5a9d7b50b4/element/f8a061f6-4c61-4315-a391-c810aadb6b82/value HTTP/1.1" 200 14
+D 2023-04-16 18:09:02,739| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-16 18:09:04,745| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:58788/session/c8e76f2e10b0b1ddd9d21e5a9d7b50b4/element {"using": "css selector", "value": ".keywords"}
+D 2023-04-16 18:09:04,749| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:58788 "POST /session/c8e76f2e10b0b1ddd9d21e5a9d7b50b4/element HTTP/1.1" 200 88
+D 2023-04-16 18:09:04,749| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-16 18:09:04,750| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:58788/session/c8e76f2e10b0b1ddd9d21e5a9d7b50b4/actions {"actions": [{"type": "pointer", "parameters": {"pointerType": "mouse"}, "id": "mouse", "actions": [{"type": "pointerMove", "duration": 250, "x": 0, "y": 0, "origin": {"element-6066-11e4-a52e-4f735466cecf": "f8a061f6-4c61-4315-a391-c810aadb6b82"}}, {"type": "pointerDown", "duration": 0, "button": 0}, {"type": "pointerUp", "duration": 0, "button": 0}, {"type": "pointerDown", "duration": 0, "button": 0}, {"type": "pointerUp", "duration": 0, "button": 0}]}, {"type": "key", "id": "key", "actions": [{"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}]}]}
+D 2023-04-16 18:09:05,331| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:58788 "POST /session/c8e76f2e10b0b1ddd9d21e5a9d7b50b4/actions HTTP/1.1" 200 14
+D 2023-04-16 18:09:05,331| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-16 18:09:07,841| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:58788/session/c8e76f2e10b0b1ddd9d21e5a9d7b50b4/element {"using": "css selector", "value": ".keywords"}
+D 2023-04-16 18:09:07,849| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:58788 "POST /session/c8e76f2e10b0b1ddd9d21e5a9d7b50b4/element HTTP/1.1" 200 88
+D 2023-04-16 18:09:07,849| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-16 18:09:07,850| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:58788/session/c8e76f2e10b0b1ddd9d21e5a9d7b50b4/actions {"actions": [{"type": "pointer", "parameters": {"pointerType": "mouse"}, "id": "mouse", "actions": [{"type": "pointerMove", "duration": 250, "x": 0, "y": 0, "origin": {"element-6066-11e4-a52e-4f735466cecf": "f8a061f6-4c61-4315-a391-c810aadb6b82"}}, {"type": "pointerDown", "duration": 0, "button": 2}, {"type": "pointerUp", "duration": 0, "button": 2}]}, {"type": "key", "id": "key", "actions": [{"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}]}]}
+D 2023-04-16 18:09:08,227| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:58788 "POST /session/c8e76f2e10b0b1ddd9d21e5a9d7b50b4/actions HTTP/1.1" 200 14
+D 2023-04-16 18:09:08,228| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-16 18:09:10,737| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:58788/session/c8e76f2e10b0b1ddd9d21e5a9d7b50b4/element {"using": "css selector", "value": ".keywords"}
+D 2023-04-16 18:09:10,747| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:58788 "POST /session/c8e76f2e10b0b1ddd9d21e5a9d7b50b4/element HTTP/1.1" 200 88
+D 2023-04-16 18:09:10,748| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-16 18:09:10,748| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:58788/session/c8e76f2e10b0b1ddd9d21e5a9d7b50b4/element/f8a061f6-4c61-4315-a391-c810aadb6b82/click {"id": "f8a061f6-4c61-4315-a391-c810aadb6b82"}
+D 2023-04-16 18:09:10,826| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:58788 "POST /session/c8e76f2e10b0b1ddd9d21e5a9d7b50b4/element/f8a061f6-4c61-4315-a391-c810aadb6b82/click HTTP/1.1" 200 14
+D 2023-04-16 18:09:10,827| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-16 18:09:12,829| DEBUG    | [remote_connection.py:remote_connection:_request:303] - DELETE http://localhost:58788/session/c8e76f2e10b0b1ddd9d21e5a9d7b50b4 {}
+D 2023-04-16 18:09:12,887| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:58788 "DELETE /session/c8e76f2e10b0b1ddd9d21e5a9d7b50b4 HTTP/1.1" 200 14
+D 2023-04-16 18:09:12,888| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-16 18:10:14,015| DEBUG    | [service.py:service:_start_process:204] - Started executable: `chromedriver` in a child process with pid: 20752
+D 2023-04-16 18:10:14,533| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:58861/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "pageLoadStrategy": "normal", "goog:chromeOptions": {"extensions": [], "args": []}}}}
+D 2023-04-16 18:10:14,537| DEBUG    | [connectionpool.py:connectionpool:_new_conn:227] - Starting new HTTP connection (1): localhost:58861
+D 2023-04-16 18:10:21,418| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:58861 "POST /session HTTP/1.1" 200 868
+D 2023-04-16 18:10:21,424| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-16 18:10:21,442| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:58861/session/91907eb52793f0e812eb7f317b8e01ab/url {"url": "https://sgzzlb.lingxigames.com/website/"}
+D 2023-04-16 18:10:23,648| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:58861 "POST /session/91907eb52793f0e812eb7f317b8e01ab/url HTTP/1.1" 200 14
+D 2023-04-16 18:10:23,648| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-16 18:10:23,649| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:58861/session/91907eb52793f0e812eb7f317b8e01ab/element {"using": "css selector", "value": ".keywords"}
+D 2023-04-16 18:10:24,969| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:58861 "POST /session/91907eb52793f0e812eb7f317b8e01ab/element HTTP/1.1" 200 88
+D 2023-04-16 18:10:24,970| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-16 18:10:24,970| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:58861/session/91907eb52793f0e812eb7f317b8e01ab/element/067f2f12-3b7f-476e-ae73-b57b3456bebe/clear {"id": "067f2f12-3b7f-476e-ae73-b57b3456bebe"}
+D 2023-04-16 18:10:25,551| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:58861 "POST /session/91907eb52793f0e812eb7f317b8e01ab/element/067f2f12-3b7f-476e-ae73-b57b3456bebe/clear HTTP/1.1" 200 14
+D 2023-04-16 18:10:25,551| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-16 18:10:25,552| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:58861/session/91907eb52793f0e812eb7f317b8e01ab/element/067f2f12-3b7f-476e-ae73-b57b3456bebe/value {"text": "\u4e09\u56fd\u5fd7\u6218\u7565\u7248", "value": ["\u4e09", "\u56fd", "\u5fd7", "\u6218", "\u7565", "\u7248"], "id": "067f2f12-3b7f-476e-ae73-b57b3456bebe"}
+D 2023-04-16 18:10:26,629| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:58861 "POST /session/91907eb52793f0e812eb7f317b8e01ab/element/067f2f12-3b7f-476e-ae73-b57b3456bebe/value HTTP/1.1" 200 14
+D 2023-04-16 18:10:26,630| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-16 18:10:28,635| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:58861/session/91907eb52793f0e812eb7f317b8e01ab/element {"using": "css selector", "value": ".keywords"}
+D 2023-04-16 18:10:29,029| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:58861 "POST /session/91907eb52793f0e812eb7f317b8e01ab/element HTTP/1.1" 200 88
+D 2023-04-16 18:10:29,030| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-16 18:10:29,030| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:58861/session/91907eb52793f0e812eb7f317b8e01ab/element/067f2f12-3b7f-476e-ae73-b57b3456bebe/click {"id": "067f2f12-3b7f-476e-ae73-b57b3456bebe"}
+D 2023-04-16 18:10:29,291| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:58861 "POST /session/91907eb52793f0e812eb7f317b8e01ab/element/067f2f12-3b7f-476e-ae73-b57b3456bebe/click HTTP/1.1" 200 14
+D 2023-04-16 18:10:29,292| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-16 18:10:29,294| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:58861/session/91907eb52793f0e812eb7f317b8e01ab/element {"using": "css selector", "value": ".keywords"}
+D 2023-04-16 18:10:29,360| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:58861 "POST /session/91907eb52793f0e812eb7f317b8e01ab/element HTTP/1.1" 200 88
+D 2023-04-16 18:10:29,361| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-16 18:10:29,361| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:58861/session/91907eb52793f0e812eb7f317b8e01ab/actions {"actions": [{"type": "pointer", "parameters": {"pointerType": "mouse"}, "id": "mouse", "actions": [{"type": "pointerMove", "duration": 250, "x": 0, "y": 0, "origin": {"element-6066-11e4-a52e-4f735466cecf": "067f2f12-3b7f-476e-ae73-b57b3456bebe"}}, {"type": "pointerDown", "duration": 0, "button": 0}, {"type": "pointerUp", "duration": 0, "button": 0}, {"type": "pointerDown", "duration": 0, "button": 0}, {"type": "pointerUp", "duration": 0, "button": 0}]}, {"type": "key", "id": "key", "actions": [{"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}]}]}
+D 2023-04-16 18:10:29,731| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:58861 "POST /session/91907eb52793f0e812eb7f317b8e01ab/actions HTTP/1.1" 200 14
+D 2023-04-16 18:10:29,731| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-16 18:10:32,238| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:58861/session/91907eb52793f0e812eb7f317b8e01ab/element {"using": "css selector", "value": ".keywords"}
+D 2023-04-16 18:10:32,243| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:58861 "POST /session/91907eb52793f0e812eb7f317b8e01ab/element HTTP/1.1" 200 88
+D 2023-04-16 18:10:32,243| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-16 18:10:32,244| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:58861/session/91907eb52793f0e812eb7f317b8e01ab/actions {"actions": [{"type": "pointer", "parameters": {"pointerType": "mouse"}, "id": "mouse", "actions": [{"type": "pointerMove", "duration": 250, "x": 0, "y": 0, "origin": {"element-6066-11e4-a52e-4f735466cecf": "067f2f12-3b7f-476e-ae73-b57b3456bebe"}}, {"type": "pointerDown", "duration": 0, "button": 2}, {"type": "pointerUp", "duration": 0, "button": 2}]}, {"type": "key", "id": "key", "actions": [{"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}, {"type": "pause", "duration": 0}]}]}
+D 2023-04-16 18:10:32,665| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:58861 "POST /session/91907eb52793f0e812eb7f317b8e01ab/actions HTTP/1.1" 200 14
+D 2023-04-16 18:10:32,666| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-16 18:10:35,175| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:58861/session/91907eb52793f0e812eb7f317b8e01ab/element {"using": "css selector", "value": ".keywords"}
+D 2023-04-16 18:10:35,184| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:58861 "POST /session/91907eb52793f0e812eb7f317b8e01ab/element HTTP/1.1" 200 88
+D 2023-04-16 18:10:35,184| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-16 18:10:35,185| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:58861/session/91907eb52793f0e812eb7f317b8e01ab/element/067f2f12-3b7f-476e-ae73-b57b3456bebe/click {"id": "067f2f12-3b7f-476e-ae73-b57b3456bebe"}
+D 2023-04-16 18:10:35,231| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:58861 "POST /session/91907eb52793f0e812eb7f317b8e01ab/element/067f2f12-3b7f-476e-ae73-b57b3456bebe/click HTTP/1.1" 200 14
+D 2023-04-16 18:10:35,232| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-16 18:10:37,237| DEBUG    | [remote_connection.py:remote_connection:_request:303] - DELETE http://localhost:58861/session/91907eb52793f0e812eb7f317b8e01ab {}
+D 2023-04-16 18:10:37,296| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:58861 "DELETE /session/91907eb52793f0e812eb7f317b8e01ab HTTP/1.1" 200 14
+D 2023-04-16 18:10:37,297| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-16 20:15:15,832| DEBUG    | [service.py:service:_start_process:204] - Started executable: `chromedriver` in a child process with pid: 22416
+D 2023-04-16 20:15:16,350| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:61163/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "pageLoadStrategy": "normal", "goog:chromeOptions": {"extensions": [], "args": []}}}}
+D 2023-04-16 20:15:16,352| DEBUG    | [connectionpool.py:connectionpool:_new_conn:227] - Starting new HTTP connection (1): localhost:61163
+D 2023-04-16 20:15:23,220| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:61163 "POST /session HTTP/1.1" 200 868
+D 2023-04-16 20:15:23,221| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-16 20:15:23,238| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:61163/session/07bb810a69b5ceb62bce787a056abe8b/url {"url": "https://sgzzlb.lingxigames.com/website/"}
+D 2023-04-16 20:15:25,826| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:61163 "POST /session/07bb810a69b5ceb62bce787a056abe8b/url HTTP/1.1" 200 14
+D 2023-04-16 20:15:25,826| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-16 20:15:25,828| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:61163/session/07bb810a69b5ceb62bce787a056abe8b/element {"using": "css selector", "value": ".keywords"}
+D 2023-04-16 20:15:26,908| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:61163 "POST /session/07bb810a69b5ceb62bce787a056abe8b/element HTTP/1.1" 200 88
+D 2023-04-16 20:15:26,908| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-16 20:15:26,908| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:61163/session/07bb810a69b5ceb62bce787a056abe8b/element/ac32a2e7-b0b6-4347-8062-c08d44ddf5b6/clear {"id": "ac32a2e7-b0b6-4347-8062-c08d44ddf5b6"}
+D 2023-04-16 20:15:27,536| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:61163 "POST /session/07bb810a69b5ceb62bce787a056abe8b/element/ac32a2e7-b0b6-4347-8062-c08d44ddf5b6/clear HTTP/1.1" 200 14
+D 2023-04-16 20:15:27,537| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-16 20:15:27,537| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:61163/session/07bb810a69b5ceb62bce787a056abe8b/element/ac32a2e7-b0b6-4347-8062-c08d44ddf5b6/value {"text": "\u4e09\u56fd\u5fd7\u6218\u7565\u7248", "value": ["\u4e09", "\u56fd", "\u5fd7", "\u6218", "\u7565", "\u7248"], "id": "ac32a2e7-b0b6-4347-8062-c08d44ddf5b6"}
+D 2023-04-16 20:15:28,929| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:61163 "POST /session/07bb810a69b5ceb62bce787a056abe8b/element/ac32a2e7-b0b6-4347-8062-c08d44ddf5b6/value HTTP/1.1" 200 14
+D 2023-04-16 20:15:28,930| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-16 20:15:30,932| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:61163/session/07bb810a69b5ceb62bce787a056abe8b/element {"using": "css selector", "value": ".keywords"}
+D 2023-04-16 20:15:30,990| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:61163 "POST /session/07bb810a69b5ceb62bce787a056abe8b/element HTTP/1.1" 200 88
+D 2023-04-16 20:15:30,990| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-16 20:15:30,990| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:61163/session/07bb810a69b5ceb62bce787a056abe8b/element/ac32a2e7-b0b6-4347-8062-c08d44ddf5b6/value {"text": "\ue007", "value": ["\ue007"], "id": "ac32a2e7-b0b6-4347-8062-c08d44ddf5b6"}
+D 2023-04-16 20:15:33,252| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:61163 "POST /session/07bb810a69b5ceb62bce787a056abe8b/element/ac32a2e7-b0b6-4347-8062-c08d44ddf5b6/value HTTP/1.1" 200 14
+D 2023-04-16 20:15:33,253| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+E 2023-04-16 20:15:33,253| ERROR    | [base.py:base:base_send_keys:157] - 组合键类型错误，请重新输入
+D 2023-04-16 20:15:35,259| DEBUG    | [remote_connection.py:remote_connection:_request:303] - DELETE http://localhost:61163/session/07bb810a69b5ceb62bce787a056abe8b {}
+D 2023-04-16 20:15:35,320| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:61163 "DELETE /session/07bb810a69b5ceb62bce787a056abe8b HTTP/1.1" 200 14
+D 2023-04-16 20:15:35,320| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-16 20:20:08,155| DEBUG    | [service.py:service:_start_process:204] - Started executable: `chromedriver` in a child process with pid: 22538
+D 2023-04-16 20:20:08,669| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:61334/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "pageLoadStrategy": "normal", "goog:chromeOptions": {"extensions": [], "args": []}}}}
+D 2023-04-16 20:20:08,670| DEBUG    | [connectionpool.py:connectionpool:_new_conn:227] - Starting new HTTP connection (1): localhost:61334
+D 2023-04-16 20:20:16,411| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:61334 "POST /session HTTP/1.1" 200 868
+D 2023-04-16 20:20:16,411| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-16 20:20:16,412| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:61334/session/c818a3056bc462f67eb1226347bff065/url {"url": "https://sgzzlb.lingxigames.com/website/"}
+D 2023-04-16 20:20:19,140| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:61334 "POST /session/c818a3056bc462f67eb1226347bff065/url HTTP/1.1" 200 14
+D 2023-04-16 20:20:19,141| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-16 20:20:19,142| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:61334/session/c818a3056bc462f67eb1226347bff065/element {"using": "css selector", "value": ".keywords"}
+D 2023-04-16 20:20:20,156| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:61334 "POST /session/c818a3056bc462f67eb1226347bff065/element HTTP/1.1" 200 88
+D 2023-04-16 20:20:20,157| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-16 20:20:20,157| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:61334/session/c818a3056bc462f67eb1226347bff065/element/3f4b8f97-af3c-4d95-9881-8a3b9426a9ef/clear {"id": "3f4b8f97-af3c-4d95-9881-8a3b9426a9ef"}
+D 2023-04-16 20:20:20,868| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:61334 "POST /session/c818a3056bc462f67eb1226347bff065/element/3f4b8f97-af3c-4d95-9881-8a3b9426a9ef/clear HTTP/1.1" 200 14
+D 2023-04-16 20:20:20,868| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-16 20:20:20,868| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:61334/session/c818a3056bc462f67eb1226347bff065/element/3f4b8f97-af3c-4d95-9881-8a3b9426a9ef/value {"text": "\u4e09\u56fd\u5fd7\u6218\u7565\u7248", "value": ["\u4e09", "\u56fd", "\u5fd7", "\u6218", "\u7565", "\u7248"], "id": "3f4b8f97-af3c-4d95-9881-8a3b9426a9ef"}
+D 2023-04-16 20:20:22,541| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:61334 "POST /session/c818a3056bc462f67eb1226347bff065/element/3f4b8f97-af3c-4d95-9881-8a3b9426a9ef/value HTTP/1.1" 200 14
+D 2023-04-16 20:20:22,541| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-16 20:20:24,546| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:61334/session/c818a3056bc462f67eb1226347bff065/element {"using": "css selector", "value": ".keywords"}
+D 2023-04-16 20:20:24,550| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:61334 "POST /session/c818a3056bc462f67eb1226347bff065/element HTTP/1.1" 200 88
+D 2023-04-16 20:20:24,551| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-16 20:20:24,551| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:61334/session/c818a3056bc462f67eb1226347bff065/element/3f4b8f97-af3c-4d95-9881-8a3b9426a9ef/value {"text": "\ue007", "value": ["\ue007"], "id": "3f4b8f97-af3c-4d95-9881-8a3b9426a9ef"}
+D 2023-04-16 20:20:25,735| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:61334 "POST /session/c818a3056bc462f67eb1226347bff065/element/3f4b8f97-af3c-4d95-9881-8a3b9426a9ef/value HTTP/1.1" 200 14
+D 2023-04-16 20:20:25,736| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+E 2023-04-16 20:20:25,736| ERROR    | [base.py:base:base_send_keys:157] - 组合键类型错误，请重新输入
+D 2023-04-16 20:20:27,742| DEBUG    | [remote_connection.py:remote_connection:_request:303] - DELETE http://localhost:61334/session/c818a3056bc462f67eb1226347bff065 {}
+D 2023-04-16 20:20:27,807| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:61334 "DELETE /session/c818a3056bc462f67eb1226347bff065 HTTP/1.1" 200 14
+D 2023-04-16 20:20:27,808| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-16 20:21:39,450| DEBUG    | [service.py:service:_start_process:204] - Started executable: `chromedriver` in a child process with pid: 22604
+D 2023-04-16 20:21:39,969| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:61421/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "pageLoadStrategy": "normal", "goog:chromeOptions": {"extensions": [], "args": []}}}}
+D 2023-04-16 20:21:39,973| DEBUG    | [connectionpool.py:connectionpool:_new_conn:227] - Starting new HTTP connection (1): localhost:61421
+D 2023-04-16 20:21:46,602| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:61421 "POST /session HTTP/1.1" 200 868
+D 2023-04-16 20:21:46,608| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-16 20:21:46,625| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:61421/session/e85f31c86c2f6164647d371e6d2e8a34/url {"url": "https://sgzzlb.lingxigames.com/website/"}
+D 2023-04-16 20:21:49,400| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:61421 "POST /session/e85f31c86c2f6164647d371e6d2e8a34/url HTTP/1.1" 200 14
+D 2023-04-16 20:21:49,400| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-16 20:21:49,401| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:61421/session/e85f31c86c2f6164647d371e6d2e8a34/element {"using": "css selector", "value": ".keywords"}
+D 2023-04-16 20:21:50,685| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:61421 "POST /session/e85f31c86c2f6164647d371e6d2e8a34/element HTTP/1.1" 200 88
+D 2023-04-16 20:21:50,685| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-16 20:21:50,685| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:61421/session/e85f31c86c2f6164647d371e6d2e8a34/element/eeb0182e-ca55-45f5-b66a-1b5716b43890/clear {"id": "eeb0182e-ca55-45f5-b66a-1b5716b43890"}
+D 2023-04-16 20:21:51,706| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:61421 "POST /session/e85f31c86c2f6164647d371e6d2e8a34/element/eeb0182e-ca55-45f5-b66a-1b5716b43890/clear HTTP/1.1" 200 14
+D 2023-04-16 20:21:51,706| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-16 20:21:51,706| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:61421/session/e85f31c86c2f6164647d371e6d2e8a34/element/eeb0182e-ca55-45f5-b66a-1b5716b43890/value {"text": "\u4e09\u56fd\u5fd7\u6218\u7565\u7248", "value": ["\u4e09", "\u56fd", "\u5fd7", "\u6218", "\u7565", "\u7248"], "id": "eeb0182e-ca55-45f5-b66a-1b5716b43890"}
+D 2023-04-16 20:21:53,341| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:61421 "POST /session/e85f31c86c2f6164647d371e6d2e8a34/element/eeb0182e-ca55-45f5-b66a-1b5716b43890/value HTTP/1.1" 200 14
+D 2023-04-16 20:21:53,348| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-16 20:21:55,353| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:61421/session/e85f31c86c2f6164647d371e6d2e8a34/element {"using": "css selector", "value": ".keywords"}
+D 2023-04-16 20:21:55,358| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:61421 "POST /session/e85f31c86c2f6164647d371e6d2e8a34/element HTTP/1.1" 200 88
+D 2023-04-16 20:21:55,358| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-16 20:21:55,358| DEBUG    | [base.py:base:base_send_keys:149] - 执行成功
+D 2023-04-16 20:21:55,358| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:61421/session/e85f31c86c2f6164647d371e6d2e8a34/element/eeb0182e-ca55-45f5-b66a-1b5716b43890/value {"text": "\ue007", "value": ["\ue007"], "id": "eeb0182e-ca55-45f5-b66a-1b5716b43890"}
+D 2023-04-16 20:21:56,861| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:61421 "POST /session/e85f31c86c2f6164647d371e6d2e8a34/element/eeb0182e-ca55-45f5-b66a-1b5716b43890/value HTTP/1.1" 200 14
+D 2023-04-16 20:21:56,861| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+E 2023-04-16 20:21:56,862| ERROR    | [base.py:base:base_send_keys:158] - 组合键类型错误，请重新输入
+D 2023-04-16 20:21:58,867| DEBUG    | [remote_connection.py:remote_connection:_request:303] - DELETE http://localhost:61421/session/e85f31c86c2f6164647d371e6d2e8a34 {}
+D 2023-04-16 20:21:58,920| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:61421 "DELETE /session/e85f31c86c2f6164647d371e6d2e8a34 HTTP/1.1" 200 14
+D 2023-04-16 20:21:58,921| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-16 20:42:12,148| DEBUG    | [service.py:service:_start_process:204] - Started executable: `chromedriver` in a child process with pid: 22993
+D 2023-04-16 20:42:12,663| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:62017/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "pageLoadStrategy": "normal", "goog:chromeOptions": {"extensions": [], "args": []}}}}
+D 2023-04-16 20:42:12,666| DEBUG    | [connectionpool.py:connectionpool:_new_conn:227] - Starting new HTTP connection (1): localhost:62017
+D 2023-04-16 20:42:19,697| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:62017 "POST /session HTTP/1.1" 200 868
+D 2023-04-16 20:42:19,713| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-16 20:42:19,713| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:62017/session/6adcfcaa56d3ed616c98b964ebd817b6/url {"url": "https://sgzzlb.lingxigames.com/website/"}
+D 2023-04-16 20:42:22,243| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:62017 "POST /session/6adcfcaa56d3ed616c98b964ebd817b6/url HTTP/1.1" 200 14
+D 2023-04-16 20:42:22,244| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-16 20:42:22,245| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:62017/session/6adcfcaa56d3ed616c98b964ebd817b6/element {"using": "css selector", "value": ".keywords"}
+D 2023-04-16 20:42:23,297| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:62017 "POST /session/6adcfcaa56d3ed616c98b964ebd817b6/element HTTP/1.1" 200 88
+D 2023-04-16 20:42:23,297| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-16 20:42:23,297| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:62017/session/6adcfcaa56d3ed616c98b964ebd817b6/element/344cc9be-b4a7-46bc-b6a8-8f4d7082d55c/clear {"id": "344cc9be-b4a7-46bc-b6a8-8f4d7082d55c"}
+D 2023-04-16 20:42:23,956| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:62017 "POST /session/6adcfcaa56d3ed616c98b964ebd817b6/element/344cc9be-b4a7-46bc-b6a8-8f4d7082d55c/clear HTTP/1.1" 200 14
+D 2023-04-16 20:42:23,956| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-16 20:42:23,956| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:62017/session/6adcfcaa56d3ed616c98b964ebd817b6/element/344cc9be-b4a7-46bc-b6a8-8f4d7082d55c/value {"text": "\u4e09\u56fd\u5fd7\u6218\u7565\u7248", "value": ["\u4e09", "\u56fd", "\u5fd7", "\u6218", "\u7565", "\u7248"], "id": "344cc9be-b4a7-46bc-b6a8-8f4d7082d55c"}
+D 2023-04-16 20:42:25,471| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:62017 "POST /session/6adcfcaa56d3ed616c98b964ebd817b6/element/344cc9be-b4a7-46bc-b6a8-8f4d7082d55c/value HTTP/1.1" 200 14
+D 2023-04-16 20:42:25,472| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-16 20:42:27,474| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:62017/session/6adcfcaa56d3ed616c98b964ebd817b6/element {"using": "css selector", "value": ".keywords"}
+D 2023-04-16 20:42:27,522| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:62017 "POST /session/6adcfcaa56d3ed616c98b964ebd817b6/element HTTP/1.1" 200 88
+D 2023-04-16 20:42:27,522| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-16 20:42:27,522| DEBUG    | [base.py:base:base_send_keys:149] - 执行成功
+D 2023-04-16 20:42:27,522| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:62017/session/6adcfcaa56d3ed616c98b964ebd817b6/element/344cc9be-b4a7-46bc-b6a8-8f4d7082d55c/value {"text": "\ue007", "value": ["\ue007"], "id": "344cc9be-b4a7-46bc-b6a8-8f4d7082d55c"}
+D 2023-04-16 20:42:30,186| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:62017 "POST /session/6adcfcaa56d3ed616c98b964ebd817b6/element/344cc9be-b4a7-46bc-b6a8-8f4d7082d55c/value HTTP/1.1" 200 14
+D 2023-04-16 20:42:30,187| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-16 20:42:32,193| DEBUG    | [remote_connection.py:remote_connection:_request:303] - DELETE http://localhost:62017/session/6adcfcaa56d3ed616c98b964ebd817b6 {}
+D 2023-04-16 20:42:32,250| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:62017 "DELETE /session/6adcfcaa56d3ed616c98b964ebd817b6 HTTP/1.1" 200 14
+D 2023-04-16 20:42:32,251| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-16 20:44:23,010| DEBUG    | [service.py:service:_start_process:204] - Started executable: `chromedriver` in a child process with pid: 23101
+D 2023-04-16 20:44:23,524| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:62119/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "pageLoadStrategy": "normal", "goog:chromeOptions": {"extensions": [], "args": []}}}}
+D 2023-04-16 20:44:23,526| DEBUG    | [connectionpool.py:connectionpool:_new_conn:227] - Starting new HTTP connection (1): localhost:62119
+D 2023-04-16 20:44:31,000| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:62119 "POST /session HTTP/1.1" 200 868
+D 2023-04-16 20:44:31,004| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-16 20:44:31,057| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:62119/session/f1581696d4f6b8ee30ace60d9dea2fa8/url {"url": "https://sgzzlb.lingxigames.com/website/"}
+D 2023-04-16 20:44:34,056| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:62119 "POST /session/f1581696d4f6b8ee30ace60d9dea2fa8/url HTTP/1.1" 200 14
+D 2023-04-16 20:44:34,057| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-16 20:44:34,058| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:62119/session/f1581696d4f6b8ee30ace60d9dea2fa8/element {"using": "css selector", "value": ".keywords"}
+D 2023-04-16 20:44:35,135| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:62119 "POST /session/f1581696d4f6b8ee30ace60d9dea2fa8/element HTTP/1.1" 200 88
+D 2023-04-16 20:44:35,136| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-16 20:44:35,136| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:62119/session/f1581696d4f6b8ee30ace60d9dea2fa8/element/67fb6890-6303-44d7-87b6-a7599b882329/clear {"id": "67fb6890-6303-44d7-87b6-a7599b882329"}
+D 2023-04-16 20:44:35,952| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:62119 "POST /session/f1581696d4f6b8ee30ace60d9dea2fa8/element/67fb6890-6303-44d7-87b6-a7599b882329/clear HTTP/1.1" 200 14
+D 2023-04-16 20:44:35,953| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-16 20:44:35,953| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:62119/session/f1581696d4f6b8ee30ace60d9dea2fa8/element/67fb6890-6303-44d7-87b6-a7599b882329/value {"text": "\u4e09\u56fd\u5fd7\u6218\u7565\u7248", "value": ["\u4e09", "\u56fd", "\u5fd7", "\u6218", "\u7565", "\u7248"], "id": "67fb6890-6303-44d7-87b6-a7599b882329"}
+D 2023-04-16 20:44:37,083| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:62119 "POST /session/f1581696d4f6b8ee30ace60d9dea2fa8/element/67fb6890-6303-44d7-87b6-a7599b882329/value HTTP/1.1" 200 14
+D 2023-04-16 20:44:37,084| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-16 20:44:39,086| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:62119/session/f1581696d4f6b8ee30ace60d9dea2fa8/element {"using": "css selector", "value": ".keywords"}
+D 2023-04-16 20:44:39,438| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:62119 "POST /session/f1581696d4f6b8ee30ace60d9dea2fa8/element HTTP/1.1" 200 88
+D 2023-04-16 20:44:39,439| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+E 2023-04-16 20:44:39,439| ERROR    | [base.py:base:base_send_keys:158] - 组合键类型错误，请重新输入
+D 2023-04-16 20:44:41,444| DEBUG    | [remote_connection.py:remote_connection:_request:303] - DELETE http://localhost:62119/session/f1581696d4f6b8ee30ace60d9dea2fa8 {}
+D 2023-04-16 20:44:41,502| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:62119 "DELETE /session/f1581696d4f6b8ee30ace60d9dea2fa8 HTTP/1.1" 200 14
+D 2023-04-16 20:44:41,503| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request

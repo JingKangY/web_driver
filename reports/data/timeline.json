@@ -1,0 +1,25 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "B-22GNQ05P-1821.local",
+    "children" : [ {
+      "name" : "79869-MainThread",
+      "children" : [ {
+        "name" : "test_login",
+        "uid" : "8791afdddf579ff5",
+        "parentUid" : "4ecbf430d93a7ffc3a419bc70c38bff9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1681048873312,
+          "stop" : 1681048890870,
+          "duration" : 17558
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4ecbf430d93a7ffc3a419bc70c38bff9"
+    } ],
+    "uid" : "b2b2546d5aa4c3f2ef5095f1166eab94"
+  } ],
+  "name" : "timeline"
+}

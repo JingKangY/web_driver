@@ -1,0 +1,29 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "测试",
+    "children" : [ {
+      "name" : "测试",
+      "children" : [ {
+        "name" : "测试",
+        "children" : [ {
+          "name" : "test_login",
+          "uid" : "31fffe385a09d293",
+          "parentUid" : "50486104d1e167984dd07046b0c528ab",
+          "status" : "failed",
+          "time" : {
+            "start" : 1681725953551,
+            "stop" : 1681725966261,
+            "duration" : 12710
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "50486104d1e167984dd07046b0c528ab"
+      } ],
+      "uid" : "de5842361241dcac676a6e6792af49dd"
+    } ],
+    "uid" : "88c449542cebe03afaa3970b050af4a2"
+  } ],
+  "name" : "behaviors"
+}

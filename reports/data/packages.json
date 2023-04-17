@@ -1,0 +1,21 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "testcase.test_login_lingxigames",
+    "children" : [ {
+      "name" : "test_login",
+      "uid" : "8791afdddf579ff5",
+      "parentUid" : "fdd3f0e9bbd945f57a52a191f389b129",
+      "status" : "passed",
+      "time" : {
+        "start" : 1681048873312,
+        "stop" : 1681048890870,
+        "duration" : 17558
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "testcase.test_login_lingxigames"
+  } ],
+  "name" : "packages"
+}

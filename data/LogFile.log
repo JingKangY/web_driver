@@ -1,0 +1,9 @@
+I 2023-04-16 14:21:46,750| INFO     | [del_image_file.py:del_image_file:del_image_file:27] - 初始化../image1文件夹成功
+I 2023-04-16 14:24:30,549| INFO     | [del_image_file.py:del_image_file:del_image_file:28] - 初始化../image1文件夹成功
+I 2023-04-16 14:25:53,971| INFO     | [del_image_file.py:del_image_file:del_image_file:30] - 初始化../image1文件夹成功
+E 2023-04-16 14:30:13,993| ERROR    | [del_image_file.py:del_image_file:del_image_file:32] - 文件夹{dir_path}不存在，请重新输入
+E 2023-04-16 14:30:24,079| ERROR    | [del_image_file.py:del_image_file:del_image_file:32] - 文件夹../image1不存在，请重新输入
+I 2023-04-16 14:30:33,036| INFO     | [del_image_file.py:del_image_file:del_image_file:30] - 初始化../image2文件夹成功
+I 2023-04-16 14:38:48,128| INFO     | [get_filepath.py:get_filepath:get_all_image_path:75] - /Users/yangjingkang/PycharmProjects/web_driver/image/LogFile.log
+I 2023-04-16 14:38:48,129| INFO     | [del_image_file.py:del_image_file:del_image_file:31] - 初始化/Users/yangjingkang/PycharmProjects/web_driver/image/LogFile.log文件夹成功
+I 2023-04-16 14:39:41,649| INFO     | [del_image_file.py:del_image_file:del_image_file:31] - 初始化/Users/yangjingkang/PycharmProjects/web_driver/image2/文件夹成功
