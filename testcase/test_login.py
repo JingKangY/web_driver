@@ -56,12 +56,6 @@ class TestLogin:
         base.base_move_to_element(wx_gzh)
         print(base.base_get_element_text(wx_gzh))
         WebUIAssert.assert_text(get_quit_driver, "微信公众号", base.base_get_element_text(wx_gzh))
-        # allure.attach.file((GetFilePath().get_all_image_path(r'image/')),
-        #                    attachment_type=allure.attachment_type.PNG, name='错误截图')
-        # allure.attach(body='测试测试', name='测试附件名字', attachment_type=allure.attachment_type.TEXT)
 
-        # base.base_move_to_element(wb_icon)
-        # WebUIAssert.asserts(True, base.base_element_if_selected(wb_icon))
-        # base.base_move_to_element(qq_icon)
 
 
