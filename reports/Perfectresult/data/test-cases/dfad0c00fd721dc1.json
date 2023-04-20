@@ -1,0 +1,445 @@
+{
+  "uid" : "dfad0c00fd721dc1",
+  "name" : "test_login",
+  "fullName" : "testcase.test_login.TestLogin#test_login",
+  "historyId" : "c95a03351e5dd3a8b91d1dc15926164c",
+  "time" : {
+    "start" : 1681960624771,
+    "stop" : 1681960638123,
+    "duration" : 13352
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError",
+  "statusTrace" : "self = <test_login.TestLogin object at 0x7fabc8297670>\nget_quit_driver = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"6c24d64af971e44ffe486910f7de36e6\")>\ndel_image_png = None\n\n    @allure.story('测试')  # story：allure报告的三级目录\n    # 缺陷等级 blocker：中断缺陷 critical:临界缺陷 normal：普通缺陷 minor：次要缺陷 trivial：轻微的缺陷\n    @allure.severity(allure.severity_level.NORMAL)\n    # @pytest.mark.usefixtures('connect_db')  # 另一种调用方式 级别为class\n    #  用例描述2, 接口路径5, 请求方法6, 请求类型7, 参数9,步骤11， 预期结果code12,预期结果msg13,预期结果message14,\n    def test_login(self, get_quit_driver,del_image_png):\n        # title, desc, url, method, request_type, args, request_head, step, expect_code, expect_mes, expect_total_count = case_info\n    \n        base = Base(get_quit_driver)\n        base.base_input(sousuoshurukuang, \"三国志战略版\")\n        base.base_send_keys_control(sousuoshurukuang, 'a')\n        sleep(2)\n        base.base_send_keys_control(sousuoshurukuang, 'c')\n        base.base_delete(sousuoshurukuang)\n        base.base_send_keys_control(sousuoshurukuang, 'v')\n        sleep(2)\n        base.base_click(dianjisoiusuo)\n    \n        WebUIAssert.asserts_url(\n            \"https://sgzzlb.lingxigames.com/news/search/?keyword=%E4%B8%89%E5%9B%BD%E5%BF%97%E6%88%98%E7%95%A5%E7%89%88\",\n            base.base_get_current_url())\n        base.base_move_to_element(wx_icon)\n        base.base_move_to_element(wx_gzh)\n        print(base.base_get_element_text(wx_gzh))\n>       WebUIAssert.assert_text(get_quit_driver, \"微信公众号\", base.base_get_element_text(wx_gzh))\n\n../testcase/test_login.py:58: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n../common/asserts.py:48: in assert_text\n    raise e\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <common.asserts.WebUIAssert object at 0x7fabc82971f0>\ndriver = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"6c24d64af971e44ffe486910f7de36e6\")>\nexpect_code = '微信公众号', actual_code = ''\n\n    @allure.step(\"step：响应状态码结果断言\")\n    def assert_text(self, driver,expect_code, actual_code):\n        try:\n            log.debug(f'URL实际结果为：{actual_code}')\n            log.debug(f'URL预期结果为：{expect_code}')\n>           assert str(actual_code) == str(expect_code)  # 成立返回TURE，失败返回FALSE\nE           AssertionError\n\n../common/asserts.py:38: AssertionError",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1681960601767,
+      "stop" : 1681960601809,
+      "duration" : 42
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1681960601767,
+      "stop" : 1681960601767,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "del_image_png",
+    "time" : {
+      "start" : 1681960624768,
+      "stop" : 1681960624769,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "get_quit_driver",
+    "time" : {
+      "start" : 1681960601809,
+      "stop" : 1681960624768,
+      "duration" : 22959
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "前置获取driver",
+      "time" : {
+        "start" : 1681960601809,
+        "stop" : 1681960624767,
+        "duration" : 22958
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "url",
+        "value" : "'https://sgzzlb.lingxigames.com/website/'"
+      }, {
+        "name" : "browser",
+        "value" : "'Chrome'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1681960601767,
+      "stop" : 1681960601767,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError",
+    "statusTrace" : "self = <test_login.TestLogin object at 0x7fabc8297670>\nget_quit_driver = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"6c24d64af971e44ffe486910f7de36e6\")>\ndel_image_png = None\n\n    @allure.story('测试')  # story：allure报告的三级目录\n    # 缺陷等级 blocker：中断缺陷 critical:临界缺陷 normal：普通缺陷 minor：次要缺陷 trivial：轻微的缺陷\n    @allure.severity(allure.severity_level.NORMAL)\n    # @pytest.mark.usefixtures('connect_db')  # 另一种调用方式 级别为class\n    #  用例描述2, 接口路径5, 请求方法6, 请求类型7, 参数9,步骤11， 预期结果code12,预期结果msg13,预期结果message14,\n    def test_login(self, get_quit_driver,del_image_png):\n        # title, desc, url, method, request_type, args, request_head, step, expect_code, expect_mes, expect_total_count = case_info\n    \n        base = Base(get_quit_driver)\n        base.base_input(sousuoshurukuang, \"三国志战略版\")\n        base.base_send_keys_control(sousuoshurukuang, 'a')\n        sleep(2)\n        base.base_send_keys_control(sousuoshurukuang, 'c')\n        base.base_delete(sousuoshurukuang)\n        base.base_send_keys_control(sousuoshurukuang, 'v')\n        sleep(2)\n        base.base_click(dianjisoiusuo)\n    \n        WebUIAssert.asserts_url(\n            \"https://sgzzlb.lingxigames.com/news/search/?keyword=%E4%B8%89%E5%9B%BD%E5%BF%97%E6%88%98%E7%95%A5%E7%89%88\",\n            base.base_get_current_url())\n        base.base_move_to_element(wx_icon)\n        base.base_move_to_element(wx_gzh)\n        print(base.base_get_element_text(wx_gzh))\n>       WebUIAssert.assert_text(get_quit_driver, \"微信公众号\", base.base_get_element_text(wx_gzh))\n\n../testcase/test_login.py:58: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n../common/asserts.py:48: in assert_text\n    raise e\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <common.asserts.WebUIAssert object at 0x7fabc82971f0>\ndriver = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"6c24d64af971e44ffe486910f7de36e6\")>\nexpect_code = '微信公众号', actual_code = ''\n\n    @allure.step(\"step：响应状态码结果断言\")\n    def assert_text(self, driver,expect_code, actual_code):\n        try:\n            log.debug(f'URL实际结果为：{actual_code}')\n            log.debug(f'URL预期结果为：{expect_code}')\n>           assert str(actual_code) == str(expect_code)  # 成立返回TURE，失败返回FALSE\nE           AssertionError\n\n../common/asserts.py:38: AssertionError",
+    "steps" : [ {
+      "name" : "输入相关参数",
+      "time" : {
+        "start" : 1681960624771,
+        "stop" : 1681960629565,
+        "duration" : 4794
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "loc",
+        "value" : "('class name', 'keywords')"
+      }, {
+        "name" : "value",
+        "value" : "'三国志战略版'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "键盘control 组合键key值输入",
+      "time" : {
+        "start" : 1681960629565,
+        "stop" : 1681960630587,
+        "duration" : 1022
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "loc",
+        "value" : "('class name', 'keywords')"
+      }, {
+        "name" : "key",
+        "value" : "'a'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "键盘control 组合键key值输入",
+      "time" : {
+        "start" : 1681960632593,
+        "stop" : 1681960632632,
+        "duration" : 39
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "loc",
+        "value" : "('class name', 'keywords')"
+      }, {
+        "name" : "key",
+        "value" : "'c'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "删除输入框内容",
+      "time" : {
+        "start" : 1681960632633,
+        "stop" : 1681960632666,
+        "duration" : 33
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "loc",
+        "value" : "('class name', 'keywords')"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "键盘control 组合键key值输入",
+      "time" : {
+        "start" : 1681960632666,
+        "stop" : 1681960632722,
+        "duration" : 56
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "loc",
+        "value" : "('class name', 'keywords')"
+      }, {
+        "name" : "key",
+        "value" : "'v'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "点击",
+      "time" : {
+        "start" : 1681960634727,
+        "stop" : 1681960635896,
+        "duration" : 1169
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "loc",
+        "value" : "('xpath', \"//a[contains(text(),'点击搜索')]\")"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "获取当前页面的URL",
+      "time" : {
+        "start" : 1681960635896,
+        "stop" : 1681960635900,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "step：断言页面URL是否一致",
+      "time" : {
+        "start" : 1681960635900,
+        "stop" : 1681960635904,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "expect",
+        "value" : "'https://sgzzlb.lingxigames.com/news/search/?keyword=%E4%B8%89%E5%9B%BD%E5%BF%97%E6%88%98%E7%95%A5%E7%89%88'"
+      }, {
+        "name" : "res_actual",
+        "value" : "'https://sgzzlb.lingxigames.com/news/search/?keyword=%E4%B8%89%E5%9B%BD%E5%BF%97%E6%88%98%E7%95%A5%E7%89%88'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "悬停指定元素位置",
+      "time" : {
+        "start" : 1681960635904,
+        "stop" : 1681960636713,
+        "duration" : 809
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "loc",
+        "value" : "('class name', 'icon-wx')"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "悬停指定元素位置",
+      "time" : {
+        "start" : 1681960636714,
+        "stop" : 1681960637508,
+        "duration" : 794
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "loc",
+        "value" : "('xpath', \"//h4[contains(text(),'微信公众号')]\")"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "step：响应状态码结果断言",
+      "time" : {
+        "start" : 1681960637574,
+        "stop" : 1681960638120,
+        "duration" : 546
+      },
+      "status" : "failed",
+      "statusMessage" : "AssertionError\n",
+      "statusTrace" : "  File \"/Users/yangjingkang/python3.9/lib/python3.9/site-packages/allure_commons/_allure.py\", line 172, in impl\n    return func(*a, **kw)\n  File \"/Users/yangjingkang/PycharmProjects/web_driver/common/asserts.py\", line 48, in assert_text\n    raise e\n  File \"/Users/yangjingkang/PycharmProjects/web_driver/common/asserts.py\", line 38, in assert_text\n    assert str(actual_code) == str(expect_code)  # 成立返回TURE，失败返回FALSE\n",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "abf9f64058b8451a",
+        "name" : "错误截图",
+        "source" : "abf9f64058b8451a.png",
+        "type" : "image/png",
+        "size" : 1340987
+      } ],
+      "parameters" : [ {
+        "name" : "driver",
+        "value" : "<selenium.webdriver.chrome.webdriver.WebDriver (session=\"6c24d64af971e44ffe486910f7de36e6\")>"
+      }, {
+        "name" : "expect_code",
+        "value" : "'微信公众号'"
+      }, {
+        "name" : "actual_code",
+        "value" : "''"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "2758a20c844d477",
+      "name" : "log",
+      "source" : "2758a20c844d477.txt",
+      "type" : "text/plain",
+      "size" : 18847
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 11,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "get_quit_driver::0",
+    "time" : {
+      "start" : 1681960638159,
+      "stop" : 1681960638159,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "后置关闭driver",
+      "time" : {
+        "start" : 1681960638159,
+        "stop" : 1681960638159,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "测试"
+  }, {
+    "name" : "epic",
+    "value" : "测试"
+  }, {
+    "name" : "feature",
+    "value" : "测试"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "B-22GNQ05P-1821.local"
+  }, {
+    "name" : "thread",
+    "value" : "80730-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "https://aone.alibaba-inc.com/v2/project/1073158/bug#viewIdentifier=5dfb195e2e2b84f6b2f24718",
+    "url" : "https://aone.alibaba-inc.com/v2/project/1073158/bug#viewIdentifier=5dfb195e2e2b84f6b2f24718",
+    "type" : "issue"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "dfad0c00fd721dc1.json",
+  "parameterValues" : [ ]
+}
