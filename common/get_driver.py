@@ -10,17 +10,27 @@ class GetDriver:
     def __init__(self):
         self.driver = None
 
+    # 设置optionsfangshi
+    def add_options(self):
+        log.debug('初始化options')
+        options = webdriver.ChromeOptions()
+        options.add_argument('--headless')  # 无浏览器模式
+        options.add_argument('--start-fullscreen')
+        return options
+
     # 获取driver
     @allure.step('前置获取driver')
     def get_driver(self, url, browser):
         if self.driver is None:
+              # 最大化运行（全屏窗口）,不设置，取元素会报错
+            options = self.add_options()
             # 实例化浏览器
             if browser == 'Chrome':
-                self.driver = webdriver.Chrome()
+                self.driver = webdriver.Chrome(options=options)
             if browser == 'Firefox':
-                self.driver = webdriver.Firefox()
+                self.driver = webdriver.Firefox(options=options)
             if browser == 'Edge':
-                self.driver = webdriver.Edge()
+                self.driver = webdriver.Edge(options=options)
             self.driver.maximize_window()
             self.driver.get(url)
             log.info(f'=================获取url:{url}成功=================')

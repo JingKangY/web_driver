@@ -41,11 +41,11 @@ class TestLogin:
 
         base = Base(get_quit_driver)
         base.base_input(sousuoshurukuang, "三国志战略版")
-        base.base_send_keys(sousuoshurukuang, 'a')
+        base.base_send_keys_control(sousuoshurukuang, 'a')
         sleep(2)
-        base.base_send_keys(sousuoshurukuang, 'c')
+        base.base_send_keys_control(sousuoshurukuang, 'c')
         base.base_delete(sousuoshurukuang)
-        base.base_send_keys(sousuoshurukuang, 'v')
+        base.base_send_keys_control(sousuoshurukuang, 'v')
         sleep(2)
         base.base_click(dianjisoiusuo)
 
@@ -53,8 +53,9 @@ class TestLogin:
             "https://sgzzlb.lingxigames.com/news/search/?keyword=%E4%B8%89%E5%9B%BD%E5%BF%97%E6%88%98%E7%95%A5%E7%89%88",
             base.base_get_current_url())
         base.base_move_to_element(wx_icon)
+        base.base_move_to_element(wx_gzh)
         print(base.base_get_element_text(wx_gzh))
-        WebUIAssert.assert_text(get_quit_driver, "微信公众", base.base_get_element_text(wx_gzh))
+        WebUIAssert.assert_text(get_quit_driver, "微信公众号", base.base_get_element_text(wx_gzh))
         # allure.attach.file((GetFilePath().get_all_image_path(r'image/')),
         #                    attachment_type=allure.attachment_type.PNG, name='错误截图')
         # allure.attach(body='测试测试', name='测试附件名字', attachment_type=allure.attachment_type.TEXT)
