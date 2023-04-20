@@ -13,13 +13,9 @@
 import time
 
 import allure
-import option as option
-from selenium import webdriver
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.common.keys import Keys
-from selenium.webdriver.support import expected_conditions as EC
-from data.get_filepath import GetFilePath
 from loging.log import log
 
 
