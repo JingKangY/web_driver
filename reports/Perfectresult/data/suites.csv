@@ -1,2 +1,2 @@
 "Status","Name","Duration in ms","Description"
-"failed","testcase.test_login.TestLogin#test_login","13352",""
+"passed","testcase.test_login.TestLogin#test_login","11722",""

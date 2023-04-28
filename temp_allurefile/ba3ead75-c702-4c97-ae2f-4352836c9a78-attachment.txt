@@ -1,0 +1,125 @@
+DEBUG    faker.factory:factory.py:95 Looking for locale `en_US` in provider `faker.providers.address`.
+DEBUG    faker.factory:factory.py:114 Provider `faker.providers.address` has been localized to `en_US`.
+DEBUG    faker.factory:factory.py:95 Looking for locale `en_US` in provider `faker.providers.automotive`.
+DEBUG    faker.factory:factory.py:114 Provider `faker.providers.automotive` has been localized to `en_US`.
+DEBUG    faker.factory:factory.py:95 Looking for locale `en_US` in provider `faker.providers.bank`.
+DEBUG    faker.factory:factory.py:105 Specified locale `en_US` is not available for provider `faker.providers.bank`. Locale reset to `en_GB` for this provider.
+DEBUG    faker.factory:factory.py:95 Looking for locale `en_US` in provider `faker.providers.barcode`.
+DEBUG    faker.factory:factory.py:114 Provider `faker.providers.barcode` has been localized to `en_US`.
+DEBUG    faker.factory:factory.py:95 Looking for locale `en_US` in provider `faker.providers.color`.
+DEBUG    faker.factory:factory.py:114 Provider `faker.providers.color` has been localized to `en_US`.
+DEBUG    faker.factory:factory.py:95 Looking for locale `en_US` in provider `faker.providers.company`.
+DEBUG    faker.factory:factory.py:114 Provider `faker.providers.company` has been localized to `en_US`.
+DEBUG    faker.factory:factory.py:95 Looking for locale `en_US` in provider `faker.providers.credit_card`.
+DEBUG    faker.factory:factory.py:114 Provider `faker.providers.credit_card` has been localized to `en_US`.
+DEBUG    faker.factory:factory.py:95 Looking for locale `en_US` in provider `faker.providers.currency`.
+DEBUG    faker.factory:factory.py:114 Provider `faker.providers.currency` has been localized to `en_US`.
+DEBUG    faker.factory:factory.py:95 Looking for locale `en_US` in provider `faker.providers.date_time`.
+DEBUG    faker.factory:factory.py:114 Provider `faker.providers.date_time` has been localized to `en_US`.
+DEBUG    faker.factory:factory.py:125 Provider `faker.providers.file` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+DEBUG    faker.factory:factory.py:95 Looking for locale `en_US` in provider `faker.providers.geo`.
+DEBUG    faker.factory:factory.py:114 Provider `faker.providers.geo` has been localized to `en_US`.
+DEBUG    faker.factory:factory.py:95 Looking for locale `en_US` in provider `faker.providers.internet`.
+DEBUG    faker.factory:factory.py:114 Provider `faker.providers.internet` has been localized to `en_US`.
+DEBUG    faker.factory:factory.py:125 Provider `faker.providers.isbn` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+DEBUG    faker.factory:factory.py:95 Looking for locale `en_US` in provider `faker.providers.job`.
+DEBUG    faker.factory:factory.py:114 Provider `faker.providers.job` has been localized to `en_US`.
+DEBUG    faker.factory:factory.py:95 Looking for locale `en_US` in provider `faker.providers.lorem`.
+DEBUG    faker.factory:factory.py:114 Provider `faker.providers.lorem` has been localized to `en_US`.
+DEBUG    faker.factory:factory.py:95 Looking for locale `en_US` in provider `faker.providers.misc`.
+DEBUG    faker.factory:factory.py:114 Provider `faker.providers.misc` has been localized to `en_US`.
+DEBUG    faker.factory:factory.py:95 Looking for locale `en_US` in provider `faker.providers.person`.
+DEBUG    faker.factory:factory.py:114 Provider `faker.providers.person` has been localized to `en_US`.
+DEBUG    faker.factory:factory.py:95 Looking for locale `en_US` in provider `faker.providers.phone_number`.
+DEBUG    faker.factory:factory.py:114 Provider `faker.providers.phone_number` has been localized to `en_US`.
+DEBUG    faker.factory:factory.py:125 Provider `faker.providers.profile` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+DEBUG    faker.factory:factory.py:125 Provider `faker.providers.python` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+DEBUG    faker.factory:factory.py:95 Looking for locale `en_US` in provider `faker.providers.ssn`.
+DEBUG    faker.factory:factory.py:114 Provider `faker.providers.ssn` has been localized to `en_US`.
+DEBUG    faker.factory:factory.py:125 Provider `faker.providers.user_agent` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+DEBUG    root:get_driver.py:15 初始化options
+DEBUG    selenium.webdriver.common.service:service.py:204 Started executable: `chromedriver` in a child process with pid: 12602
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:303 POST http://localhost:61297/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "pageLoadStrategy": "normal", "goog:chromeOptions": {"extensions": [], "args": ["--headless", "--start-fullscreen", "--disable-gpu", "--start-maximized", "--disable-infobars", "log-level=3"]}}}}
+DEBUG    urllib3.connectionpool:connectionpool.py:227 Starting new HTTP connection (1): localhost:61297
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://localhost:61297 "POST /session HTTP/1.1" 200 869
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:347 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:303 POST http://localhost:61297/session/a7361976ec18017f880394e1d0cd7b8c/window/rect {"x": null, "y": null, "width": 1920, "height": 1080}
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://localhost:61297 "POST /session/a7361976ec18017f880394e1d0cd7b8c/window/rect HTTP/1.1" 200 53
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:347 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:303 POST http://localhost:61297/session/a7361976ec18017f880394e1d0cd7b8c/url {"url": "https://sgzzlb.lingxigames.com/website/"}
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://localhost:61297 "POST /session/a7361976ec18017f880394e1d0cd7b8c/url HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:347 Finished Request
+INFO     root:get_driver.py:41 =================获取url:https://sgzzlb.lingxigames.com/website/成功=================
+INFO     root:del_image_file.py:31 初始化/Users/yangjingkang/PycharmProjects/web_driver/image/文件夹成功
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:303 POST http://localhost:61297/session/a7361976ec18017f880394e1d0cd7b8c/element {"using": "css selector", "value": ".keywords"}
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://localhost:61297 "POST /session/a7361976ec18017f880394e1d0cd7b8c/element HTTP/1.1" 200 88
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:347 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:303 POST http://localhost:61297/session/a7361976ec18017f880394e1d0cd7b8c/element/e9c0495c-5ccd-4d46-82cc-4dd5ba7aaff0/clear {"id": "e9c0495c-5ccd-4d46-82cc-4dd5ba7aaff0"}
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://localhost:61297 "POST /session/a7361976ec18017f880394e1d0cd7b8c/element/e9c0495c-5ccd-4d46-82cc-4dd5ba7aaff0/clear HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:347 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:303 POST http://localhost:61297/session/a7361976ec18017f880394e1d0cd7b8c/element/e9c0495c-5ccd-4d46-82cc-4dd5ba7aaff0/value {"text": "\u4e09\u56fd\u5fd7\u6218\u7565\u7248", "value": ["\u4e09", "\u56fd", "\u5fd7", "\u6218", "\u7565", "\u7248"], "id": "e9c0495c-5ccd-4d46-82cc-4dd5ba7aaff0"}
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://localhost:61297 "POST /session/a7361976ec18017f880394e1d0cd7b8c/element/e9c0495c-5ccd-4d46-82cc-4dd5ba7aaff0/value HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:347 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:303 POST http://localhost:61297/session/a7361976ec18017f880394e1d0cd7b8c/element {"using": "css selector", "value": ".keywords"}
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://localhost:61297 "POST /session/a7361976ec18017f880394e1d0cd7b8c/element HTTP/1.1" 200 88
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:347 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:303 POST http://localhost:61297/session/a7361976ec18017f880394e1d0cd7b8c/element/e9c0495c-5ccd-4d46-82cc-4dd5ba7aaff0/value {"text": "\ue03da", "value": ["\ue03d", "a"], "id": "e9c0495c-5ccd-4d46-82cc-4dd5ba7aaff0"}
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://localhost:61297 "POST /session/a7361976ec18017f880394e1d0cd7b8c/element/e9c0495c-5ccd-4d46-82cc-4dd5ba7aaff0/value HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:347 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:303 POST http://localhost:61297/session/a7361976ec18017f880394e1d0cd7b8c/element {"using": "css selector", "value": ".keywords"}
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://localhost:61297 "POST /session/a7361976ec18017f880394e1d0cd7b8c/element HTTP/1.1" 200 88
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:347 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:303 POST http://localhost:61297/session/a7361976ec18017f880394e1d0cd7b8c/element/e9c0495c-5ccd-4d46-82cc-4dd5ba7aaff0/value {"text": "\ue03dc", "value": ["\ue03d", "c"], "id": "e9c0495c-5ccd-4d46-82cc-4dd5ba7aaff0"}
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://localhost:61297 "POST /session/a7361976ec18017f880394e1d0cd7b8c/element/e9c0495c-5ccd-4d46-82cc-4dd5ba7aaff0/value HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:347 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:303 POST http://localhost:61297/session/a7361976ec18017f880394e1d0cd7b8c/element {"using": "css selector", "value": ".keywords"}
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://localhost:61297 "POST /session/a7361976ec18017f880394e1d0cd7b8c/element HTTP/1.1" 200 88
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:347 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:303 POST http://localhost:61297/session/a7361976ec18017f880394e1d0cd7b8c/element/e9c0495c-5ccd-4d46-82cc-4dd5ba7aaff0/clear {"id": "e9c0495c-5ccd-4d46-82cc-4dd5ba7aaff0"}
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://localhost:61297 "POST /session/a7361976ec18017f880394e1d0cd7b8c/element/e9c0495c-5ccd-4d46-82cc-4dd5ba7aaff0/clear HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:347 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:303 POST http://localhost:61297/session/a7361976ec18017f880394e1d0cd7b8c/element {"using": "css selector", "value": ".keywords"}
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://localhost:61297 "POST /session/a7361976ec18017f880394e1d0cd7b8c/element HTTP/1.1" 200 88
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:347 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:303 POST http://localhost:61297/session/a7361976ec18017f880394e1d0cd7b8c/element/e9c0495c-5ccd-4d46-82cc-4dd5ba7aaff0/value {"text": "\ue03dv", "value": ["\ue03d", "v"], "id": "e9c0495c-5ccd-4d46-82cc-4dd5ba7aaff0"}
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://localhost:61297 "POST /session/a7361976ec18017f880394e1d0cd7b8c/element/e9c0495c-5ccd-4d46-82cc-4dd5ba7aaff0/value HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:347 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:303 POST http://localhost:61297/session/a7361976ec18017f880394e1d0cd7b8c/element {"using": "xpath", "value": "//a[contains(text(),'\u70b9\u51fb\u641c\u7d22')]"}
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://localhost:61297 "POST /session/a7361976ec18017f880394e1d0cd7b8c/element HTTP/1.1" 200 88
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:347 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:303 POST http://localhost:61297/session/a7361976ec18017f880394e1d0cd7b8c/element/66e795d8-d457-47d7-be24-40bda2b787f9/click {"id": "66e795d8-d457-47d7-be24-40bda2b787f9"}
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://localhost:61297 "POST /session/a7361976ec18017f880394e1d0cd7b8c/element/66e795d8-d457-47d7-be24-40bda2b787f9/click HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:347 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:303 GET http://localhost:61297/session/a7361976ec18017f880394e1d0cd7b8c/url {}
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://localhost:61297 "GET /session/a7361976ec18017f880394e1d0cd7b8c/url HTTP/1.1" 200 118
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:347 Finished Request
+DEBUG    root:asserts.py:24 URL实际结果为：https://sgzzlb.lingxigames.com/news/search/?keyword=%E4%B8%89%E5%9B%BD%E5%BF%97%E6%88%98%E7%95%A5%E7%89%88
+DEBUG    root:asserts.py:25 URL预期结果为：https://sgzzlb.lingxigames.com/news/search/?keyword=%E4%B8%89%E5%9B%BD%E5%BF%97%E6%88%98%E7%95%A5%E7%89%88
+INFO     root:asserts.py:27 断言用例通过！
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:303 POST http://localhost:61297/session/a7361976ec18017f880394e1d0cd7b8c/element {"using": "css selector", "value": ".icon-wx"}
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://localhost:61297 "POST /session/a7361976ec18017f880394e1d0cd7b8c/element HTTP/1.1" 200 88
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:347 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:303 POST http://localhost:61297/session/a7361976ec18017f880394e1d0cd7b8c/actions {"actions": [{"type": "pointer", "parameters": {"pointerType": "mouse"}, "id": "mouse", "actions": [{"type": "pointerMove", "duration": 250, "x": 0, "y": 0, "origin": {"element-6066-11e4-a52e-4f735466cecf": "a80e4fb5-a9dd-4b0f-b496-f31207313fc9"}}]}, {"type": "key", "id": "key", "actions": [{"type": "pause", "duration": 0}]}]}
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://localhost:61297 "POST /session/a7361976ec18017f880394e1d0cd7b8c/actions HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:347 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:303 POST http://localhost:61297/session/a7361976ec18017f880394e1d0cd7b8c/element {"using": "xpath", "value": "//h4[contains(text(),'\u5fae\u4fe1\u516c\u4f17\u53f7')]"}
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://localhost:61297 "POST /session/a7361976ec18017f880394e1d0cd7b8c/element HTTP/1.1" 200 88
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:347 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:303 POST http://localhost:61297/session/a7361976ec18017f880394e1d0cd7b8c/actions {"actions": [{"type": "pointer", "parameters": {"pointerType": "mouse"}, "id": "mouse", "actions": [{"type": "pointerMove", "duration": 250, "x": 0, "y": 0, "origin": {"element-6066-11e4-a52e-4f735466cecf": "22c1c71f-527e-415d-a559-53c6a45ac22b"}}]}, {"type": "key", "id": "key", "actions": [{"type": "pause", "duration": 0}]}]}
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://localhost:61297 "POST /session/a7361976ec18017f880394e1d0cd7b8c/actions HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:347 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:303 POST http://localhost:61297/session/a7361976ec18017f880394e1d0cd7b8c/element {"using": "xpath", "value": "//h4[contains(text(),'\u5fae\u4fe1\u516c\u4f17\u53f7')]"}
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://localhost:61297 "POST /session/a7361976ec18017f880394e1d0cd7b8c/element HTTP/1.1" 200 88
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:347 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:303 GET http://localhost:61297/session/a7361976ec18017f880394e1d0cd7b8c/element/22c1c71f-527e-415d-a559-53c6a45ac22b/text {"id": "22c1c71f-527e-415d-a559-53c6a45ac22b"}
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://localhost:61297 "GET /session/a7361976ec18017f880394e1d0cd7b8c/element/22c1c71f-527e-415d-a559-53c6a45ac22b/text HTTP/1.1" 200 27
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:347 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:303 POST http://localhost:61297/session/a7361976ec18017f880394e1d0cd7b8c/element {"using": "xpath", "value": "//h4[contains(text(),'\u5fae\u4fe1\u516c\u4f17\u53f7')]"}
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://localhost:61297 "POST /session/a7361976ec18017f880394e1d0cd7b8c/element HTTP/1.1" 200 88
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:347 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:303 GET http://localhost:61297/session/a7361976ec18017f880394e1d0cd7b8c/element/22c1c71f-527e-415d-a559-53c6a45ac22b/text {"id": "22c1c71f-527e-415d-a559-53c6a45ac22b"}
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://localhost:61297 "GET /session/a7361976ec18017f880394e1d0cd7b8c/element/22c1c71f-527e-415d-a559-53c6a45ac22b/text HTTP/1.1" 200 27
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:347 Finished Request
+DEBUG    root:asserts.py:36 URL实际结果为：微信公众号
+DEBUG    root:asserts.py:37 URL预期结果为：微信公众号
+INFO     root:asserts.py:39 断言Code用例通过！
