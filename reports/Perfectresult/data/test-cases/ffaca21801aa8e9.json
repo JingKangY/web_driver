@@ -1,21 +1,36 @@
 {
-  "uid" : "92520e9c98908a34",
+  "uid" : "ffaca21801aa8e9",
   "name" : "test_login",
   "fullName" : "testcase.test_login.TestLogin#test_login",
   "historyId" : "c95a03351e5dd3a8b91d1dc15926164c",
   "time" : {
-    "start" : 1682745290236,
-    "stop" : 1682745303864,
-    "duration" : 13628
+    "start" : 1682746328988,
+    "stop" : 1682746343083,
+    "duration" : 14095
   },
   "status" : "passed",
   "flaky" : false,
   "beforeStages" : [ {
-    "name" : "_session_faker",
+    "name" : "_verify_url",
     "time" : {
-      "start" : 1682745284926,
-      "stop" : 1682745284988,
-      "duration" : 62
+      "start" : 1682746324794,
+      "stop" : 1682746324794,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1682746324794,
+      "stop" : 1682746324794,
+      "duration" : 0
     },
     "status" : "passed",
     "steps" : [ ],
@@ -28,17 +43,17 @@
   }, {
     "name" : "get_quit_driver",
     "time" : {
-      "start" : 1682745284988,
-      "stop" : 1682745290234,
-      "duration" : 5246
+      "start" : 1682746324829,
+      "stop" : 1682746328986,
+      "duration" : 4157
     },
     "status" : "passed",
     "steps" : [ {
       "name" : "前置获取driver",
       "time" : {
-        "start" : 1682745284988,
-        "stop" : 1682745290234,
-        "duration" : 5246
+        "start" : 1682746324829,
+        "stop" : 1682746328986,
+        "duration" : 4157
       },
       "status" : "passed",
       "steps" : [ ],
@@ -62,26 +77,11 @@
     "shouldDisplayMessage" : false,
     "hasContent" : true
   }, {
-    "name" : "base_url",
+    "name" : "_session_faker",
     "time" : {
-      "start" : 1682745284926,
-      "stop" : 1682745284926,
-      "duration" : 0
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false
-  }, {
-    "name" : "_verify_url",
-    "time" : {
-      "start" : 1682745284926,
-      "stop" : 1682745284926,
-      "duration" : 0
+      "start" : 1682746324794,
+      "stop" : 1682746324829,
+      "duration" : 35
     },
     "status" : "passed",
     "steps" : [ ],
@@ -94,9 +94,9 @@
   }, {
     "name" : "del_image_png",
     "time" : {
-      "start" : 1682745290234,
-      "stop" : 1682745290234,
-      "duration" : 0
+      "start" : 1682746328986,
+      "stop" : 1682746328987,
+      "duration" : 1
     },
     "status" : "passed",
     "steps" : [ ],
@@ -112,9 +112,9 @@
     "steps" : [ {
       "name" : "输入相关参数",
       "time" : {
-        "start" : 1682745290236,
-        "stop" : 1682745292749,
-        "duration" : 2513
+        "start" : 1682746328988,
+        "stop" : 1682746332378,
+        "duration" : 3390
       },
       "status" : "passed",
       "steps" : [ ],
@@ -133,9 +133,9 @@
     }, {
       "name" : "键盘control 组合键key值输入",
       "time" : {
-        "start" : 1682745292749,
-        "stop" : 1682745293173,
-        "duration" : 424
+        "start" : 1682746332378,
+        "stop" : 1682746332576,
+        "duration" : 198
       },
       "status" : "passed",
       "steps" : [ ],
@@ -154,9 +154,9 @@
     }, {
       "name" : "键盘control 组合键key值输入",
       "time" : {
-        "start" : 1682745295178,
-        "stop" : 1682745295199,
-        "duration" : 21
+        "start" : 1682746334582,
+        "stop" : 1682746334662,
+        "duration" : 80
       },
       "status" : "passed",
       "steps" : [ ],
@@ -175,9 +175,9 @@
     }, {
       "name" : "删除输入框内容",
       "time" : {
-        "start" : 1682745295200,
-        "stop" : 1682745295264,
-        "duration" : 64
+        "start" : 1682746334662,
+        "stop" : 1682746334803,
+        "duration" : 141
       },
       "status" : "passed",
       "steps" : [ ],
@@ -193,9 +193,9 @@
     }, {
       "name" : "键盘control 组合键key值输入",
       "time" : {
-        "start" : 1682745295265,
-        "stop" : 1682745296309,
-        "duration" : 1044
+        "start" : 1682746334803,
+        "stop" : 1682746335794,
+        "duration" : 991
       },
       "status" : "passed",
       "steps" : [ ],
@@ -214,9 +214,9 @@
     }, {
       "name" : "点击",
       "time" : {
-        "start" : 1682745298315,
-        "stop" : 1682745302160,
-        "duration" : 3845
+        "start" : 1682746337799,
+        "stop" : 1682746341373,
+        "duration" : 3574
       },
       "status" : "passed",
       "steps" : [ ],
@@ -232,8 +232,8 @@
     }, {
       "name" : "获取当前页面的URL",
       "time" : {
-        "start" : 1682745302160,
-        "stop" : 1682745302169,
+        "start" : 1682746341373,
+        "stop" : 1682746341382,
         "duration" : 9
       },
       "status" : "passed",
@@ -247,9 +247,9 @@
     }, {
       "name" : "step：断言页面URL是否一致",
       "time" : {
-        "start" : 1682745302169,
-        "stop" : 1682745302171,
-        "duration" : 2
+        "start" : 1682746341382,
+        "stop" : 1682746341383,
+        "duration" : 1
       },
       "status" : "passed",
       "steps" : [ ],
@@ -268,9 +268,9 @@
     }, {
       "name" : "悬停指定元素位置",
       "time" : {
-        "start" : 1682745302171,
-        "stop" : 1682745302971,
-        "duration" : 800
+        "start" : 1682746341383,
+        "stop" : 1682746342175,
+        "duration" : 792
       },
       "status" : "passed",
       "steps" : [ ],
@@ -286,9 +286,9 @@
     }, {
       "name" : "悬停指定元素位置",
       "time" : {
-        "start" : 1682745302971,
-        "stop" : 1682745303783,
-        "duration" : 812
+        "start" : 1682746342175,
+        "stop" : 1682746343006,
+        "duration" : 831
       },
       "status" : "passed",
       "steps" : [ ],
@@ -304,8 +304,8 @@
     }, {
       "name" : "step：响应状态码结果断言",
       "time" : {
-        "start" : 1682745303864,
-        "stop" : 1682745303864,
+        "start" : 1682746343083,
+        "stop" : 1682746343083,
         "duration" : 0
       },
       "status" : "passed",
@@ -313,7 +313,7 @@
       "attachments" : [ ],
       "parameters" : [ {
         "name" : "driver",
-        "value" : "<selenium.webdriver.chrome.webdriver.WebDriver (session=\"c842fb37b70a3d7338ec57767a39a344\")>"
+        "value" : "<selenium.webdriver.chrome.webdriver.WebDriver (session=\"2b91b4b5ae1cef8cfe8330cf3b0a25fa\")>"
       }, {
         "name" : "expect_code",
         "value" : "'微信公众号'"
@@ -327,11 +327,11 @@
       "hasContent" : true
     } ],
     "attachments" : [ {
-      "uid" : "132c15444616ae0c",
+      "uid" : "931a73ae484483e7",
       "name" : "log",
-      "source" : "132c15444616ae0c.txt",
+      "source" : "931a73ae484483e7.txt",
       "type" : "text/plain",
-      "size" : 18460
+      "size" : 18476
     } ],
     "parameters" : [ ],
     "stepsCount" : 11,
@@ -342,16 +342,16 @@
   "afterStages" : [ {
     "name" : "get_quit_driver::0",
     "time" : {
-      "start" : 1682745303865,
-      "stop" : 1682745303866,
-      "duration" : 1
+      "start" : 1682746343084,
+      "stop" : 1682746343084,
+      "duration" : 0
     },
     "status" : "passed",
     "steps" : [ {
       "name" : "后置关闭driver",
       "time" : {
-        "start" : 1682745303866,
-        "stop" : 1682745303866,
+        "start" : 1682746343084,
+        "stop" : 1682746343084,
         "duration" : 0
       },
       "status" : "passed",
@@ -396,7 +396,7 @@
     "value" : "B-22GNQ05P-1821.local"
   }, {
     "name" : "thread",
-    "value" : "20947-MainThread"
+    "value" : "21725-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -424,6 +424,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "92520e9c98908a34.json",
+  "source" : "ffaca21801aa8e9.json",
   "parameterValues" : [ ]
 }

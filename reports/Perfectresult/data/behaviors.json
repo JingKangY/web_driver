@@ -8,13 +8,13 @@
         "name" : "测试",
         "children" : [ {
           "name" : "test_login",
-          "uid" : "92520e9c98908a34",
+          "uid" : "ffaca21801aa8e9",
           "parentUid" : "50486104d1e167984dd07046b0c528ab",
           "status" : "passed",
           "time" : {
-            "start" : 1682745290236,
-            "stop" : 1682745303864,
-            "duration" : 13628
+            "start" : 1682746328988,
+            "stop" : 1682746343083,
+            "duration" : 14095
           },
           "flaky" : false,
           "parameters" : [ ]

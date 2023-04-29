@@ -14,6 +14,7 @@ class GetDriver:
     def add_options(self):
         log.debug('初始化options')
         options = webdriver.ChromeOptions()
+        options.add_argument('--no-sandbox')
         options.add_argument('--headless')  # 无浏览器模式
         options.add_argument('--start-fullscreen')
         options.add_argument('--disable-gpu')  # 禁用GPU加速
@@ -36,7 +37,7 @@ class GetDriver:
                 self.driver = webdriver.Firefox(options=options)
             if browser == 'Edge':
                 self.driver = webdriver.Edge(options=options)
-            #self.driver.set_window_size(1920, 1080) # 无界面模式使用
+            self.driver.set_window_size(1920, 1080) # 无界面模式使用
             #self.driver.maximize_window() # 有界面使用方法
             self.driver.get(url)
             log.info(f'=================获取url:{url}成功=================')
