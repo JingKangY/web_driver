@@ -9,12 +9,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "ffaca21801aa8e9",
+      "uid" : "2654bdad8fb1c25a",
       "status" : "passed",
       "time" : {
-        "start" : 1682746328988,
-        "stop" : 1682746343083,
-        "duration" : 14095
+        "start" : 1682778259179,
+        "stop" : 1682778271345,
+        "duration" : 12166
       }
     } ]
   },
