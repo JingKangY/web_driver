@@ -1,0 +1,429 @@
+{
+  "uid" : "92520e9c98908a34",
+  "name" : "test_login",
+  "fullName" : "testcase.test_login.TestLogin#test_login",
+  "historyId" : "c95a03351e5dd3a8b91d1dc15926164c",
+  "time" : {
+    "start" : 1682745290236,
+    "stop" : 1682745303864,
+    "duration" : 13628
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1682745284926,
+      "stop" : 1682745284988,
+      "duration" : 62
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "get_quit_driver",
+    "time" : {
+      "start" : 1682745284988,
+      "stop" : 1682745290234,
+      "duration" : 5246
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "前置获取driver",
+      "time" : {
+        "start" : 1682745284988,
+        "stop" : 1682745290234,
+        "duration" : 5246
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "url",
+        "value" : "'https://sgzzlb.lingxigames.com/website/'"
+      }, {
+        "name" : "browser",
+        "value" : "'Chrome'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1682745284926,
+      "stop" : 1682745284926,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1682745284926,
+      "stop" : 1682745284926,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "del_image_png",
+    "time" : {
+      "start" : 1682745290234,
+      "stop" : 1682745290234,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "输入相关参数",
+      "time" : {
+        "start" : 1682745290236,
+        "stop" : 1682745292749,
+        "duration" : 2513
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "loc",
+        "value" : "('class name', 'keywords')"
+      }, {
+        "name" : "value",
+        "value" : "'三国志战略版'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "键盘control 组合键key值输入",
+      "time" : {
+        "start" : 1682745292749,
+        "stop" : 1682745293173,
+        "duration" : 424
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "loc",
+        "value" : "('class name', 'keywords')"
+      }, {
+        "name" : "key",
+        "value" : "'a'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "键盘control 组合键key值输入",
+      "time" : {
+        "start" : 1682745295178,
+        "stop" : 1682745295199,
+        "duration" : 21
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "loc",
+        "value" : "('class name', 'keywords')"
+      }, {
+        "name" : "key",
+        "value" : "'c'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "删除输入框内容",
+      "time" : {
+        "start" : 1682745295200,
+        "stop" : 1682745295264,
+        "duration" : 64
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "loc",
+        "value" : "('class name', 'keywords')"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "键盘control 组合键key值输入",
+      "time" : {
+        "start" : 1682745295265,
+        "stop" : 1682745296309,
+        "duration" : 1044
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "loc",
+        "value" : "('class name', 'keywords')"
+      }, {
+        "name" : "key",
+        "value" : "'v'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "点击",
+      "time" : {
+        "start" : 1682745298315,
+        "stop" : 1682745302160,
+        "duration" : 3845
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "loc",
+        "value" : "('xpath', \"//a[contains(text(),'点击搜索')]\")"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "获取当前页面的URL",
+      "time" : {
+        "start" : 1682745302160,
+        "stop" : 1682745302169,
+        "duration" : 9
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "step：断言页面URL是否一致",
+      "time" : {
+        "start" : 1682745302169,
+        "stop" : 1682745302171,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "expect",
+        "value" : "'https://sgzzlb.lingxigames.com/news/search/?keyword=%E4%B8%89%E5%9B%BD%E5%BF%97%E6%88%98%E7%95%A5%E7%89%88'"
+      }, {
+        "name" : "res_actual",
+        "value" : "'https://sgzzlb.lingxigames.com/news/search/?keyword=%E4%B8%89%E5%9B%BD%E5%BF%97%E6%88%98%E7%95%A5%E7%89%88'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "悬停指定元素位置",
+      "time" : {
+        "start" : 1682745302171,
+        "stop" : 1682745302971,
+        "duration" : 800
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "loc",
+        "value" : "('class name', 'icon-wx')"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "悬停指定元素位置",
+      "time" : {
+        "start" : 1682745302971,
+        "stop" : 1682745303783,
+        "duration" : 812
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "loc",
+        "value" : "('xpath', \"//h4[contains(text(),'微信公众号')]\")"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "step：响应状态码结果断言",
+      "time" : {
+        "start" : 1682745303864,
+        "stop" : 1682745303864,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "driver",
+        "value" : "<selenium.webdriver.chrome.webdriver.WebDriver (session=\"c842fb37b70a3d7338ec57767a39a344\")>"
+      }, {
+        "name" : "expect_code",
+        "value" : "'微信公众号'"
+      }, {
+        "name" : "actual_code",
+        "value" : "'微信公众号'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "132c15444616ae0c",
+      "name" : "log",
+      "source" : "132c15444616ae0c.txt",
+      "type" : "text/plain",
+      "size" : 18460
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 11,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "get_quit_driver::0",
+    "time" : {
+      "start" : 1682745303865,
+      "stop" : 1682745303866,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "后置关闭driver",
+      "time" : {
+        "start" : 1682745303866,
+        "stop" : 1682745303866,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "测试"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "epic",
+    "value" : "测试"
+  }, {
+    "name" : "feature",
+    "value" : "测试"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "B-22GNQ05P-1821.local"
+  }, {
+    "name" : "thread",
+    "value" : "20947-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "https://aone.alibaba-inc.com/v2/project/1073158/bug#viewIdentifier=5dfb195e2e2b84f6b2f24718",
+    "url" : "https://aone.alibaba-inc.com/v2/project/1073158/bug#viewIdentifier=5dfb195e2e2b84f6b2f24718",
+    "type" : "issue"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "92520e9c98908a34.json",
+  "parameterValues" : [ ]
+}
