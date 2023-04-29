@@ -36,7 +36,7 @@ class GetDriver:
                 self.driver = webdriver.Firefox(options=options)
             if browser == 'Edge':
                 self.driver = webdriver.Edge(options=options)
-            self.driver.set_window_size(1920, 1080) # 无界面模式使用
+            #self.driver.set_window_size(1920, 1080) # 无界面模式使用
             #self.driver.maximize_window() # 有界面使用方法
             self.driver.get(url)
             log.info(f'=================获取url:{url}成功=================')
