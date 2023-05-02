@@ -1,0 +1,501 @@
+D 2023-04-29 13:14:44,926| DEBUG    | [factory.py:factory:_find_provider_class:95] - Looking for locale `en_US` in provider `faker.providers.address`.
+D 2023-04-29 13:14:44,934| DEBUG    | [factory.py:factory:_find_provider_class:114] - Provider `faker.providers.address` has been localized to `en_US`.
+D 2023-04-29 13:14:44,954| DEBUG    | [factory.py:factory:_find_provider_class:95] - Looking for locale `en_US` in provider `faker.providers.automotive`.
+D 2023-04-29 13:14:44,955| DEBUG    | [factory.py:factory:_find_provider_class:114] - Provider `faker.providers.automotive` has been localized to `en_US`.
+D 2023-04-29 13:14:44,956| DEBUG    | [factory.py:factory:_find_provider_class:95] - Looking for locale `en_US` in provider `faker.providers.bank`.
+D 2023-04-29 13:14:44,957| DEBUG    | [factory.py:factory:_find_provider_class:105] - Specified locale `en_US` is not available for provider `faker.providers.bank`. Locale reset to `en_GB` for this provider.
+D 2023-04-29 13:14:44,958| DEBUG    | [factory.py:factory:_find_provider_class:95] - Looking for locale `en_US` in provider `faker.providers.barcode`.
+D 2023-04-29 13:14:44,959| DEBUG    | [factory.py:factory:_find_provider_class:114] - Provider `faker.providers.barcode` has been localized to `en_US`.
+D 2023-04-29 13:14:44,960| DEBUG    | [factory.py:factory:_find_provider_class:95] - Looking for locale `en_US` in provider `faker.providers.color`.
+D 2023-04-29 13:14:44,961| DEBUG    | [factory.py:factory:_find_provider_class:114] - Provider `faker.providers.color` has been localized to `en_US`.
+D 2023-04-29 13:14:44,962| DEBUG    | [factory.py:factory:_find_provider_class:95] - Looking for locale `en_US` in provider `faker.providers.company`.
+D 2023-04-29 13:14:44,963| DEBUG    | [factory.py:factory:_find_provider_class:114] - Provider `faker.providers.company` has been localized to `en_US`.
+D 2023-04-29 13:14:44,964| DEBUG    | [factory.py:factory:_find_provider_class:95] - Looking for locale `en_US` in provider `faker.providers.credit_card`.
+D 2023-04-29 13:14:44,964| DEBUG    | [factory.py:factory:_find_provider_class:114] - Provider `faker.providers.credit_card` has been localized to `en_US`.
+D 2023-04-29 13:14:44,965| DEBUG    | [factory.py:factory:_find_provider_class:95] - Looking for locale `en_US` in provider `faker.providers.currency`.
+D 2023-04-29 13:14:44,965| DEBUG    | [factory.py:factory:_find_provider_class:114] - Provider `faker.providers.currency` has been localized to `en_US`.
+D 2023-04-29 13:14:44,966| DEBUG    | [factory.py:factory:_find_provider_class:95] - Looking for locale `en_US` in provider `faker.providers.date_time`.
+D 2023-04-29 13:14:44,967| DEBUG    | [factory.py:factory:_find_provider_class:114] - Provider `faker.providers.date_time` has been localized to `en_US`.
+D 2023-04-29 13:14:44,968| DEBUG    | [factory.py:factory:_find_provider_class:125] - Provider `faker.providers.file` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+D 2023-04-29 13:14:44,968| DEBUG    | [factory.py:factory:_find_provider_class:95] - Looking for locale `en_US` in provider `faker.providers.geo`.
+D 2023-04-29 13:14:44,969| DEBUG    | [factory.py:factory:_find_provider_class:114] - Provider `faker.providers.geo` has been localized to `en_US`.
+D 2023-04-29 13:14:44,969| DEBUG    | [factory.py:factory:_find_provider_class:95] - Looking for locale `en_US` in provider `faker.providers.internet`.
+D 2023-04-29 13:14:44,971| DEBUG    | [factory.py:factory:_find_provider_class:114] - Provider `faker.providers.internet` has been localized to `en_US`.
+D 2023-04-29 13:14:44,971| DEBUG    | [factory.py:factory:_find_provider_class:125] - Provider `faker.providers.isbn` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+D 2023-04-29 13:14:44,971| DEBUG    | [factory.py:factory:_find_provider_class:95] - Looking for locale `en_US` in provider `faker.providers.job`.
+D 2023-04-29 13:14:44,972| DEBUG    | [factory.py:factory:_find_provider_class:114] - Provider `faker.providers.job` has been localized to `en_US`.
+D 2023-04-29 13:14:44,973| DEBUG    | [factory.py:factory:_find_provider_class:95] - Looking for locale `en_US` in provider `faker.providers.lorem`.
+D 2023-04-29 13:14:44,974| DEBUG    | [factory.py:factory:_find_provider_class:114] - Provider `faker.providers.lorem` has been localized to `en_US`.
+D 2023-04-29 13:14:44,975| DEBUG    | [factory.py:factory:_find_provider_class:95] - Looking for locale `en_US` in provider `faker.providers.misc`.
+D 2023-04-29 13:14:44,975| DEBUG    | [factory.py:factory:_find_provider_class:114] - Provider `faker.providers.misc` has been localized to `en_US`.
+D 2023-04-29 13:14:44,976| DEBUG    | [factory.py:factory:_find_provider_class:95] - Looking for locale `en_US` in provider `faker.providers.person`.
+D 2023-04-29 13:14:44,978| DEBUG    | [factory.py:factory:_find_provider_class:114] - Provider `faker.providers.person` has been localized to `en_US`.
+D 2023-04-29 13:14:44,982| DEBUG    | [factory.py:factory:_find_provider_class:95] - Looking for locale `en_US` in provider `faker.providers.phone_number`.
+D 2023-04-29 13:14:44,984| DEBUG    | [factory.py:factory:_find_provider_class:114] - Provider `faker.providers.phone_number` has been localized to `en_US`.
+D 2023-04-29 13:14:44,984| DEBUG    | [factory.py:factory:_find_provider_class:125] - Provider `faker.providers.profile` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+D 2023-04-29 13:14:44,984| DEBUG    | [factory.py:factory:_find_provider_class:125] - Provider `faker.providers.python` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+D 2023-04-29 13:14:44,985| DEBUG    | [factory.py:factory:_find_provider_class:95] - Looking for locale `en_US` in provider `faker.providers.ssn`.
+D 2023-04-29 13:14:44,986| DEBUG    | [factory.py:factory:_find_provider_class:114] - Provider `faker.providers.ssn` has been localized to `en_US`.
+D 2023-04-29 13:14:44,987| DEBUG    | [factory.py:factory:_find_provider_class:125] - Provider `faker.providers.user_agent` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+D 2023-04-29 13:14:44,988| DEBUG    | [get_driver.py:get_driver:add_options:15] - 初始化options
+D 2023-04-29 13:14:44,995| DEBUG    | [service.py:service:_start_process:204] - Started executable: `chromedriver` in a child process with pid: 20950
+D 2023-04-29 13:14:45,506| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:65379/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "pageLoadStrategy": "normal", "goog:chromeOptions": {"extensions": [], "args": ["--headless", "--start-fullscreen", "--disable-gpu", "--start-maximized", "--disable-infobars", "log-level=3"]}}}}
+D 2023-04-29 13:14:45,507| DEBUG    | [connectionpool.py:connectionpool:_new_conn:227] - Starting new HTTP connection (1): localhost:65379
+D 2023-04-29 13:14:46,690| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:65379 "POST /session HTTP/1.1" 200 869
+D 2023-04-29 13:14:46,691| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-29 13:14:46,691| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:65379/session/c842fb37b70a3d7338ec57767a39a344/window/rect {"x": null, "y": null, "width": 1920, "height": 1080}
+D 2023-04-29 13:14:46,798| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:65379 "POST /session/c842fb37b70a3d7338ec57767a39a344/window/rect HTTP/1.1" 200 53
+D 2023-04-29 13:14:46,798| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-29 13:14:46,798| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:65379/session/c842fb37b70a3d7338ec57767a39a344/url {"url": "https://sgzzlb.lingxigames.com/website/"}
+D 2023-04-29 13:14:50,232| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:65379 "POST /session/c842fb37b70a3d7338ec57767a39a344/url HTTP/1.1" 200 14
+D 2023-04-29 13:14:50,233| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+I 2023-04-29 13:14:50,233| INFO     | [get_driver.py:get_driver:get_driver:42] - =================获取url:https://sgzzlb.lingxigames.com/website/成功=================
+I 2023-04-29 13:14:50,234| INFO     | [del_image_file.py:del_image_file:del_image_file:31] - 初始化/Users/yangjingkang/PycharmProjects/web_driver/image/文件夹成功
+D 2023-04-29 13:14:50,236| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:65379/session/c842fb37b70a3d7338ec57767a39a344/element {"using": "css selector", "value": ".keywords"}
+D 2023-04-29 13:14:50,780| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:65379 "POST /session/c842fb37b70a3d7338ec57767a39a344/element HTTP/1.1" 200 88
+D 2023-04-29 13:14:50,780| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-29 13:14:50,780| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:65379/session/c842fb37b70a3d7338ec57767a39a344/element/0de99e07-8cf2-492c-8535-9dc6ec6f2dfa/clear {"id": "0de99e07-8cf2-492c-8535-9dc6ec6f2dfa"}
+D 2023-04-29 13:14:51,993| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:65379 "POST /session/c842fb37b70a3d7338ec57767a39a344/element/0de99e07-8cf2-492c-8535-9dc6ec6f2dfa/clear HTTP/1.1" 200 14
+D 2023-04-29 13:14:51,993| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-29 13:14:51,994| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:65379/session/c842fb37b70a3d7338ec57767a39a344/element/0de99e07-8cf2-492c-8535-9dc6ec6f2dfa/value {"text": "\u4e09\u56fd\u5fd7\u6218\u7565\u7248", "value": ["\u4e09", "\u56fd", "\u5fd7", "\u6218", "\u7565", "\u7248"], "id": "0de99e07-8cf2-492c-8535-9dc6ec6f2dfa"}
+D 2023-04-29 13:14:52,743| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:65379 "POST /session/c842fb37b70a3d7338ec57767a39a344/element/0de99e07-8cf2-492c-8535-9dc6ec6f2dfa/value HTTP/1.1" 200 14
+D 2023-04-29 13:14:52,748| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-29 13:14:52,749| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:65379/session/c842fb37b70a3d7338ec57767a39a344/element {"using": "css selector", "value": ".keywords"}
+D 2023-04-29 13:14:52,875| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:65379 "POST /session/c842fb37b70a3d7338ec57767a39a344/element HTTP/1.1" 200 88
+D 2023-04-29 13:14:52,876| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-29 13:14:52,876| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:65379/session/c842fb37b70a3d7338ec57767a39a344/element/0de99e07-8cf2-492c-8535-9dc6ec6f2dfa/value {"text": "\ue03da", "value": ["\ue03d", "a"], "id": "0de99e07-8cf2-492c-8535-9dc6ec6f2dfa"}
+D 2023-04-29 13:14:53,172| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:65379 "POST /session/c842fb37b70a3d7338ec57767a39a344/element/0de99e07-8cf2-492c-8535-9dc6ec6f2dfa/value HTTP/1.1" 200 14
+D 2023-04-29 13:14:53,172| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-29 13:14:55,178| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:65379/session/c842fb37b70a3d7338ec57767a39a344/element {"using": "css selector", "value": ".keywords"}
+D 2023-04-29 13:14:55,182| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:65379 "POST /session/c842fb37b70a3d7338ec57767a39a344/element HTTP/1.1" 200 88
+D 2023-04-29 13:14:55,182| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-29 13:14:55,183| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:65379/session/c842fb37b70a3d7338ec57767a39a344/element/0de99e07-8cf2-492c-8535-9dc6ec6f2dfa/value {"text": "\ue03dc", "value": ["\ue03d", "c"], "id": "0de99e07-8cf2-492c-8535-9dc6ec6f2dfa"}
+D 2023-04-29 13:14:55,198| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:65379 "POST /session/c842fb37b70a3d7338ec57767a39a344/element/0de99e07-8cf2-492c-8535-9dc6ec6f2dfa/value HTTP/1.1" 200 14
+D 2023-04-29 13:14:55,199| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-29 13:14:55,199| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:65379/session/c842fb37b70a3d7338ec57767a39a344/element {"using": "css selector", "value": ".keywords"}
+D 2023-04-29 13:14:55,204| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:65379 "POST /session/c842fb37b70a3d7338ec57767a39a344/element HTTP/1.1" 200 88
+D 2023-04-29 13:14:55,204| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-29 13:14:55,204| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:65379/session/c842fb37b70a3d7338ec57767a39a344/element/0de99e07-8cf2-492c-8535-9dc6ec6f2dfa/clear {"id": "0de99e07-8cf2-492c-8535-9dc6ec6f2dfa"}
+D 2023-04-29 13:14:55,263| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:65379 "POST /session/c842fb37b70a3d7338ec57767a39a344/element/0de99e07-8cf2-492c-8535-9dc6ec6f2dfa/clear HTTP/1.1" 200 14
+D 2023-04-29 13:14:55,264| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-29 13:14:55,264| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:65379/session/c842fb37b70a3d7338ec57767a39a344/element {"using": "css selector", "value": ".keywords"}
+D 2023-04-29 13:14:55,941| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:65379 "POST /session/c842fb37b70a3d7338ec57767a39a344/element HTTP/1.1" 200 88
+D 2023-04-29 13:14:55,941| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-29 13:14:55,941| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:65379/session/c842fb37b70a3d7338ec57767a39a344/element/0de99e07-8cf2-492c-8535-9dc6ec6f2dfa/value {"text": "\ue03dv", "value": ["\ue03d", "v"], "id": "0de99e07-8cf2-492c-8535-9dc6ec6f2dfa"}
+D 2023-04-29 13:14:56,308| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:65379 "POST /session/c842fb37b70a3d7338ec57767a39a344/element/0de99e07-8cf2-492c-8535-9dc6ec6f2dfa/value HTTP/1.1" 200 14
+D 2023-04-29 13:14:56,309| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-29 13:14:58,314| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:65379/session/c842fb37b70a3d7338ec57767a39a344/element {"using": "xpath", "value": "//a[contains(text(),'\u70b9\u51fb\u641c\u7d22')]"}
+D 2023-04-29 13:14:58,391| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:65379 "POST /session/c842fb37b70a3d7338ec57767a39a344/element HTTP/1.1" 200 88
+D 2023-04-29 13:14:58,392| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-29 13:14:58,392| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:65379/session/c842fb37b70a3d7338ec57767a39a344/element/dcb726c0-2d02-49a0-9ea4-eeeca8f86e4b/click {"id": "dcb726c0-2d02-49a0-9ea4-eeeca8f86e4b"}
+D 2023-04-29 13:15:02,158| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:65379 "POST /session/c842fb37b70a3d7338ec57767a39a344/element/dcb726c0-2d02-49a0-9ea4-eeeca8f86e4b/click HTTP/1.1" 200 14
+D 2023-04-29 13:15:02,159| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-29 13:15:02,160| DEBUG    | [remote_connection.py:remote_connection:_request:303] - GET http://localhost:65379/session/c842fb37b70a3d7338ec57767a39a344/url {}
+D 2023-04-29 13:15:02,167| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:65379 "GET /session/c842fb37b70a3d7338ec57767a39a344/url HTTP/1.1" 200 118
+D 2023-04-29 13:15:02,168| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-29 13:15:02,168| DEBUG    | [asserts.py:asserts:asserts_url:24] - URL实际结果为：https://sgzzlb.lingxigames.com/news/search/?keyword=%E4%B8%89%E5%9B%BD%E5%BF%97%E6%88%98%E7%95%A5%E7%89%88
+D 2023-04-29 13:15:02,170| DEBUG    | [asserts.py:asserts:asserts_url:25] - URL预期结果为：https://sgzzlb.lingxigames.com/news/search/?keyword=%E4%B8%89%E5%9B%BD%E5%BF%97%E6%88%98%E7%95%A5%E7%89%88
+I 2023-04-29 13:15:02,170| INFO     | [asserts.py:asserts:asserts_url:27] - 断言用例通过！
+D 2023-04-29 13:15:02,171| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:65379/session/c842fb37b70a3d7338ec57767a39a344/element {"using": "css selector", "value": ".icon-wx"}
+D 2023-04-29 13:15:02,178| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:65379 "POST /session/c842fb37b70a3d7338ec57767a39a344/element HTTP/1.1" 200 88
+D 2023-04-29 13:15:02,179| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-29 13:15:02,179| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:65379/session/c842fb37b70a3d7338ec57767a39a344/actions {"actions": [{"type": "pointer", "parameters": {"pointerType": "mouse"}, "id": "mouse", "actions": [{"type": "pointerMove", "duration": 250, "x": 0, "y": 0, "origin": {"element-6066-11e4-a52e-4f735466cecf": "920ca12a-50f1-4d32-9f2c-60535192c420"}}]}, {"type": "key", "id": "key", "actions": [{"type": "pause", "duration": 0}]}]}
+D 2023-04-29 13:15:02,464| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:65379 "POST /session/c842fb37b70a3d7338ec57767a39a344/actions HTTP/1.1" 200 14
+D 2023-04-29 13:15:02,465| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-29 13:15:02,971| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:65379/session/c842fb37b70a3d7338ec57767a39a344/element {"using": "xpath", "value": "//h4[contains(text(),'\u5fae\u4fe1\u516c\u4f17\u53f7')]"}
+D 2023-04-29 13:15:02,999| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:65379 "POST /session/c842fb37b70a3d7338ec57767a39a344/element HTTP/1.1" 200 88
+D 2023-04-29 13:15:03,000| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-29 13:15:03,000| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:65379/session/c842fb37b70a3d7338ec57767a39a344/actions {"actions": [{"type": "pointer", "parameters": {"pointerType": "mouse"}, "id": "mouse", "actions": [{"type": "pointerMove", "duration": 250, "x": 0, "y": 0, "origin": {"element-6066-11e4-a52e-4f735466cecf": "5dc502e9-8c9c-4160-987b-89777074ce84"}}]}, {"type": "key", "id": "key", "actions": [{"type": "pause", "duration": 0}]}]}
+D 2023-04-29 13:15:03,276| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:65379 "POST /session/c842fb37b70a3d7338ec57767a39a344/actions HTTP/1.1" 200 14
+D 2023-04-29 13:15:03,277| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-29 13:15:03,783| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:65379/session/c842fb37b70a3d7338ec57767a39a344/element {"using": "xpath", "value": "//h4[contains(text(),'\u5fae\u4fe1\u516c\u4f17\u53f7')]"}
+D 2023-04-29 13:15:03,797| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:65379 "POST /session/c842fb37b70a3d7338ec57767a39a344/element HTTP/1.1" 200 88
+D 2023-04-29 13:15:03,798| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-29 13:15:03,799| DEBUG    | [remote_connection.py:remote_connection:_request:303] - GET http://localhost:65379/session/c842fb37b70a3d7338ec57767a39a344/element/5dc502e9-8c9c-4160-987b-89777074ce84/text {"id": "5dc502e9-8c9c-4160-987b-89777074ce84"}
+D 2023-04-29 13:15:03,849| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:65379 "GET /session/c842fb37b70a3d7338ec57767a39a344/element/5dc502e9-8c9c-4160-987b-89777074ce84/text HTTP/1.1" 200 27
+D 2023-04-29 13:15:03,850| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-29 13:15:03,850| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:65379/session/c842fb37b70a3d7338ec57767a39a344/element {"using": "xpath", "value": "//h4[contains(text(),'\u5fae\u4fe1\u516c\u4f17\u53f7')]"}
+D 2023-04-29 13:15:03,855| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:65379 "POST /session/c842fb37b70a3d7338ec57767a39a344/element HTTP/1.1" 200 88
+D 2023-04-29 13:15:03,856| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-29 13:15:03,856| DEBUG    | [remote_connection.py:remote_connection:_request:303] - GET http://localhost:65379/session/c842fb37b70a3d7338ec57767a39a344/element/5dc502e9-8c9c-4160-987b-89777074ce84/text {"id": "5dc502e9-8c9c-4160-987b-89777074ce84"}
+D 2023-04-29 13:15:03,863| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:65379 "GET /session/c842fb37b70a3d7338ec57767a39a344/element/5dc502e9-8c9c-4160-987b-89777074ce84/text HTTP/1.1" 200 27
+D 2023-04-29 13:15:03,863| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-29 13:15:03,863| DEBUG    | [asserts.py:asserts:assert_text:36] - URL实际结果为：微信公众号
+D 2023-04-29 13:15:03,863| DEBUG    | [asserts.py:asserts:assert_text:37] - URL预期结果为：微信公众号
+I 2023-04-29 13:15:03,863| INFO     | [asserts.py:asserts:assert_text:39] - 断言Code用例通过！
+D 2023-04-29 13:31:28,210| DEBUG    | [factory.py:factory:_find_provider_class:95] - Looking for locale `en_US` in provider `faker.providers.address`.
+D 2023-04-29 13:31:28,218| DEBUG    | [factory.py:factory:_find_provider_class:114] - Provider `faker.providers.address` has been localized to `en_US`.
+D 2023-04-29 13:31:28,220| DEBUG    | [factory.py:factory:_find_provider_class:95] - Looking for locale `en_US` in provider `faker.providers.automotive`.
+D 2023-04-29 13:31:28,221| DEBUG    | [factory.py:factory:_find_provider_class:114] - Provider `faker.providers.automotive` has been localized to `en_US`.
+D 2023-04-29 13:31:28,222| DEBUG    | [factory.py:factory:_find_provider_class:95] - Looking for locale `en_US` in provider `faker.providers.bank`.
+D 2023-04-29 13:31:28,222| DEBUG    | [factory.py:factory:_find_provider_class:105] - Specified locale `en_US` is not available for provider `faker.providers.bank`. Locale reset to `en_GB` for this provider.
+D 2023-04-29 13:31:28,223| DEBUG    | [factory.py:factory:_find_provider_class:95] - Looking for locale `en_US` in provider `faker.providers.barcode`.
+D 2023-04-29 13:31:28,224| DEBUG    | [factory.py:factory:_find_provider_class:114] - Provider `faker.providers.barcode` has been localized to `en_US`.
+D 2023-04-29 13:31:28,225| DEBUG    | [factory.py:factory:_find_provider_class:95] - Looking for locale `en_US` in provider `faker.providers.color`.
+D 2023-04-29 13:31:28,226| DEBUG    | [factory.py:factory:_find_provider_class:114] - Provider `faker.providers.color` has been localized to `en_US`.
+D 2023-04-29 13:31:28,226| DEBUG    | [factory.py:factory:_find_provider_class:95] - Looking for locale `en_US` in provider `faker.providers.company`.
+D 2023-04-29 13:31:28,228| DEBUG    | [factory.py:factory:_find_provider_class:114] - Provider `faker.providers.company` has been localized to `en_US`.
+D 2023-04-29 13:31:28,228| DEBUG    | [factory.py:factory:_find_provider_class:95] - Looking for locale `en_US` in provider `faker.providers.credit_card`.
+D 2023-04-29 13:31:28,229| DEBUG    | [factory.py:factory:_find_provider_class:114] - Provider `faker.providers.credit_card` has been localized to `en_US`.
+D 2023-04-29 13:31:28,229| DEBUG    | [factory.py:factory:_find_provider_class:95] - Looking for locale `en_US` in provider `faker.providers.currency`.
+D 2023-04-29 13:31:28,230| DEBUG    | [factory.py:factory:_find_provider_class:114] - Provider `faker.providers.currency` has been localized to `en_US`.
+D 2023-04-29 13:31:28,231| DEBUG    | [factory.py:factory:_find_provider_class:95] - Looking for locale `en_US` in provider `faker.providers.date_time`.
+D 2023-04-29 13:31:28,232| DEBUG    | [factory.py:factory:_find_provider_class:114] - Provider `faker.providers.date_time` has been localized to `en_US`.
+D 2023-04-29 13:31:28,233| DEBUG    | [factory.py:factory:_find_provider_class:125] - Provider `faker.providers.file` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+D 2023-04-29 13:31:28,233| DEBUG    | [factory.py:factory:_find_provider_class:95] - Looking for locale `en_US` in provider `faker.providers.geo`.
+D 2023-04-29 13:31:28,233| DEBUG    | [factory.py:factory:_find_provider_class:114] - Provider `faker.providers.geo` has been localized to `en_US`.
+D 2023-04-29 13:31:28,234| DEBUG    | [factory.py:factory:_find_provider_class:95] - Looking for locale `en_US` in provider `faker.providers.internet`.
+D 2023-04-29 13:31:28,235| DEBUG    | [factory.py:factory:_find_provider_class:114] - Provider `faker.providers.internet` has been localized to `en_US`.
+D 2023-04-29 13:31:28,236| DEBUG    | [factory.py:factory:_find_provider_class:125] - Provider `faker.providers.isbn` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+D 2023-04-29 13:31:28,236| DEBUG    | [factory.py:factory:_find_provider_class:95] - Looking for locale `en_US` in provider `faker.providers.job`.
+D 2023-04-29 13:31:28,237| DEBUG    | [factory.py:factory:_find_provider_class:114] - Provider `faker.providers.job` has been localized to `en_US`.
+D 2023-04-29 13:31:28,237| DEBUG    | [factory.py:factory:_find_provider_class:95] - Looking for locale `en_US` in provider `faker.providers.lorem`.
+D 2023-04-29 13:31:28,238| DEBUG    | [factory.py:factory:_find_provider_class:114] - Provider `faker.providers.lorem` has been localized to `en_US`.
+D 2023-04-29 13:31:28,239| DEBUG    | [factory.py:factory:_find_provider_class:95] - Looking for locale `en_US` in provider `faker.providers.misc`.
+D 2023-04-29 13:31:28,240| DEBUG    | [factory.py:factory:_find_provider_class:114] - Provider `faker.providers.misc` has been localized to `en_US`.
+D 2023-04-29 13:31:28,240| DEBUG    | [factory.py:factory:_find_provider_class:95] - Looking for locale `en_US` in provider `faker.providers.person`.
+D 2023-04-29 13:31:28,242| DEBUG    | [factory.py:factory:_find_provider_class:114] - Provider `faker.providers.person` has been localized to `en_US`.
+D 2023-04-29 13:31:28,246| DEBUG    | [factory.py:factory:_find_provider_class:95] - Looking for locale `en_US` in provider `faker.providers.phone_number`.
+D 2023-04-29 13:31:28,248| DEBUG    | [factory.py:factory:_find_provider_class:114] - Provider `faker.providers.phone_number` has been localized to `en_US`.
+D 2023-04-29 13:31:28,248| DEBUG    | [factory.py:factory:_find_provider_class:125] - Provider `faker.providers.profile` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+D 2023-04-29 13:31:28,249| DEBUG    | [factory.py:factory:_find_provider_class:125] - Provider `faker.providers.python` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+D 2023-04-29 13:31:28,249| DEBUG    | [factory.py:factory:_find_provider_class:95] - Looking for locale `en_US` in provider `faker.providers.ssn`.
+D 2023-04-29 13:31:28,250| DEBUG    | [factory.py:factory:_find_provider_class:114] - Provider `faker.providers.ssn` has been localized to `en_US`.
+D 2023-04-29 13:31:28,251| DEBUG    | [factory.py:factory:_find_provider_class:125] - Provider `faker.providers.user_agent` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+D 2023-04-29 13:31:28,252| DEBUG    | [get_driver.py:get_driver:add_options:15] - 初始化options
+D 2023-04-29 13:31:28,258| DEBUG    | [service.py:service:_start_process:204] - Started executable: `chromedriver` in a child process with pid: 21633
+D 2023-04-29 13:31:28,770| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:50771/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "pageLoadStrategy": "normal", "goog:chromeOptions": {"extensions": [], "args": ["--no-sandbox", "--headless", "--start-fullscreen", "--disable-gpu", "--start-maximized", "--disable-infobars", "log-level=3"]}}}}
+D 2023-04-29 13:31:28,771| DEBUG    | [connectionpool.py:connectionpool:_new_conn:227] - Starting new HTTP connection (1): localhost:50771
+D 2023-04-29 13:31:29,817| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:50771 "POST /session HTTP/1.1" 200 869
+D 2023-04-29 13:31:29,817| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-29 13:31:29,818| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:50771/session/d5a4c04458c918424afcbb8a31560efb/url {"url": "https://sgzzlb.lingxigames.com/website/"}
+D 2023-04-29 13:31:34,464| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:50771 "POST /session/d5a4c04458c918424afcbb8a31560efb/url HTTP/1.1" 200 14
+D 2023-04-29 13:31:34,465| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+I 2023-04-29 13:31:34,465| INFO     | [get_driver.py:get_driver:get_driver:43] - =================获取url:https://sgzzlb.lingxigames.com/website/成功=================
+I 2023-04-29 13:31:34,466| INFO     | [del_image_file.py:del_image_file:del_image_file:31] - 初始化/Users/yangjingkang/PycharmProjects/web_driver/image/文件夹成功
+D 2023-04-29 13:31:34,468| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:50771/session/d5a4c04458c918424afcbb8a31560efb/element {"using": "css selector", "value": ".keywords"}
+D 2023-04-29 13:31:34,709| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:50771 "POST /session/d5a4c04458c918424afcbb8a31560efb/element HTTP/1.1" 200 88
+D 2023-04-29 13:31:34,710| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-29 13:31:34,710| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:50771/session/d5a4c04458c918424afcbb8a31560efb/element/22cfa20c-4c71-400b-8079-0f26c4c361c0/clear {"id": "22cfa20c-4c71-400b-8079-0f26c4c361c0"}
+D 2023-04-29 13:31:36,986| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:50771 "POST /session/d5a4c04458c918424afcbb8a31560efb/element/22cfa20c-4c71-400b-8079-0f26c4c361c0/clear HTTP/1.1" 200 14
+D 2023-04-29 13:31:36,986| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-29 13:31:36,986| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:50771/session/d5a4c04458c918424afcbb8a31560efb/element/22cfa20c-4c71-400b-8079-0f26c4c361c0/value {"text": "\u4e09\u56fd\u5fd7\u6218\u7565\u7248", "value": ["\u4e09", "\u56fd", "\u5fd7", "\u6218", "\u7565", "\u7248"], "id": "22cfa20c-4c71-400b-8079-0f26c4c361c0"}
+D 2023-04-29 13:31:37,545| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:50771 "POST /session/d5a4c04458c918424afcbb8a31560efb/element/22cfa20c-4c71-400b-8079-0f26c4c361c0/value HTTP/1.1" 200 14
+D 2023-04-29 13:31:37,546| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-29 13:31:37,546| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:50771/session/d5a4c04458c918424afcbb8a31560efb/element {"using": "css selector", "value": ".keywords"}
+D 2023-04-29 13:31:37,583| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:50771 "POST /session/d5a4c04458c918424afcbb8a31560efb/element HTTP/1.1" 200 88
+D 2023-04-29 13:31:37,583| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-29 13:31:37,583| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:50771/session/d5a4c04458c918424afcbb8a31560efb/element/22cfa20c-4c71-400b-8079-0f26c4c361c0/value {"text": "\ue03da", "value": ["\ue03d", "a"], "id": "22cfa20c-4c71-400b-8079-0f26c4c361c0"}
+D 2023-04-29 13:31:37,662| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:50771 "POST /session/d5a4c04458c918424afcbb8a31560efb/element/22cfa20c-4c71-400b-8079-0f26c4c361c0/value HTTP/1.1" 200 14
+D 2023-04-29 13:31:37,662| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-29 13:31:39,664| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:50771/session/d5a4c04458c918424afcbb8a31560efb/element {"using": "css selector", "value": ".keywords"}
+D 2023-04-29 13:31:39,670| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:50771 "POST /session/d5a4c04458c918424afcbb8a31560efb/element HTTP/1.1" 200 88
+D 2023-04-29 13:31:39,671| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-29 13:31:39,671| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:50771/session/d5a4c04458c918424afcbb8a31560efb/element/22cfa20c-4c71-400b-8079-0f26c4c361c0/value {"text": "\ue03dc", "value": ["\ue03d", "c"], "id": "22cfa20c-4c71-400b-8079-0f26c4c361c0"}
+D 2023-04-29 13:31:39,693| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:50771 "POST /session/d5a4c04458c918424afcbb8a31560efb/element/22cfa20c-4c71-400b-8079-0f26c4c361c0/value HTTP/1.1" 200 14
+D 2023-04-29 13:31:39,693| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-29 13:31:39,694| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:50771/session/d5a4c04458c918424afcbb8a31560efb/element {"using": "css selector", "value": ".keywords"}
+D 2023-04-29 13:31:39,710| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:50771 "POST /session/d5a4c04458c918424afcbb8a31560efb/element HTTP/1.1" 200 88
+D 2023-04-29 13:31:39,711| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-29 13:31:39,711| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:50771/session/d5a4c04458c918424afcbb8a31560efb/element/22cfa20c-4c71-400b-8079-0f26c4c361c0/clear {"id": "22cfa20c-4c71-400b-8079-0f26c4c361c0"}
+D 2023-04-29 13:31:39,741| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:50771 "POST /session/d5a4c04458c918424afcbb8a31560efb/element/22cfa20c-4c71-400b-8079-0f26c4c361c0/clear HTTP/1.1" 200 14
+D 2023-04-29 13:31:39,741| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-29 13:31:39,742| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:50771/session/d5a4c04458c918424afcbb8a31560efb/element {"using": "css selector", "value": ".keywords"}
+D 2023-04-29 13:31:39,745| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:50771 "POST /session/d5a4c04458c918424afcbb8a31560efb/element HTTP/1.1" 200 88
+D 2023-04-29 13:31:39,745| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-29 13:31:39,746| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:50771/session/d5a4c04458c918424afcbb8a31560efb/element/22cfa20c-4c71-400b-8079-0f26c4c361c0/value {"text": "\ue03dv", "value": ["\ue03d", "v"], "id": "22cfa20c-4c71-400b-8079-0f26c4c361c0"}
+D 2023-04-29 13:31:39,771| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:50771 "POST /session/d5a4c04458c918424afcbb8a31560efb/element/22cfa20c-4c71-400b-8079-0f26c4c361c0/value HTTP/1.1" 200 14
+D 2023-04-29 13:31:39,771| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-29 13:31:41,775| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:50771/session/d5a4c04458c918424afcbb8a31560efb/element {"using": "xpath", "value": "//a[contains(text(),'\u70b9\u51fb\u641c\u7d22')]"}
+D 2023-04-29 13:31:42,016| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:50771 "POST /session/d5a4c04458c918424afcbb8a31560efb/element HTTP/1.1" 200 88
+D 2023-04-29 13:31:42,017| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-29 13:31:42,017| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:50771/session/d5a4c04458c918424afcbb8a31560efb/element/82898b88-c0ab-4673-9ea2-5166a9f77e62/click {"id": "82898b88-c0ab-4673-9ea2-5166a9f77e62"}
+D 2023-04-29 13:31:43,167| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:50771 "POST /session/d5a4c04458c918424afcbb8a31560efb/element/82898b88-c0ab-4673-9ea2-5166a9f77e62/click HTTP/1.1" 200 14
+D 2023-04-29 13:31:43,168| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-29 13:31:43,168| DEBUG    | [remote_connection.py:remote_connection:_request:303] - GET http://localhost:50771/session/d5a4c04458c918424afcbb8a31560efb/url {}
+D 2023-04-29 13:31:43,171| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:50771 "GET /session/d5a4c04458c918424afcbb8a31560efb/url HTTP/1.1" 200 118
+D 2023-04-29 13:31:43,171| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-29 13:31:43,171| DEBUG    | [asserts.py:asserts:asserts_url:24] - URL实际结果为：https://sgzzlb.lingxigames.com/news/search/?keyword=%E4%B8%89%E5%9B%BD%E5%BF%97%E6%88%98%E7%95%A5%E7%89%88
+D 2023-04-29 13:31:43,172| DEBUG    | [asserts.py:asserts:asserts_url:25] - URL预期结果为：https://sgzzlb.lingxigames.com/news/search/?keyword=%E4%B8%89%E5%9B%BD%E5%BF%97%E6%88%98%E7%95%A5%E7%89%88
+I 2023-04-29 13:31:43,172| INFO     | [asserts.py:asserts:asserts_url:27] - 断言用例通过！
+D 2023-04-29 13:31:43,172| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:50771/session/d5a4c04458c918424afcbb8a31560efb/element {"using": "css selector", "value": ".icon-wx"}
+D 2023-04-29 13:31:43,183| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:50771 "POST /session/d5a4c04458c918424afcbb8a31560efb/element HTTP/1.1" 200 88
+D 2023-04-29 13:31:43,183| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-29 13:31:43,184| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:50771/session/d5a4c04458c918424afcbb8a31560efb/actions {"actions": [{"type": "pointer", "parameters": {"pointerType": "mouse"}, "id": "mouse", "actions": [{"type": "pointerMove", "duration": 250, "x": 0, "y": 0, "origin": {"element-6066-11e4-a52e-4f735466cecf": "06cb3e3e-dd04-48db-8162-4df1b30d9506"}}]}, {"type": "key", "id": "key", "actions": [{"type": "pause", "duration": 0}]}]}
+D 2023-04-29 13:31:43,484| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:50771 "POST /session/d5a4c04458c918424afcbb8a31560efb/actions HTTP/1.1" 200 14
+D 2023-04-29 13:31:43,485| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-29 13:31:43,991| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:50771/session/d5a4c04458c918424afcbb8a31560efb/element {"using": "xpath", "value": "//h4[contains(text(),'\u5fae\u4fe1\u516c\u4f17\u53f7')]"}
+D 2023-04-29 13:31:44,009| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:50771 "POST /session/d5a4c04458c918424afcbb8a31560efb/element HTTP/1.1" 200 88
+D 2023-04-29 13:31:44,010| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-29 13:31:44,010| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:50771/session/d5a4c04458c918424afcbb8a31560efb/actions {"actions": [{"type": "pointer", "parameters": {"pointerType": "mouse"}, "id": "mouse", "actions": [{"type": "pointerMove", "duration": 250, "x": 0, "y": 0, "origin": {"element-6066-11e4-a52e-4f735466cecf": "06fa8f3e-c166-4fbe-b4ba-e75bb44c9a37"}}]}, {"type": "key", "id": "key", "actions": [{"type": "pause", "duration": 0}]}]}
+D 2023-04-29 13:31:44,293| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:50771 "POST /session/d5a4c04458c918424afcbb8a31560efb/actions HTTP/1.1" 200 14
+D 2023-04-29 13:31:44,294| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-29 13:31:44,798| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:50771/session/d5a4c04458c918424afcbb8a31560efb/element {"using": "xpath", "value": "//h4[contains(text(),'\u5fae\u4fe1\u516c\u4f17\u53f7')]"}
+D 2023-04-29 13:31:44,809| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:50771 "POST /session/d5a4c04458c918424afcbb8a31560efb/element HTTP/1.1" 200 88
+D 2023-04-29 13:31:44,810| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-29 13:31:44,810| DEBUG    | [remote_connection.py:remote_connection:_request:303] - GET http://localhost:50771/session/d5a4c04458c918424afcbb8a31560efb/element/06fa8f3e-c166-4fbe-b4ba-e75bb44c9a37/text {"id": "06fa8f3e-c166-4fbe-b4ba-e75bb44c9a37"}
+D 2023-04-29 13:31:44,830| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:50771 "GET /session/d5a4c04458c918424afcbb8a31560efb/element/06fa8f3e-c166-4fbe-b4ba-e75bb44c9a37/text HTTP/1.1" 200 12
+D 2023-04-29 13:31:44,830| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-29 13:31:44,831| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:50771/session/d5a4c04458c918424afcbb8a31560efb/element {"using": "xpath", "value": "//h4[contains(text(),'\u5fae\u4fe1\u516c\u4f17\u53f7')]"}
+D 2023-04-29 13:31:44,835| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:50771 "POST /session/d5a4c04458c918424afcbb8a31560efb/element HTTP/1.1" 200 88
+D 2023-04-29 13:31:44,835| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-29 13:31:44,835| DEBUG    | [remote_connection.py:remote_connection:_request:303] - GET http://localhost:50771/session/d5a4c04458c918424afcbb8a31560efb/element/06fa8f3e-c166-4fbe-b4ba-e75bb44c9a37/text {"id": "06fa8f3e-c166-4fbe-b4ba-e75bb44c9a37"}
+D 2023-04-29 13:31:44,840| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:50771 "GET /session/d5a4c04458c918424afcbb8a31560efb/element/06fa8f3e-c166-4fbe-b4ba-e75bb44c9a37/text HTTP/1.1" 200 12
+D 2023-04-29 13:31:44,840| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-29 13:31:44,840| DEBUG    | [asserts.py:asserts:assert_text:36] - URL实际结果为：
+D 2023-04-29 13:31:44,840| DEBUG    | [asserts.py:asserts:assert_text:37] - URL预期结果为：微信公众号
+D 2023-04-29 13:31:44,841| DEBUG    | [remote_connection.py:remote_connection:_request:303] - GET http://localhost:50771/session/d5a4c04458c918424afcbb8a31560efb/screenshot {}
+D 2023-04-29 13:31:45,374| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:50771 "GET /session/d5a4c04458c918424afcbb8a31560efb/screenshot HTTP/1.1" 200 1787996
+D 2023-04-29 13:31:45,379| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+E 2023-04-29 13:31:45,387| ERROR    | [asserts.py:asserts:assert_text:46] - 断言失败，URL实际结果为：，Response预期结果为：微信公众号
+E 2023-04-29 13:31:45,387| ERROR    | [asserts.py:asserts:assert_text:47] - 断言用例不通过！
+D 2023-04-29 13:32:04,794| DEBUG    | [factory.py:factory:_find_provider_class:95] - Looking for locale `en_US` in provider `faker.providers.address`.
+D 2023-04-29 13:32:04,796| DEBUG    | [factory.py:factory:_find_provider_class:114] - Provider `faker.providers.address` has been localized to `en_US`.
+D 2023-04-29 13:32:04,798| DEBUG    | [factory.py:factory:_find_provider_class:95] - Looking for locale `en_US` in provider `faker.providers.automotive`.
+D 2023-04-29 13:32:04,799| DEBUG    | [factory.py:factory:_find_provider_class:114] - Provider `faker.providers.automotive` has been localized to `en_US`.
+D 2023-04-29 13:32:04,800| DEBUG    | [factory.py:factory:_find_provider_class:95] - Looking for locale `en_US` in provider `faker.providers.bank`.
+D 2023-04-29 13:32:04,801| DEBUG    | [factory.py:factory:_find_provider_class:105] - Specified locale `en_US` is not available for provider `faker.providers.bank`. Locale reset to `en_GB` for this provider.
+D 2023-04-29 13:32:04,801| DEBUG    | [factory.py:factory:_find_provider_class:95] - Looking for locale `en_US` in provider `faker.providers.barcode`.
+D 2023-04-29 13:32:04,801| DEBUG    | [factory.py:factory:_find_provider_class:114] - Provider `faker.providers.barcode` has been localized to `en_US`.
+D 2023-04-29 13:32:04,803| DEBUG    | [factory.py:factory:_find_provider_class:95] - Looking for locale `en_US` in provider `faker.providers.color`.
+D 2023-04-29 13:32:04,803| DEBUG    | [factory.py:factory:_find_provider_class:114] - Provider `faker.providers.color` has been localized to `en_US`.
+D 2023-04-29 13:32:04,804| DEBUG    | [factory.py:factory:_find_provider_class:95] - Looking for locale `en_US` in provider `faker.providers.company`.
+D 2023-04-29 13:32:04,805| DEBUG    | [factory.py:factory:_find_provider_class:114] - Provider `faker.providers.company` has been localized to `en_US`.
+D 2023-04-29 13:32:04,806| DEBUG    | [factory.py:factory:_find_provider_class:95] - Looking for locale `en_US` in provider `faker.providers.credit_card`.
+D 2023-04-29 13:32:04,806| DEBUG    | [factory.py:factory:_find_provider_class:114] - Provider `faker.providers.credit_card` has been localized to `en_US`.
+D 2023-04-29 13:32:04,807| DEBUG    | [factory.py:factory:_find_provider_class:95] - Looking for locale `en_US` in provider `faker.providers.currency`.
+D 2023-04-29 13:32:04,807| DEBUG    | [factory.py:factory:_find_provider_class:114] - Provider `faker.providers.currency` has been localized to `en_US`.
+D 2023-04-29 13:32:04,808| DEBUG    | [factory.py:factory:_find_provider_class:95] - Looking for locale `en_US` in provider `faker.providers.date_time`.
+D 2023-04-29 13:32:04,809| DEBUG    | [factory.py:factory:_find_provider_class:114] - Provider `faker.providers.date_time` has been localized to `en_US`.
+D 2023-04-29 13:32:04,810| DEBUG    | [factory.py:factory:_find_provider_class:125] - Provider `faker.providers.file` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+D 2023-04-29 13:32:04,810| DEBUG    | [factory.py:factory:_find_provider_class:95] - Looking for locale `en_US` in provider `faker.providers.geo`.
+D 2023-04-29 13:32:04,810| DEBUG    | [factory.py:factory:_find_provider_class:114] - Provider `faker.providers.geo` has been localized to `en_US`.
+D 2023-04-29 13:32:04,811| DEBUG    | [factory.py:factory:_find_provider_class:95] - Looking for locale `en_US` in provider `faker.providers.internet`.
+D 2023-04-29 13:32:04,812| DEBUG    | [factory.py:factory:_find_provider_class:114] - Provider `faker.providers.internet` has been localized to `en_US`.
+D 2023-04-29 13:32:04,813| DEBUG    | [factory.py:factory:_find_provider_class:125] - Provider `faker.providers.isbn` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+D 2023-04-29 13:32:04,813| DEBUG    | [factory.py:factory:_find_provider_class:95] - Looking for locale `en_US` in provider `faker.providers.job`.
+D 2023-04-29 13:32:04,814| DEBUG    | [factory.py:factory:_find_provider_class:114] - Provider `faker.providers.job` has been localized to `en_US`.
+D 2023-04-29 13:32:04,814| DEBUG    | [factory.py:factory:_find_provider_class:95] - Looking for locale `en_US` in provider `faker.providers.lorem`.
+D 2023-04-29 13:32:04,815| DEBUG    | [factory.py:factory:_find_provider_class:114] - Provider `faker.providers.lorem` has been localized to `en_US`.
+D 2023-04-29 13:32:04,816| DEBUG    | [factory.py:factory:_find_provider_class:95] - Looking for locale `en_US` in provider `faker.providers.misc`.
+D 2023-04-29 13:32:04,817| DEBUG    | [factory.py:factory:_find_provider_class:114] - Provider `faker.providers.misc` has been localized to `en_US`.
+D 2023-04-29 13:32:04,817| DEBUG    | [factory.py:factory:_find_provider_class:95] - Looking for locale `en_US` in provider `faker.providers.person`.
+D 2023-04-29 13:32:04,819| DEBUG    | [factory.py:factory:_find_provider_class:114] - Provider `faker.providers.person` has been localized to `en_US`.
+D 2023-04-29 13:32:04,823| DEBUG    | [factory.py:factory:_find_provider_class:95] - Looking for locale `en_US` in provider `faker.providers.phone_number`.
+D 2023-04-29 13:32:04,825| DEBUG    | [factory.py:factory:_find_provider_class:114] - Provider `faker.providers.phone_number` has been localized to `en_US`.
+D 2023-04-29 13:32:04,825| DEBUG    | [factory.py:factory:_find_provider_class:125] - Provider `faker.providers.profile` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+D 2023-04-29 13:32:04,825| DEBUG    | [factory.py:factory:_find_provider_class:125] - Provider `faker.providers.python` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+D 2023-04-29 13:32:04,825| DEBUG    | [factory.py:factory:_find_provider_class:95] - Looking for locale `en_US` in provider `faker.providers.ssn`.
+D 2023-04-29 13:32:04,827| DEBUG    | [factory.py:factory:_find_provider_class:114] - Provider `faker.providers.ssn` has been localized to `en_US`.
+D 2023-04-29 13:32:04,828| DEBUG    | [factory.py:factory:_find_provider_class:125] - Provider `faker.providers.user_agent` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+D 2023-04-29 13:32:04,828| DEBUG    | [get_driver.py:get_driver:add_options:15] - 初始化options
+D 2023-04-29 13:32:04,834| DEBUG    | [service.py:service:_start_process:204] - Started executable: `chromedriver` in a child process with pid: 21728
+D 2023-04-29 13:32:05,341| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:50835/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "pageLoadStrategy": "normal", "goog:chromeOptions": {"extensions": [], "args": ["--no-sandbox", "--headless", "--start-fullscreen", "--disable-gpu", "--start-maximized", "--disable-infobars", "log-level=3"]}}}}
+D 2023-04-29 13:32:05,343| DEBUG    | [connectionpool.py:connectionpool:_new_conn:227] - Starting new HTTP connection (1): localhost:50835
+D 2023-04-29 13:32:06,074| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:50835 "POST /session HTTP/1.1" 200 869
+D 2023-04-29 13:32:06,090| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-29 13:32:06,092| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:50835/session/2b91b4b5ae1cef8cfe8330cf3b0a25fa/window/rect {"x": null, "y": null, "width": 1920, "height": 1080}
+D 2023-04-29 13:32:06,200| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:50835 "POST /session/2b91b4b5ae1cef8cfe8330cf3b0a25fa/window/rect HTTP/1.1" 200 53
+D 2023-04-29 13:32:06,201| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-29 13:32:06,201| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:50835/session/2b91b4b5ae1cef8cfe8330cf3b0a25fa/url {"url": "https://sgzzlb.lingxigames.com/website/"}
+D 2023-04-29 13:32:08,985| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:50835 "POST /session/2b91b4b5ae1cef8cfe8330cf3b0a25fa/url HTTP/1.1" 200 14
+D 2023-04-29 13:32:08,985| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+I 2023-04-29 13:32:08,985| INFO     | [get_driver.py:get_driver:get_driver:43] - =================获取url:https://sgzzlb.lingxigames.com/website/成功=================
+I 2023-04-29 13:32:08,986| INFO     | [del_image_file.py:del_image_file:del_image_file:31] - 初始化/Users/yangjingkang/PycharmProjects/web_driver/image/文件夹成功
+D 2023-04-29 13:32:08,988| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:50835/session/2b91b4b5ae1cef8cfe8330cf3b0a25fa/element {"using": "css selector", "value": ".keywords"}
+D 2023-04-29 13:32:11,409| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:50835 "POST /session/2b91b4b5ae1cef8cfe8330cf3b0a25fa/element HTTP/1.1" 200 88
+D 2023-04-29 13:32:11,409| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-29 13:32:11,409| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:50835/session/2b91b4b5ae1cef8cfe8330cf3b0a25fa/element/590f6d78-b837-4e72-b4b7-ba0e0881756a/clear {"id": "590f6d78-b837-4e72-b4b7-ba0e0881756a"}
+D 2023-04-29 13:32:11,971| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:50835 "POST /session/2b91b4b5ae1cef8cfe8330cf3b0a25fa/element/590f6d78-b837-4e72-b4b7-ba0e0881756a/clear HTTP/1.1" 200 14
+D 2023-04-29 13:32:11,972| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-29 13:32:11,972| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:50835/session/2b91b4b5ae1cef8cfe8330cf3b0a25fa/element/590f6d78-b837-4e72-b4b7-ba0e0881756a/value {"text": "\u4e09\u56fd\u5fd7\u6218\u7565\u7248", "value": ["\u4e09", "\u56fd", "\u5fd7", "\u6218", "\u7565", "\u7248"], "id": "590f6d78-b837-4e72-b4b7-ba0e0881756a"}
+D 2023-04-29 13:32:12,377| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:50835 "POST /session/2b91b4b5ae1cef8cfe8330cf3b0a25fa/element/590f6d78-b837-4e72-b4b7-ba0e0881756a/value HTTP/1.1" 200 14
+D 2023-04-29 13:32:12,377| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-29 13:32:12,377| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:50835/session/2b91b4b5ae1cef8cfe8330cf3b0a25fa/element {"using": "css selector", "value": ".keywords"}
+D 2023-04-29 13:32:12,399| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:50835 "POST /session/2b91b4b5ae1cef8cfe8330cf3b0a25fa/element HTTP/1.1" 200 88
+D 2023-04-29 13:32:12,399| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-29 13:32:12,400| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:50835/session/2b91b4b5ae1cef8cfe8330cf3b0a25fa/element/590f6d78-b837-4e72-b4b7-ba0e0881756a/value {"text": "\ue03da", "value": ["\ue03d", "a"], "id": "590f6d78-b837-4e72-b4b7-ba0e0881756a"}
+D 2023-04-29 13:32:12,575| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:50835 "POST /session/2b91b4b5ae1cef8cfe8330cf3b0a25fa/element/590f6d78-b837-4e72-b4b7-ba0e0881756a/value HTTP/1.1" 200 14
+D 2023-04-29 13:32:12,576| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-29 13:32:14,581| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:50835/session/2b91b4b5ae1cef8cfe8330cf3b0a25fa/element {"using": "css selector", "value": ".keywords"}
+D 2023-04-29 13:32:14,588| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:50835 "POST /session/2b91b4b5ae1cef8cfe8330cf3b0a25fa/element HTTP/1.1" 200 88
+D 2023-04-29 13:32:14,588| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-29 13:32:14,589| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:50835/session/2b91b4b5ae1cef8cfe8330cf3b0a25fa/element/590f6d78-b837-4e72-b4b7-ba0e0881756a/value {"text": "\ue03dc", "value": ["\ue03d", "c"], "id": "590f6d78-b837-4e72-b4b7-ba0e0881756a"}
+D 2023-04-29 13:32:14,661| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:50835 "POST /session/2b91b4b5ae1cef8cfe8330cf3b0a25fa/element/590f6d78-b837-4e72-b4b7-ba0e0881756a/value HTTP/1.1" 200 14
+D 2023-04-29 13:32:14,661| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-29 13:32:14,662| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:50835/session/2b91b4b5ae1cef8cfe8330cf3b0a25fa/element {"using": "css selector", "value": ".keywords"}
+D 2023-04-29 13:32:14,669| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:50835 "POST /session/2b91b4b5ae1cef8cfe8330cf3b0a25fa/element HTTP/1.1" 200 88
+D 2023-04-29 13:32:14,670| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-29 13:32:14,670| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:50835/session/2b91b4b5ae1cef8cfe8330cf3b0a25fa/element/590f6d78-b837-4e72-b4b7-ba0e0881756a/clear {"id": "590f6d78-b837-4e72-b4b7-ba0e0881756a"}
+D 2023-04-29 13:32:14,801| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:50835 "POST /session/2b91b4b5ae1cef8cfe8330cf3b0a25fa/element/590f6d78-b837-4e72-b4b7-ba0e0881756a/clear HTTP/1.1" 200 14
+D 2023-04-29 13:32:14,802| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-29 13:32:14,803| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:50835/session/2b91b4b5ae1cef8cfe8330cf3b0a25fa/element {"using": "css selector", "value": ".keywords"}
+D 2023-04-29 13:32:14,864| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:50835 "POST /session/2b91b4b5ae1cef8cfe8330cf3b0a25fa/element HTTP/1.1" 200 88
+D 2023-04-29 13:32:14,865| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-29 13:32:14,865| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:50835/session/2b91b4b5ae1cef8cfe8330cf3b0a25fa/element/590f6d78-b837-4e72-b4b7-ba0e0881756a/value {"text": "\ue03dv", "value": ["\ue03d", "v"], "id": "590f6d78-b837-4e72-b4b7-ba0e0881756a"}
+D 2023-04-29 13:32:15,793| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:50835 "POST /session/2b91b4b5ae1cef8cfe8330cf3b0a25fa/element/590f6d78-b837-4e72-b4b7-ba0e0881756a/value HTTP/1.1" 200 14
+D 2023-04-29 13:32:15,794| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-29 13:32:17,799| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:50835/session/2b91b4b5ae1cef8cfe8330cf3b0a25fa/element {"using": "xpath", "value": "//a[contains(text(),'\u70b9\u51fb\u641c\u7d22')]"}
+D 2023-04-29 13:32:17,860| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:50835 "POST /session/2b91b4b5ae1cef8cfe8330cf3b0a25fa/element HTTP/1.1" 200 88
+D 2023-04-29 13:32:17,861| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-29 13:32:17,861| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:50835/session/2b91b4b5ae1cef8cfe8330cf3b0a25fa/element/4c10fc55-cdb9-459b-9917-058980aceb81/click {"id": "4c10fc55-cdb9-459b-9917-058980aceb81"}
+D 2023-04-29 13:32:21,372| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:50835 "POST /session/2b91b4b5ae1cef8cfe8330cf3b0a25fa/element/4c10fc55-cdb9-459b-9917-058980aceb81/click HTTP/1.1" 200 14
+D 2023-04-29 13:32:21,372| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-29 13:32:21,373| DEBUG    | [remote_connection.py:remote_connection:_request:303] - GET http://localhost:50835/session/2b91b4b5ae1cef8cfe8330cf3b0a25fa/url {}
+D 2023-04-29 13:32:21,381| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:50835 "GET /session/2b91b4b5ae1cef8cfe8330cf3b0a25fa/url HTTP/1.1" 200 118
+D 2023-04-29 13:32:21,381| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-29 13:32:21,382| DEBUG    | [asserts.py:asserts:asserts_url:24] - URL实际结果为：https://sgzzlb.lingxigames.com/news/search/?keyword=%E4%B8%89%E5%9B%BD%E5%BF%97%E6%88%98%E7%95%A5%E7%89%88
+D 2023-04-29 13:32:21,382| DEBUG    | [asserts.py:asserts:asserts_url:25] - URL预期结果为：https://sgzzlb.lingxigames.com/news/search/?keyword=%E4%B8%89%E5%9B%BD%E5%BF%97%E6%88%98%E7%95%A5%E7%89%88
+I 2023-04-29 13:32:21,382| INFO     | [asserts.py:asserts:asserts_url:27] - 断言用例通过！
+D 2023-04-29 13:32:21,382| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:50835/session/2b91b4b5ae1cef8cfe8330cf3b0a25fa/element {"using": "css selector", "value": ".icon-wx"}
+D 2023-04-29 13:32:21,389| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:50835 "POST /session/2b91b4b5ae1cef8cfe8330cf3b0a25fa/element HTTP/1.1" 200 88
+D 2023-04-29 13:32:21,390| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-29 13:32:21,390| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:50835/session/2b91b4b5ae1cef8cfe8330cf3b0a25fa/actions {"actions": [{"type": "pointer", "parameters": {"pointerType": "mouse"}, "id": "mouse", "actions": [{"type": "pointerMove", "duration": 250, "x": 0, "y": 0, "origin": {"element-6066-11e4-a52e-4f735466cecf": "f2a7a3bf-a4ac-4de6-9f14-0de1ee435e3a"}}]}, {"type": "key", "id": "key", "actions": [{"type": "pause", "duration": 0}]}]}
+D 2023-04-29 13:32:21,668| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:50835 "POST /session/2b91b4b5ae1cef8cfe8330cf3b0a25fa/actions HTTP/1.1" 200 14
+D 2023-04-29 13:32:21,668| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-29 13:32:22,175| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:50835/session/2b91b4b5ae1cef8cfe8330cf3b0a25fa/element {"using": "xpath", "value": "//h4[contains(text(),'\u5fae\u4fe1\u516c\u4f17\u53f7')]"}
+D 2023-04-29 13:32:22,222| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:50835 "POST /session/2b91b4b5ae1cef8cfe8330cf3b0a25fa/element HTTP/1.1" 200 88
+D 2023-04-29 13:32:22,222| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-29 13:32:22,223| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:50835/session/2b91b4b5ae1cef8cfe8330cf3b0a25fa/actions {"actions": [{"type": "pointer", "parameters": {"pointerType": "mouse"}, "id": "mouse", "actions": [{"type": "pointerMove", "duration": 250, "x": 0, "y": 0, "origin": {"element-6066-11e4-a52e-4f735466cecf": "95d9b2ce-e233-4e30-9c67-5c4bf9bd7027"}}]}, {"type": "key", "id": "key", "actions": [{"type": "pause", "duration": 0}]}]}
+D 2023-04-29 13:32:22,499| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:50835 "POST /session/2b91b4b5ae1cef8cfe8330cf3b0a25fa/actions HTTP/1.1" 200 14
+D 2023-04-29 13:32:22,500| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-29 13:32:23,006| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:50835/session/2b91b4b5ae1cef8cfe8330cf3b0a25fa/element {"using": "xpath", "value": "//h4[contains(text(),'\u5fae\u4fe1\u516c\u4f17\u53f7')]"}
+D 2023-04-29 13:32:23,020| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:50835 "POST /session/2b91b4b5ae1cef8cfe8330cf3b0a25fa/element HTTP/1.1" 200 88
+D 2023-04-29 13:32:23,021| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-29 13:32:23,022| DEBUG    | [remote_connection.py:remote_connection:_request:303] - GET http://localhost:50835/session/2b91b4b5ae1cef8cfe8330cf3b0a25fa/element/95d9b2ce-e233-4e30-9c67-5c4bf9bd7027/text {"id": "95d9b2ce-e233-4e30-9c67-5c4bf9bd7027"}
+D 2023-04-29 13:32:23,068| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:50835 "GET /session/2b91b4b5ae1cef8cfe8330cf3b0a25fa/element/95d9b2ce-e233-4e30-9c67-5c4bf9bd7027/text HTTP/1.1" 200 27
+D 2023-04-29 13:32:23,069| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-29 13:32:23,069| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:50835/session/2b91b4b5ae1cef8cfe8330cf3b0a25fa/element {"using": "xpath", "value": "//h4[contains(text(),'\u5fae\u4fe1\u516c\u4f17\u53f7')]"}
+D 2023-04-29 13:32:23,075| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:50835 "POST /session/2b91b4b5ae1cef8cfe8330cf3b0a25fa/element HTTP/1.1" 200 88
+D 2023-04-29 13:32:23,075| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-29 13:32:23,075| DEBUG    | [remote_connection.py:remote_connection:_request:303] - GET http://localhost:50835/session/2b91b4b5ae1cef8cfe8330cf3b0a25fa/element/95d9b2ce-e233-4e30-9c67-5c4bf9bd7027/text {"id": "95d9b2ce-e233-4e30-9c67-5c4bf9bd7027"}
+D 2023-04-29 13:32:23,081| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:50835 "GET /session/2b91b4b5ae1cef8cfe8330cf3b0a25fa/element/95d9b2ce-e233-4e30-9c67-5c4bf9bd7027/text HTTP/1.1" 200 27
+D 2023-04-29 13:32:23,082| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-29 13:32:23,082| DEBUG    | [asserts.py:asserts:assert_text:36] - URL实际结果为：微信公众号
+D 2023-04-29 13:32:23,082| DEBUG    | [asserts.py:asserts:assert_text:37] - URL预期结果为：微信公众号
+I 2023-04-29 13:32:23,082| INFO     | [asserts.py:asserts:assert_text:39] - 断言Code用例通过！
+D 2023-04-29 22:24:14,976| DEBUG    | [factory.py:factory:_find_provider_class:95] - Looking for locale `en_US` in provider `faker.providers.address`.
+D 2023-04-29 22:24:14,984| DEBUG    | [factory.py:factory:_find_provider_class:114] - Provider `faker.providers.address` has been localized to `en_US`.
+D 2023-04-29 22:24:14,986| DEBUG    | [factory.py:factory:_find_provider_class:95] - Looking for locale `en_US` in provider `faker.providers.automotive`.
+D 2023-04-29 22:24:14,987| DEBUG    | [factory.py:factory:_find_provider_class:114] - Provider `faker.providers.automotive` has been localized to `en_US`.
+D 2023-04-29 22:24:14,988| DEBUG    | [factory.py:factory:_find_provider_class:95] - Looking for locale `en_US` in provider `faker.providers.bank`.
+D 2023-04-29 22:24:14,989| DEBUG    | [factory.py:factory:_find_provider_class:105] - Specified locale `en_US` is not available for provider `faker.providers.bank`. Locale reset to `en_GB` for this provider.
+D 2023-04-29 22:24:14,990| DEBUG    | [factory.py:factory:_find_provider_class:95] - Looking for locale `en_US` in provider `faker.providers.barcode`.
+D 2023-04-29 22:24:14,990| DEBUG    | [factory.py:factory:_find_provider_class:114] - Provider `faker.providers.barcode` has been localized to `en_US`.
+D 2023-04-29 22:24:14,992| DEBUG    | [factory.py:factory:_find_provider_class:95] - Looking for locale `en_US` in provider `faker.providers.color`.
+D 2023-04-29 22:24:14,992| DEBUG    | [factory.py:factory:_find_provider_class:114] - Provider `faker.providers.color` has been localized to `en_US`.
+D 2023-04-29 22:24:14,993| DEBUG    | [factory.py:factory:_find_provider_class:95] - Looking for locale `en_US` in provider `faker.providers.company`.
+D 2023-04-29 22:24:14,995| DEBUG    | [factory.py:factory:_find_provider_class:114] - Provider `faker.providers.company` has been localized to `en_US`.
+D 2023-04-29 22:24:14,995| DEBUG    | [factory.py:factory:_find_provider_class:95] - Looking for locale `en_US` in provider `faker.providers.credit_card`.
+D 2023-04-29 22:24:14,996| DEBUG    | [factory.py:factory:_find_provider_class:114] - Provider `faker.providers.credit_card` has been localized to `en_US`.
+D 2023-04-29 22:24:14,996| DEBUG    | [factory.py:factory:_find_provider_class:95] - Looking for locale `en_US` in provider `faker.providers.currency`.
+D 2023-04-29 22:24:14,997| DEBUG    | [factory.py:factory:_find_provider_class:114] - Provider `faker.providers.currency` has been localized to `en_US`.
+D 2023-04-29 22:24:14,998| DEBUG    | [factory.py:factory:_find_provider_class:95] - Looking for locale `en_US` in provider `faker.providers.date_time`.
+D 2023-04-29 22:24:14,999| DEBUG    | [factory.py:factory:_find_provider_class:114] - Provider `faker.providers.date_time` has been localized to `en_US`.
+D 2023-04-29 22:24:15,000| DEBUG    | [factory.py:factory:_find_provider_class:125] - Provider `faker.providers.file` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+D 2023-04-29 22:24:15,000| DEBUG    | [factory.py:factory:_find_provider_class:95] - Looking for locale `en_US` in provider `faker.providers.geo`.
+D 2023-04-29 22:24:15,000| DEBUG    | [factory.py:factory:_find_provider_class:114] - Provider `faker.providers.geo` has been localized to `en_US`.
+D 2023-04-29 22:24:15,001| DEBUG    | [factory.py:factory:_find_provider_class:95] - Looking for locale `en_US` in provider `faker.providers.internet`.
+D 2023-04-29 22:24:15,002| DEBUG    | [factory.py:factory:_find_provider_class:114] - Provider `faker.providers.internet` has been localized to `en_US`.
+D 2023-04-29 22:24:15,003| DEBUG    | [factory.py:factory:_find_provider_class:125] - Provider `faker.providers.isbn` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+D 2023-04-29 22:24:15,003| DEBUG    | [factory.py:factory:_find_provider_class:95] - Looking for locale `en_US` in provider `faker.providers.job`.
+D 2023-04-29 22:24:15,004| DEBUG    | [factory.py:factory:_find_provider_class:114] - Provider `faker.providers.job` has been localized to `en_US`.
+D 2023-04-29 22:24:15,005| DEBUG    | [factory.py:factory:_find_provider_class:95] - Looking for locale `en_US` in provider `faker.providers.lorem`.
+D 2023-04-29 22:24:15,006| DEBUG    | [factory.py:factory:_find_provider_class:114] - Provider `faker.providers.lorem` has been localized to `en_US`.
+D 2023-04-29 22:24:15,007| DEBUG    | [factory.py:factory:_find_provider_class:95] - Looking for locale `en_US` in provider `faker.providers.misc`.
+D 2023-04-29 22:24:15,008| DEBUG    | [factory.py:factory:_find_provider_class:114] - Provider `faker.providers.misc` has been localized to `en_US`.
+D 2023-04-29 22:24:15,008| DEBUG    | [factory.py:factory:_find_provider_class:95] - Looking for locale `en_US` in provider `faker.providers.person`.
+D 2023-04-29 22:24:15,010| DEBUG    | [factory.py:factory:_find_provider_class:114] - Provider `faker.providers.person` has been localized to `en_US`.
+D 2023-04-29 22:24:15,014| DEBUG    | [factory.py:factory:_find_provider_class:95] - Looking for locale `en_US` in provider `faker.providers.phone_number`.
+D 2023-04-29 22:24:15,016| DEBUG    | [factory.py:factory:_find_provider_class:114] - Provider `faker.providers.phone_number` has been localized to `en_US`.
+D 2023-04-29 22:24:15,017| DEBUG    | [factory.py:factory:_find_provider_class:125] - Provider `faker.providers.profile` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+D 2023-04-29 22:24:15,017| DEBUG    | [factory.py:factory:_find_provider_class:125] - Provider `faker.providers.python` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+D 2023-04-29 22:24:15,017| DEBUG    | [factory.py:factory:_find_provider_class:95] - Looking for locale `en_US` in provider `faker.providers.ssn`.
+D 2023-04-29 22:24:15,019| DEBUG    | [factory.py:factory:_find_provider_class:114] - Provider `faker.providers.ssn` has been localized to `en_US`.
+D 2023-04-29 22:24:15,020| DEBUG    | [factory.py:factory:_find_provider_class:125] - Provider `faker.providers.user_agent` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+D 2023-04-29 22:24:15,020| DEBUG    | [get_driver.py:get_driver:add_options:15] - 初始化options
+D 2023-04-29 22:24:15,029| DEBUG    | [service.py:service:_start_process:204] - Started executable: `chromedriver` in a child process with pid: 22662
+D 2023-04-29 22:24:15,539| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:52743/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "pageLoadStrategy": "normal", "goog:chromeOptions": {"extensions": [], "args": ["--headless", "--no-sandbox", "----disable-dev-shm-usage", "--disable-gpu"]}}}}
+D 2023-04-29 22:24:15,540| DEBUG    | [connectionpool.py:connectionpool:_new_conn:227] - Starting new HTTP connection (1): localhost:52743
+D 2023-04-29 22:24:16,616| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:52743 "POST /session HTTP/1.1" 200 869
+D 2023-04-29 22:24:16,617| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-29 22:24:16,617| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:52743/session/5907200861ae09cd9618cfcc8865fb03/window/rect {"x": null, "y": null, "width": 1920, "height": 1080}
+D 2023-04-29 22:24:16,726| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:52743 "POST /session/5907200861ae09cd9618cfcc8865fb03/window/rect HTTP/1.1" 200 53
+D 2023-04-29 22:24:16,727| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-29 22:24:16,727| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:52743/session/5907200861ae09cd9618cfcc8865fb03/url {"url": "https://sgzzlb.lingxigames.com/website/"}
+D 2023-04-29 22:24:19,176| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:52743 "POST /session/5907200861ae09cd9618cfcc8865fb03/url HTTP/1.1" 200 14
+D 2023-04-29 22:24:19,176| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+I 2023-04-29 22:24:19,176| INFO     | [get_driver.py:get_driver:get_driver:45] - =================获取url:https://sgzzlb.lingxigames.com/website/成功=================
+I 2023-04-29 22:24:19,178| INFO     | [del_image_file.py:del_image_file:del_image_file:31] - 初始化/Users/yangjingkang/PycharmProjects/web_driver/image/文件夹成功
+D 2023-04-29 22:24:19,179| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:52743/session/5907200861ae09cd9618cfcc8865fb03/element {"using": "css selector", "value": ".keywords"}
+D 2023-04-29 22:24:20,383| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:52743 "POST /session/5907200861ae09cd9618cfcc8865fb03/element HTTP/1.1" 200 88
+D 2023-04-29 22:24:20,384| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-29 22:24:20,384| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:52743/session/5907200861ae09cd9618cfcc8865fb03/element/8495d9e2-c8a3-42dc-94bc-e9bc4c55dbd5/clear {"id": "8495d9e2-c8a3-42dc-94bc-e9bc4c55dbd5"}
+D 2023-04-29 22:24:21,681| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:52743 "POST /session/5907200861ae09cd9618cfcc8865fb03/element/8495d9e2-c8a3-42dc-94bc-e9bc4c55dbd5/clear HTTP/1.1" 200 14
+D 2023-04-29 22:24:21,681| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-29 22:24:21,682| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:52743/session/5907200861ae09cd9618cfcc8865fb03/element/8495d9e2-c8a3-42dc-94bc-e9bc4c55dbd5/value {"text": "\u4e09\u56fd\u5fd7\u6218\u7565\u7248", "value": ["\u4e09", "\u56fd", "\u5fd7", "\u6218", "\u7565", "\u7248"], "id": "8495d9e2-c8a3-42dc-94bc-e9bc4c55dbd5"}
+D 2023-04-29 22:24:23,496| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:52743 "POST /session/5907200861ae09cd9618cfcc8865fb03/element/8495d9e2-c8a3-42dc-94bc-e9bc4c55dbd5/value HTTP/1.1" 200 14
+D 2023-04-29 22:24:23,496| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-29 22:24:23,496| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:52743/session/5907200861ae09cd9618cfcc8865fb03/element {"using": "css selector", "value": ".keywords"}
+D 2023-04-29 22:24:24,425| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:52743 "POST /session/5907200861ae09cd9618cfcc8865fb03/element HTTP/1.1" 200 88
+D 2023-04-29 22:24:24,425| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-29 22:24:24,425| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:52743/session/5907200861ae09cd9618cfcc8865fb03/element/8495d9e2-c8a3-42dc-94bc-e9bc4c55dbd5/value {"text": "\ue03da", "value": ["\ue03d", "a"], "id": "8495d9e2-c8a3-42dc-94bc-e9bc4c55dbd5"}
+D 2023-04-29 22:24:24,484| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:52743 "POST /session/5907200861ae09cd9618cfcc8865fb03/element/8495d9e2-c8a3-42dc-94bc-e9bc4c55dbd5/value HTTP/1.1" 200 14
+D 2023-04-29 22:24:24,485| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-29 22:24:26,488| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:52743/session/5907200861ae09cd9618cfcc8865fb03/element {"using": "css selector", "value": ".keywords"}
+D 2023-04-29 22:24:26,493| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:52743 "POST /session/5907200861ae09cd9618cfcc8865fb03/element HTTP/1.1" 200 88
+D 2023-04-29 22:24:26,493| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-29 22:24:26,493| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:52743/session/5907200861ae09cd9618cfcc8865fb03/element/8495d9e2-c8a3-42dc-94bc-e9bc4c55dbd5/value {"text": "\ue03dc", "value": ["\ue03d", "c"], "id": "8495d9e2-c8a3-42dc-94bc-e9bc4c55dbd5"}
+D 2023-04-29 22:24:26,509| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:52743 "POST /session/5907200861ae09cd9618cfcc8865fb03/element/8495d9e2-c8a3-42dc-94bc-e9bc4c55dbd5/value HTTP/1.1" 200 14
+D 2023-04-29 22:24:26,509| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-29 22:24:26,509| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:52743/session/5907200861ae09cd9618cfcc8865fb03/element {"using": "css selector", "value": ".keywords"}
+D 2023-04-29 22:24:26,513| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:52743 "POST /session/5907200861ae09cd9618cfcc8865fb03/element HTTP/1.1" 200 88
+D 2023-04-29 22:24:26,513| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-29 22:24:26,513| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:52743/session/5907200861ae09cd9618cfcc8865fb03/element/8495d9e2-c8a3-42dc-94bc-e9bc4c55dbd5/clear {"id": "8495d9e2-c8a3-42dc-94bc-e9bc4c55dbd5"}
+D 2023-04-29 22:24:26,533| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:52743 "POST /session/5907200861ae09cd9618cfcc8865fb03/element/8495d9e2-c8a3-42dc-94bc-e9bc4c55dbd5/clear HTTP/1.1" 200 14
+D 2023-04-29 22:24:26,533| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-29 22:24:26,533| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:52743/session/5907200861ae09cd9618cfcc8865fb03/element {"using": "css selector", "value": ".keywords"}
+D 2023-04-29 22:24:26,537| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:52743 "POST /session/5907200861ae09cd9618cfcc8865fb03/element HTTP/1.1" 200 88
+D 2023-04-29 22:24:26,537| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-29 22:24:26,537| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:52743/session/5907200861ae09cd9618cfcc8865fb03/element/8495d9e2-c8a3-42dc-94bc-e9bc4c55dbd5/value {"text": "\ue03dv", "value": ["\ue03d", "v"], "id": "8495d9e2-c8a3-42dc-94bc-e9bc4c55dbd5"}
+D 2023-04-29 22:24:26,585| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:52743 "POST /session/5907200861ae09cd9618cfcc8865fb03/element/8495d9e2-c8a3-42dc-94bc-e9bc4c55dbd5/value HTTP/1.1" 200 14
+D 2023-04-29 22:24:26,585| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-29 22:24:28,587| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:52743/session/5907200861ae09cd9618cfcc8865fb03/element {"using": "xpath", "value": "//a[contains(text(),'\u70b9\u51fb\u641c\u7d22')]"}
+D 2023-04-29 22:24:28,652| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:52743 "POST /session/5907200861ae09cd9618cfcc8865fb03/element HTTP/1.1" 200 88
+D 2023-04-29 22:24:28,652| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-29 22:24:28,652| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:52743/session/5907200861ae09cd9618cfcc8865fb03/element/a3928361-3020-4cf0-913f-6fbac3a424bb/click {"id": "a3928361-3020-4cf0-913f-6fbac3a424bb"}
+D 2023-04-29 22:24:29,622| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:52743 "POST /session/5907200861ae09cd9618cfcc8865fb03/element/a3928361-3020-4cf0-913f-6fbac3a424bb/click HTTP/1.1" 200 14
+D 2023-04-29 22:24:29,623| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-29 22:24:29,624| DEBUG    | [remote_connection.py:remote_connection:_request:303] - GET http://localhost:52743/session/5907200861ae09cd9618cfcc8865fb03/url {}
+D 2023-04-29 22:24:29,627| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:52743 "GET /session/5907200861ae09cd9618cfcc8865fb03/url HTTP/1.1" 200 118
+D 2023-04-29 22:24:29,628| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-29 22:24:29,628| DEBUG    | [asserts.py:asserts:asserts_url:24] - URL实际结果为：https://sgzzlb.lingxigames.com/news/search/?keyword=%E4%B8%89%E5%9B%BD%E5%BF%97%E6%88%98%E7%95%A5%E7%89%88
+D 2023-04-29 22:24:29,629| DEBUG    | [asserts.py:asserts:asserts_url:25] - URL预期结果为：https://sgzzlb.lingxigames.com/news/search/?keyword=%E4%B8%89%E5%9B%BD%E5%BF%97%E6%88%98%E7%95%A5%E7%89%88
+I 2023-04-29 22:24:29,629| INFO     | [asserts.py:asserts:asserts_url:27] - 断言用例通过！
+D 2023-04-29 22:24:29,629| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:52743/session/5907200861ae09cd9618cfcc8865fb03/element {"using": "css selector", "value": ".icon-wx"}
+D 2023-04-29 22:24:29,637| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:52743 "POST /session/5907200861ae09cd9618cfcc8865fb03/element HTTP/1.1" 200 88
+D 2023-04-29 22:24:29,637| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-29 22:24:29,637| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:52743/session/5907200861ae09cd9618cfcc8865fb03/actions {"actions": [{"type": "pointer", "parameters": {"pointerType": "mouse"}, "id": "mouse", "actions": [{"type": "pointerMove", "duration": 250, "x": 0, "y": 0, "origin": {"element-6066-11e4-a52e-4f735466cecf": "466890ea-e48e-4593-b597-f36c266effd7"}}]}, {"type": "key", "id": "key", "actions": [{"type": "pause", "duration": 0}]}]}
+D 2023-04-29 22:24:29,936| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:52743 "POST /session/5907200861ae09cd9618cfcc8865fb03/actions HTTP/1.1" 200 14
+D 2023-04-29 22:24:29,936| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-29 22:24:30,438| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:52743/session/5907200861ae09cd9618cfcc8865fb03/element {"using": "xpath", "value": "//h4[contains(text(),'\u5fae\u4fe1\u516c\u4f17\u53f7')]"}
+D 2023-04-29 22:24:30,455| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:52743 "POST /session/5907200861ae09cd9618cfcc8865fb03/element HTTP/1.1" 200 88
+D 2023-04-29 22:24:30,456| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-29 22:24:30,456| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:52743/session/5907200861ae09cd9618cfcc8865fb03/actions {"actions": [{"type": "pointer", "parameters": {"pointerType": "mouse"}, "id": "mouse", "actions": [{"type": "pointerMove", "duration": 250, "x": 0, "y": 0, "origin": {"element-6066-11e4-a52e-4f735466cecf": "aa4380ca-628e-443c-9654-0ce18684321c"}}]}, {"type": "key", "id": "key", "actions": [{"type": "pause", "duration": 0}]}]}
+D 2023-04-29 22:24:30,732| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:52743 "POST /session/5907200861ae09cd9618cfcc8865fb03/actions HTTP/1.1" 200 14
+D 2023-04-29 22:24:30,732| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-29 22:24:31,239| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:52743/session/5907200861ae09cd9618cfcc8865fb03/element {"using": "xpath", "value": "//h4[contains(text(),'\u5fae\u4fe1\u516c\u4f17\u53f7')]"}
+D 2023-04-29 22:24:31,255| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:52743 "POST /session/5907200861ae09cd9618cfcc8865fb03/element HTTP/1.1" 200 88
+D 2023-04-29 22:24:31,256| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-29 22:24:31,256| DEBUG    | [remote_connection.py:remote_connection:_request:303] - GET http://localhost:52743/session/5907200861ae09cd9618cfcc8865fb03/element/aa4380ca-628e-443c-9654-0ce18684321c/text {"id": "aa4380ca-628e-443c-9654-0ce18684321c"}
+D 2023-04-29 22:24:31,333| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:52743 "GET /session/5907200861ae09cd9618cfcc8865fb03/element/aa4380ca-628e-443c-9654-0ce18684321c/text HTTP/1.1" 200 27
+D 2023-04-29 22:24:31,334| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-29 22:24:31,334| DEBUG    | [remote_connection.py:remote_connection:_request:303] - POST http://localhost:52743/session/5907200861ae09cd9618cfcc8865fb03/element {"using": "xpath", "value": "//h4[contains(text(),'\u5fae\u4fe1\u516c\u4f17\u53f7')]"}
+D 2023-04-29 22:24:31,339| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:52743 "POST /session/5907200861ae09cd9618cfcc8865fb03/element HTTP/1.1" 200 88
+D 2023-04-29 22:24:31,339| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-29 22:24:31,339| DEBUG    | [remote_connection.py:remote_connection:_request:303] - GET http://localhost:52743/session/5907200861ae09cd9618cfcc8865fb03/element/aa4380ca-628e-443c-9654-0ce18684321c/text {"id": "aa4380ca-628e-443c-9654-0ce18684321c"}
+D 2023-04-29 22:24:31,344| DEBUG    | [connectionpool.py:connectionpool:_make_request:452] - http://localhost:52743 "GET /session/5907200861ae09cd9618cfcc8865fb03/element/aa4380ca-628e-443c-9654-0ce18684321c/text HTTP/1.1" 200 27
+D 2023-04-29 22:24:31,344| DEBUG    | [remote_connection.py:remote_connection:_request:347] - Finished Request
+D 2023-04-29 22:24:31,344| DEBUG    | [asserts.py:asserts:assert_text:36] - URL实际结果为：微信公众号
+D 2023-04-29 22:24:31,345| DEBUG    | [asserts.py:asserts:assert_text:37] - URL预期结果为：微信公众号
+I 2023-04-29 22:24:31,345| INFO     | [asserts.py:asserts:assert_text:39] - 断言Code用例通过！
