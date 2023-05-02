@@ -13,18 +13,17 @@ class GetDriver:
     # 设置optionsfangshi
     def add_options(self):
         log.debug('初始化options')
-
-        options = webdriver.ChromeOptions()
-
-        options.add_argument('--headless')  # 无浏览器模式
-        options.add_argument('--no-sandbox')
-        options.add_argument('----disable-dev-shm-usage')
-        options.add_argument('--disable-gpu')  # 禁用GPU加速
-        # options.add_argument('--start-maximized')  # 浏览器最大化
-        # options.add_argument('--window-size=1280x1024')  # 设置浏览器分辨率（窗口大小）
+        chrome_options = webdriver.ChromeOptions()
+        chrome_options.add_argument('--headless')  # 无浏览器模式
+        chrome_options.add_argument('--no-sandbox')
+        chrome_options.add_argument('----disable-dev-shm-usage')
+        chrome_options.add_argument('--disable-gpu')  # 禁用GPU加速
+        chrome_options.add_argument("--remote-debugging-port=9222")  # this
+        # chrome_options.add_argument('--start-maximized')  # 浏览器最大化
+        chrome_options.add_argument('--window-size=1920x1080')  # 设置浏览器分辨率（窗口大小）
         # options.add_argument('--disable-infobars')  # 禁用浏览器正在被自动化程序控制的提示
         # options.add_argument('log-level=3')
-        return options
+        return chrome_options
 
     # 获取driver
     @allure.step('前置获取driver')
@@ -39,7 +38,7 @@ class GetDriver:
                 self.driver = webdriver.Firefox(options=options)
             if browser == 'Edge':
                 self.driver = webdriver.Edge(options=options)
-            self.driver.set_window_size(1920, 1080)  # 无界面模式使用
+            # self.driver.set_window_size(1920, 1080)  # 无界面模式使用
             # self.driver.maximize_window() # 有界面使用方法
             self.driver.get(url)
             log.info(f'=================获取url:{url}成功=================')
